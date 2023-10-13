@@ -1,5 +1,5 @@
 # camera_ws
-Trial and Error repo for OpenCV
+Trial and Error repo for reading image from camera & publishing.
 
 # Packages Used
 ## v4l2_camera
