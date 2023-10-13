@@ -1,0 +1,8 @@
+[0.116s] Invoking command in '/home/shengbin/camera_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/camera_calibration_parsers -- -j16 -l16
+[0.169s] [ 14%] Built target gtest
+[0.170s] [ 28%] Built target gtest_main
+[0.182s] [ 57%] Built target camera_calibration_parsers
+[0.196s] [ 71%] Built target camera_calibration_parsers-parse_ini
+[0.200s] [ 85%] Built target convert
+[0.203s] [100%] Built target camera_calibration_parsers-parse_yml
+[0.333s] Invoked command in '/home/shengbin/camera_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/camera_calibration_parsers -- -j16 -l16

@@ -1,0 +1,12 @@
+[  6%] Built target gtest_main
+[ 13%] Built target gtest
+[ 40%] Built target image_transport
+[ 46%] Built target republish
+[ 53%] Built target list_transports
+[ 63%] Built target image_transport_plugins
+[ 66%] Built target image_transport-camera_common
+[ 73%] Built target image_transport-single_subscriber_publisher
+[ 80%] Built target image_transport-subscriber
+[ 93%] Built target image_transport-remapping
+[ 93%] Built target image_transport-publisher
+[100%] Built target image_transport-message_passing
