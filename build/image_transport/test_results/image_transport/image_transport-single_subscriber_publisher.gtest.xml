@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="0.521" timestamp="2023-10-13T19:52:47" name="AllTests">
+  <testsuite name="TestPublisher" tests="2" failures="0" disabled="0" errors="0" time="0.521" timestamp="2023-10-13T19:52:47">
+    <testcase name="construction_and_destruction" status="run" result="completed" time="0.31" timestamp="2023-10-13T19:52:47" classname="image_transport.TestPublisher" />
+    <testcase name="getNumSubscribers" status="run" result="completed" time="0.211" timestamp="2023-10-13T19:52:47" classname="image_transport.TestPublisher" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="theora_image_transport.uncrustify_rosidl_generated_c"
+  tests="6"
+  failures="0"
+  errors="0"
+  time="0.009"
+>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.c"
+    classname="theora_image_transport.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.h"
+    classname="theora_image_transport.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__struct.h"
+    classname="theora_image_transport.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__type_support.h"
+    classname="theora_image_transport.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/packet.h"
+    classname="theora_image_transport.uncrustify_rosidl_generated_c"/>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/rosidl_generator_c__visibility_control.h"
+    classname="theora_image_transport.uncrustify_rosidl_generated_c"/>
+  <system-out>Checked files:
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.c
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.h
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__struct.h
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__type_support.h
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/packet.h
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/rosidl_generator_c__visibility_control.h</system-out>
+</testsuite>

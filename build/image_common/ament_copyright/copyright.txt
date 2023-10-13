@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/image_common':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/shengbin/camera_ws/build/image_common/test_results/image_common/copyright.xunit.xml
+
+No repository roots and files found
+No problems found, checked 0 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_common/test_results/image_common/copyright.xunit.xml'

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="theora_image_transport.uncrustify_rosidl_typesupport_introspection_c"
+  tests="3"
+  failures="0"
+  errors="0"
+  time="0.006"
+>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_c.h"
+    classname="theora_image_transport.uncrustify_rosidl_typesupport_introspection_c"/>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/detail/packet__type_support.c"
+    classname="theora_image_transport.uncrustify_rosidl_typesupport_introspection_c"/>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+    classname="theora_image_transport.uncrustify_rosidl_typesupport_introspection_c"/>
+  <system-out>Checked files:
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_c.h
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/detail/packet__type_support.c
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/rosidl_typesupport_introspection_c__visibility_control.h</system-out>
+</testsuite>

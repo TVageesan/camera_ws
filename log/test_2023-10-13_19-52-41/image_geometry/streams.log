@@ -1,0 +1,67 @@
+[0.337s] Invoking command in '/home/shengbin/camera_ws/build/image_geometry': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.348s] UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/image_geometry/CTestConfiguration.ini
+[0.348s] Parse Config file:/home/shengbin/camera_ws/build/image_geometry/CTestConfiguration.ini
+[0.348s]    Site: shengbin-Zenbook-UX3402VA-UX3402VA
+[0.348s]    Build name: (empty)
+[0.349s]  Add coverage exclude regular expressions.
+[0.349s] Create new tag: 20231013-1152 - Experimental
+[0.349s] UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/image_geometry/CTestConfiguration.ini
+[0.350s] Parse Config file:/home/shengbin/camera_ws/build/image_geometry/CTestConfiguration.ini
+[0.350s] Test project /home/shengbin/camera_ws/build/image_geometry
+[0.350s] Constructing a list of tests
+[0.350s] Done constructing a list of tests
+[0.350s] Updating test list for fixtures
+[0.350s] Added 0 tests to meet fixture requirements
+[0.350s] Checking test dependency graph...
+[0.351s] Checking test dependency graph end
+[0.351s] test 1
+[0.351s]     Start 1: image_geometry-utest
+[0.351s] 
+[0.352s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/shengbin/camera_ws/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/shengbin/camera_ws/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"
+[0.352s] 1: Test timeout computed to be: 60
+[0.401s] 1: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_geometry':
+[0.401s] 1:  - /home/shengbin/camera_ws/build/image_geometry/image_geometry-utest --gtest_output=xml:/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml
+[0.403s] 1: [==========] Running 12 tests from 1 test suite.
+[0.403s] 1: [----------] Global test environment set-up.
+[0.403s] 1: [----------] 12 tests from PinholeTest
+[0.403s] 1: [ RUN      ] PinholeTest.accessorsCorrect
+[0.404s] 1: [       OK ] PinholeTest.accessorsCorrect (0 ms)
+[0.404s] 1: [ RUN      ] PinholeTest.projectPoint
+[0.404s] 1: [       OK ] PinholeTest.projectPoint (0 ms)
+[0.404s] 1: [ RUN      ] PinholeTest.rectifyPoint
+[0.434s] 1: [       OK ] PinholeTest.rectifyPoint (31 ms)
+[0.434s] 1: [ RUN      ] PinholeTest.getDeltas
+[0.434s] 1: [       OK ] PinholeTest.getDeltas (0 ms)
+[0.434s] 1: [ RUN      ] PinholeTest.initialization
+[0.434s] 1: [       OK ] PinholeTest.initialization (0 ms)
+[0.434s] 1: [ RUN      ] PinholeTest.rectifyIfCalibrated
+[0.448s] 1: [       OK ] PinholeTest.rectifyIfCalibrated (13 ms)
+[0.448s] 1: [ RUN      ] PinholeTest.unrectifyImage
+[1.679s] 1: [       OK ] PinholeTest.unrectifyImage (1232 ms)
+[1.679s] 1: [ RUN      ] PinholeTest.unrectifyImageWithBinning
+[2.010s] 1: [       OK ] PinholeTest.unrectifyImageWithBinning (331 ms)
+[2.010s] 1: [ RUN      ] PinholeTest.unrectifyImageWithRoi
+[2.584s] 1: [       OK ] PinholeTest.unrectifyImageWithRoi (574 ms)
+[2.584s] 1: [ RUN      ] PinholeTest.unrectifyImageWithBinningAndRoi
+[2.727s] 1: [       OK ] PinholeTest.unrectifyImageWithBinningAndRoi (142 ms)
+[2.727s] 1: [ RUN      ] PinholeTest.rectifiedRoiSize
+[2.727s] 1: [       OK ] PinholeTest.rectifiedRoiSize (0 ms)
+[2.727s] 1: [ RUN      ] PinholeTest.rectifiedRoiCaching
+[2.727s] 1: [       OK ] PinholeTest.rectifiedRoiCaching (0 ms)
+[2.727s] 1: [----------] 12 tests from PinholeTest (2323 ms total)
+[2.727s] 1: 
+[2.727s] 1: [----------] Global test environment tear-down
+[2.727s] 1: [==========] 12 tests from 1 test suite ran. (2323 ms total)
+[2.728s] 1: [  PASSED  ] 12 tests.
+[2.728s] 1: -- run_test.py: return code 0
+[2.729s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+[2.731s] 1: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+[2.737s] 1/1 Test #1: image_geometry-utest .............   Passed    2.39 sec
+[2.737s] 
+[2.737s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+[2.737s] 
+[2.737s] Label Time Summary:
+[2.737s] gtest    =   2.39 sec*proc (1 test)
+[2.737s] 
+[2.738s] Total Test time (real) =   2.39 sec
+[2.740s] Invoked command in '/home/shengbin/camera_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

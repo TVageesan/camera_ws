@@ -1,0 +1,1 @@
+Invoking command in '/home/shengbin/camera_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/shengbin/camera_ws/src/image_pipeline/tracetools_image_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/tracetools_image_pipeline

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target cv_bridge[0m
+[ 25%] Built target gtest
+[ 25%] Built target gtest_main
+[ 43%] Built target cv_bridge

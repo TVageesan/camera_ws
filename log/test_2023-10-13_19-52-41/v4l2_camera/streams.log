@@ -1,0 +1,143 @@
+[0.236s] Invoking command in '/home/shengbin/camera_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_geometry LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.240s] UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/v4l2_camera/CTestConfiguration.ini
+[0.240s] Parse Config file:/home/shengbin/camera_ws/build/v4l2_camera/CTestConfiguration.ini
+[0.240s]    Site: shengbin-Zenbook-UX3402VA-UX3402VA
+[0.241s]    Build name: (empty)
+[0.241s]  Add coverage exclude regular expressions.
+[0.241s] Create new tag: 20231013-1152 - Experimental
+[0.241s] UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/v4l2_camera/CTestConfiguration.ini
+[0.241s] Parse Config file:/home/shengbin/camera_ws/build/v4l2_camera/CTestConfiguration.ini
+[0.241s] Test project /home/shengbin/camera_ws/build/v4l2_camera
+[0.241s] Constructing a list of tests
+[0.241s] Done constructing a list of tests
+[0.241s] Updating test list for fixtures
+[0.241s] Added 0 tests to meet fixture requirements
+[0.241s] Checking test dependency graph...
+[0.241s] Checking test dependency graph end
+[0.242s] test 1
+[0.242s]     Start 1: cppcheck
+[0.242s] 
+[0.242s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cppcheck.xunit.xml" "--package-name" "v4l2_camera" "--output-file" "/home/shengbin/camera_ws/build/v4l2_camera/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cppcheck.xunit.xml" "--include_dirs" "/home/shengbin/camera_ws/src/ros2_v4l2_camera/include"
+[0.242s] 1: Test timeout computed to be: 300
+[0.282s] 1: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+[0.282s] 1:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cppcheck.xunit.xml --include_dirs /home/shengbin/camera_ws/src/ros2_v4l2_camera/include
+[0.332s] 1: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.341s] 1: -- run_test.py: return code 0
+[0.341s] 1: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cppcheck.xunit.xml'
+[0.348s] 1/5 Test #1: cppcheck .........................   Passed    0.11 sec
+[0.348s] test 2
+[0.349s]     Start 2: cpplint
+[0.349s] 
+[0.349s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cpplint.xunit.xml" "--package-name" "v4l2_camera" "--output-file" "/home/shengbin/camera_ws/build/v4l2_camera/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cpplint.xunit.xml"
+[0.349s] 2: Test timeout computed to be: 120
+[0.389s] 2: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+[0.389s] 2:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cpplint.xunit.xml
+[0.669s] 2: Using '--root=/home/shengbin/camera_ws/src/ros2_v4l2_camera/include' argument
+[0.669s] 2: 
+[0.669s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/control.hpp
+[0.669s] 2: 
+[0.669s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/fourcc.hpp
+[0.669s] 2: 
+[0.669s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/image_format.hpp
+[0.669s] 2: 
+[0.669s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/parameters.hpp
+[0.669s] 2: 
+[0.669s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[0.669s] 2: 
+[0.670s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[0.670s] 2: 
+[0.670s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[0.670s] 2: 
+[0.670s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/visibility_control.h
+[0.670s] 2: 
+[0.670s] 2: Using '--root=/home/shengbin/camera_ws/src/ros2_v4l2_camera/src' argument
+[0.670s] 2: 
+[0.670s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/parameters.cpp
+[0.670s] 2: 
+[0.670s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp
+[0.671s] 2: 
+[0.671s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_compose_test.cpp
+[0.671s] 2: 
+[0.671s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_device.cpp
+[0.671s] 2: 
+[0.671s] 2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_node.cpp
+[0.671s] 2: 
+[0.671s] 2: No problems found
+[0.676s] 2: -- run_test.py: return code 0
+[0.676s] 2: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cpplint.xunit.xml'
+[0.683s] 2/5 Test #2: cpplint ..........................   Passed    0.33 sec
+[0.683s] test 3
+[0.683s]     Start 3: lint_cmake
+[0.683s] 
+[0.683s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/lint_cmake.xunit.xml" "--package-name" "v4l2_camera" "--output-file" "/home/shengbin/camera_ws/build/v4l2_camera/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/lint_cmake.xunit.xml"
+[0.683s] 3: Test timeout computed to be: 60
+[0.725s] 3: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+[0.725s] 3:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/lint_cmake.xunit.xml
+[0.770s] 3: 
+[0.770s] 3: No problems found
+[0.777s] 3: -- run_test.py: return code 0
+[0.777s] 3: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/lint_cmake.xunit.xml'
+[0.783s] 3/5 Test #3: lint_cmake .......................   Passed    0.10 sec
+[0.784s] test 4
+[0.784s]     Start 4: uncrustify
+[0.784s] 
+[0.784s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/uncrustify.xunit.xml" "--package-name" "v4l2_camera" "--output-file" "/home/shengbin/camera_ws/build/v4l2_camera/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/uncrustify.xunit.xml"
+[0.784s] 4: Test timeout computed to be: 60
+[0.823s] 4: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+[0.823s] 4:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/uncrustify.xunit.xml
+[0.900s] 4: No code style divergence in file 'include/v4l2_camera/control.hpp'
+[0.900s] 4: 
+[0.900s] 4: No code style divergence in file 'include/v4l2_camera/fourcc.hpp'
+[0.900s] 4: 
+[0.901s] 4: No code style divergence in file 'include/v4l2_camera/image_format.hpp'
+[0.901s] 4: 
+[0.901s] 4: No code style divergence in file 'include/v4l2_camera/parameters.hpp'
+[0.901s] 4: 
+[0.901s] 4: No code style divergence in file 'include/v4l2_camera/pixel_format.hpp'
+[0.901s] 4: 
+[0.901s] 4: No code style divergence in file 'include/v4l2_camera/v4l2_camera.hpp'
+[0.901s] 4: 
+[0.901s] 4: No code style divergence in file 'include/v4l2_camera/v4l2_camera_device.hpp'
+[0.901s] 4: 
+[0.901s] 4: No code style divergence in file 'include/v4l2_camera/visibility_control.h'
+[0.901s] 4: 
+[0.902s] 4: No code style divergence in file 'src/parameters.cpp'
+[0.902s] 4: 
+[0.902s] 4: No code style divergence in file 'src/v4l2_camera.cpp'
+[0.902s] 4: 
+[0.902s] 4: No code style divergence in file 'src/v4l2_camera_compose_test.cpp'
+[0.902s] 4: 
+[0.902s] 4: No code style divergence in file 'src/v4l2_camera_device.cpp'
+[0.902s] 4: 
+[0.902s] 4: No code style divergence in file 'src/v4l2_camera_node.cpp'
+[0.902s] 4: 
+[0.902s] 4: No problems found
+[0.908s] 4: -- run_test.py: return code 0
+[0.908s] 4: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/uncrustify.xunit.xml'
+[0.915s] 4/5 Test #4: uncrustify .......................   Passed    0.13 sec
+[0.915s] test 5
+[0.915s]     Start 5: xmllint
+[0.915s] 
+[0.915s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/xmllint.xunit.xml" "--package-name" "v4l2_camera" "--output-file" "/home/shengbin/camera_ws/build/v4l2_camera/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/xmllint.xunit.xml"
+[0.916s] 5: Test timeout computed to be: 60
+[0.955s] 5: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+[0.955s] 5:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/xmllint.xunit.xml
+[1.405s] 5: File 'package.xml' is valid
+[1.405s] 5: 
+[1.405s] 5: No problems found
+[1.417s] 5: -- run_test.py: return code 0
+[1.417s] 5: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/xmllint.xunit.xml'
+[1.424s] 5/5 Test #5: xmllint ..........................   Passed    0.51 sec
+[1.424s] 
+[1.424s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 5
+[1.424s] 
+[1.424s] Label Time Summary:
+[1.424s] cppcheck      =   0.11 sec*proc (1 test)
+[1.425s] cpplint       =   0.33 sec*proc (1 test)
+[1.425s] lint_cmake    =   0.10 sec*proc (1 test)
+[1.425s] linter        =   1.18 sec*proc (5 tests)
+[1.425s] uncrustify    =   0.13 sec*proc (1 test)
+[1.425s] xmllint       =   0.51 sec*proc (1 test)
+[1.425s] 
+[1.425s] Total Test time (real) =   1.18 sec
+[1.430s] Invoked command in '/home/shengbin/camera_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_geometry LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

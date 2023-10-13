@@ -1,0 +1,28 @@
+[0.215s] Invoking command in '/home/shengbin/camera_ws/build/image_transport': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/image_transport -- -j16 -l16
+[0.241s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.244s] [35m[1mConsolidate compiler generated dependencies of target image_transport[0m
+[0.254s] [ 13%] Built target gtest
+[0.254s] [ 13%] Built target gtest_main
+[0.273s] [ 40%] Built target image_transport
+[0.281s] [35m[1mConsolidate compiler generated dependencies of target list_transports[0m
+[0.283s] [35m[1mConsolidate compiler generated dependencies of target image_transport-single_subscriber_publisher[0m
+[0.284s] [35m[1mConsolidate compiler generated dependencies of target image_transport_plugins[0m
+[0.284s] [35m[1mConsolidate compiler generated dependencies of target image_transport-camera_common[0m
+[0.285s] [35m[1mConsolidate compiler generated dependencies of target image_transport-remapping[0m
+[0.285s] [35m[1mConsolidate compiler generated dependencies of target image_transport-subscriber[0m
+[0.285s] [35m[1mConsolidate compiler generated dependencies of target republish[0m
+[0.285s] [35m[1mConsolidate compiler generated dependencies of target image_transport-publisher[0m
+[0.297s] [ 46%] Built target image_transport-camera_common
+[0.301s] [35m[1mConsolidate compiler generated dependencies of target image_transport-message_passing[0m
+[0.302s] [ 50%] [32m[1mLinking CXX shared library libimage_transport_plugins.so[0m
+[0.304s] [ 56%] Built target image_transport-publisher
+[0.304s] [ 63%] [32m[1mLinking CXX executable list_transports[0m
+[0.304s] [ 66%] Built target image_transport-single_subscriber_publisher
+[0.308s] [ 73%] Built target image_transport-remapping
+[0.308s] [ 76%] [32m[1mLinking CXX executable republish[0m
+[0.311s] [ 83%] Built target image_transport-subscriber
+[0.326s] [ 90%] Built target image_transport-message_passing
+[0.589s] [ 93%] Built target list_transports
+[0.645s] [ 96%] Built target republish
+[0.681s] [100%] Built target image_transport_plugins

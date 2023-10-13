@@ -1,0 +1,12 @@
+[0.165s] Invoking command in '/home/shengbin/camera_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/home/shengbin/hornet/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/camera_calibration_parsers -- -j16 -l16
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target camera_calibration_parsers[0m
+[0.208s] [ 28%] Built target camera_calibration_parsers
+[0.208s] [ 42%] Built target gtest_main
+[0.210s] [ 57%] Built target gtest
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target convert[0m
+[0.219s] [35m[1mConsolidate compiler generated dependencies of target camera_calibration_parsers-parse_ini[0m
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target camera_calibration_parsers-parse_yml[0m
+[0.232s] [ 71%] Built target camera_calibration_parsers-parse_ini
+[0.232s] [ 85%] Built target convert
+[0.244s] [100%] Built target camera_calibration_parsers-parse_yml
+[0.416s] Invoked command in '/home/shengbin/camera_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/home/shengbin/hornet/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/camera_calibration_parsers -- -j16 -l16

@@ -1,0 +1,27 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_transport':
+ - /home/shengbin/camera_ws/build/image_transport/image_transport-camera_common --gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-camera_common.gtest.xml
+
+Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from CameraCommon
+[ RUN      ] CameraCommon.getCameraInfoTopic_namespaced_topic
+[       OK ] CameraCommon.getCameraInfoTopic_namespaced_topic (0 ms)
+[ RUN      ] CameraCommon.getCameraInfoTopic_topic
+[       OK ] CameraCommon.getCameraInfoTopic_topic (0 ms)
+[ RUN      ] CameraCommon.getCameraInfoTopic2_slash
+[       OK ] CameraCommon.getCameraInfoTopic2_slash (0 ms)
+[ RUN      ] CameraCommon.getCameraInfoTopic2_empty
+[       OK ] CameraCommon.getCameraInfoTopic2_empty (0 ms)
+[ RUN      ] CameraCommon.erase_last_copy
+[       OK ] CameraCommon.erase_last_copy (0 ms)
+[----------] 5 tests from CameraCommon (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-camera_common.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-camera_common.gtest.xml'

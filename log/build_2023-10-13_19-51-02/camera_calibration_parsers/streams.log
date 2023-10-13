@@ -1,0 +1,22 @@
+[0.184s] Invoking command in '/home/shengbin/camera_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/camera_calibration_parsers
+[0.192s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.302s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.308s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.331s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.332s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.338s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.437s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.440s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.478s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.668s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.783s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[0.786s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.787s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.787s] -- Found ament_cmake_lint_cmake: 0.12.8 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[0.788s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.789s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.869s] -- Configuring done
+[0.887s] -- Generating done
+[0.889s] -- Build files have been written to: /home/shengbin/camera_ws/build/camera_calibration_parsers

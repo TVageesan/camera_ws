@@ -1,0 +1,24 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_transport':
+ - /home/shengbin/camera_ws/build/image_transport/image_transport-message_passing --gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-message_passing.gtest.xml
+
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from MessagePassingTesting
+[ RUN      ] MessagePassingTesting.one_message_passing
+1697197965.851649 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+Waited 0 microseconds for the subscriber to connect to topic '/camera/image'
+[       OK ] MessagePassingTesting.one_message_passing (410 ms)
+[ RUN      ] MessagePassingTesting.one_camera_message_passing
+1697197966.260506 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+Waited 0 microseconds for the subscriber to connect to topic '/camera/image'
+[       OK ] MessagePassingTesting.one_camera_message_passing (210 ms)
+[----------] 2 tests from MessagePassingTesting (620 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (620 ms total)
+[  PASSED  ] 2 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-message_passing.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-message_passing.gtest.xml'

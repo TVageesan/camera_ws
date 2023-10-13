@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="theora_image_transport.cpplint_rosidl_typesupport_fastrtps_c"
+  tests="2"
+  failures="0"
+  errors="0"
+  time="0.056"
+>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h"
+    classname="theora_image_transport.cpplint_rosidl_typesupport_fastrtps_c"/>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp"
+    classname="theora_image_transport.cpplint_rosidl_typesupport_fastrtps_c"/>
+  <system-out>Checked files:
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp</system-out>
+</testsuite>

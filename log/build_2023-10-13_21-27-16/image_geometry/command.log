@@ -1,0 +1,1 @@
+Invoking command in '/home/shengbin/camera_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/home/shengbin/hornet/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/image_geometry -- -j16 -l16

@@ -1,0 +1,14 @@
+[0.201s] Invoking command in '/home/shengbin/camera_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/image_transport -- -j16 -l16
+[0.242s] [  6%] Built target gtest
+[0.245s] [ 13%] Built target gtest_main
+[0.253s] [ 40%] Built target image_transport
+[0.274s] [ 46%] Built target list_transports
+[0.276s] [ 53%] Built target image_transport_plugins
+[0.277s] [ 60%] Built target republish
+[0.278s] [ 73%] Built target image_transport-message_passing
+[0.278s] [ 73%] Built target image_transport-single_subscriber_publisher
+[0.279s] [ 80%] Built target image_transport-camera_common
+[0.279s] [ 86%] Built target image_transport-remapping
+[0.281s] [ 93%] Built target image_transport-subscriber
+[0.282s] [100%] Built target image_transport-publisher
+[0.458s] Invoked command in '/home/shengbin/camera_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/image_transport -- -j16 -l16

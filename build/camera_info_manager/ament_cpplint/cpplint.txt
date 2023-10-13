@@ -1,0 +1,26 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_info_manager':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml
+
+Using '--root=..' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/tests/unit_test.cpp
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/camera_info_manager/include' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/include/camera_info_manager/camera_info_manager.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/include/camera_info_manager/camera_info_manager.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/include/camera_info_manager/visibility_control.h
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/camera_info_manager/src' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/src/camera_info_manager.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/src/split.hpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml'

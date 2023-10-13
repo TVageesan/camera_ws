@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             'cam_pub = camera.cam_pub:main',
             'cam_sub = camera.cam_sub:main',
-            'cam_oflow = camera.cam_oflow:main'
+            'cam_oflow = camera.cam_oflow:main',
+            'cam_process = camera.cam_process:main'
         ],
     },
 )

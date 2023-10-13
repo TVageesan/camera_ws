@@ -1,0 +1,23 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/cv_bridge/test':
+ - /usr/bin/python3.10 -u -m pytest /home/shengbin/camera_ws/src/vision_opencv/cv_bridge/test/conversions.py -o cache_dir=/home/shengbin/camera_ws/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache --junit-xml=/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml --junit-prefix=cv_bridge
+
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/shengbin/camera_ws/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache
+rootdir: /home/shengbin/camera_ws/src/vision_opencv, configfile: pytest.ini
+plugins: ament-flake8-0.12.8, ament-pep257-0.12.8, ament-copyright-0.12.8, ament-xmllint-0.12.8, ament-lint-0.12.8, launch-testing-1.0.4, launch-testing-ros-0.19.6, cov-3.0.0, colcon-core-0.15.0
+collected 4 items
+
+../../../src/vision_opencv/cv_bridge/test/conversions.py ....            [100%]
+
+=============================== warnings summary ===============================
+cv_bridge/test/conversions.py: 7056 warnings
+  Warning: tostring() is deprecated. Use tobytes() instead.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+- generated xml file: /home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml -
+======================= 4 passed, 7056 warnings in 7.00s =======================
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml'

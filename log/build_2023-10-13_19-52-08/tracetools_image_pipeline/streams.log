@@ -1,0 +1,6 @@
+[0.103s] Invoking command in '/home/shengbin/camera_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/tracetools_image_pipeline -- -j16 -l16
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target tracetools_image_pipeline[0m
+[0.151s] [ 66%] Built target tracetools_image_pipeline
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target status[0m
+[0.172s] [100%] Built target status
+[0.551s] Invoked command in '/home/shengbin/camera_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/tracetools_image_pipeline -- -j16 -l16

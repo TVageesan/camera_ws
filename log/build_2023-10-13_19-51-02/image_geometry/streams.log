@@ -1,0 +1,28 @@
+[0.142s] Invoking command in '/home/shengbin/camera_ws/build/image_geometry': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/shengbin/camera_ws/src/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/image_geometry
+[0.149s] -- Found ament_cmake_python: 1.3.5 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.149s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.253s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.316s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.346s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.350s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.359s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.641s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.706s] -- Configuring done
+[0.721s] -- Generating done
+[0.722s] -- Build files have been written to: /home/shengbin/camera_ws/build/image_geometry
+[0.731s] Invoked command in '/home/shengbin/camera_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/shengbin/camera_ws/src/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/image_geometry
+[0.732s] Invoking command in '/home/shengbin/camera_ws/build/image_geometry': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/image_geometry -- -j16 -l16
+[0.784s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.785s] [35m[1mConsolidate compiler generated dependencies of target image_geometry[0m
+[0.786s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.798s] [ 33%] Built target image_geometry
+[0.801s] [ 55%] Built target gtest
+[0.803s] failed to create symbolic link '/home/shengbin/camera_ws/build/image_geometry/ament_cmake_python/image_geometry/image_geometry' because existing path cannot be removed: Is a directory
+[0.804s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_image_geometry] Error 1
+[0.804s] gmake[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/all] Error 2
+[0.804s] gmake[1]: *** Waiting for unfinished jobs....
+[0.811s] [ 77%] Built target gtest_main
+[0.813s] gmake: *** [Makefile:146: all] Error 2
+[0.817s] Invoked command in '/home/shengbin/camera_ws/build/image_geometry' returned '2': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/image_geometry -- -j16 -l16

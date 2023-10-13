@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="theora_image_transport.cpplint_rosidl_typesupport_introspection_cpp"
+  tests="2"
+  failures="0"
+  errors="0"
+  time="0.044"
+>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_cpp.hpp"
+    classname="theora_image_transport.cpplint_rosidl_typesupport_introspection_cpp"/>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/detail/packet__type_support.cpp"
+    classname="theora_image_transport.cpplint_rosidl_typesupport_introspection_cpp"/>
+  <system-out>Checked files:
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_cpp.hpp
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/detail/packet__type_support.cpp</system-out>
+</testsuite>

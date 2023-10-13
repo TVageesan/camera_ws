@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="v4l2_camera.uncrustify"
+  tests="13"
+  failures="0"
+  errors="0"
+  time="0.031"
+>
+  <testcase
+    name="include/v4l2_camera/control.hpp"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="include/v4l2_camera/fourcc.hpp"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="include/v4l2_camera/image_format.hpp"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="include/v4l2_camera/parameters.hpp"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="include/v4l2_camera/pixel_format.hpp"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="include/v4l2_camera/v4l2_camera.hpp"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="include/v4l2_camera/v4l2_camera_device.hpp"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="include/v4l2_camera/visibility_control.h"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="src/parameters.cpp"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="src/v4l2_camera.cpp"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="src/v4l2_camera_compose_test.cpp"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="src/v4l2_camera_device.cpp"
+    classname="v4l2_camera.uncrustify"/>
+  <testcase
+    name="src/v4l2_camera_node.cpp"
+    classname="v4l2_camera.uncrustify"/>
+  <system-out>Checked files:
+* include/v4l2_camera/control.hpp
+* include/v4l2_camera/fourcc.hpp
+* include/v4l2_camera/image_format.hpp
+* include/v4l2_camera/parameters.hpp
+* include/v4l2_camera/pixel_format.hpp
+* include/v4l2_camera/v4l2_camera.hpp
+* include/v4l2_camera/v4l2_camera_device.hpp
+* include/v4l2_camera/visibility_control.h
+* src/parameters.cpp
+* src/v4l2_camera.cpp
+* src/v4l2_camera_compose_test.cpp
+* src/v4l2_camera_device.cpp
+* src/v4l2_camera_node.cpp</system-out>
+</testsuite>

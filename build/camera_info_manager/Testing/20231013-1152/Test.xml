@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231013-1152-Experimental"
+	Name="shengbin-Zenbook-UX3402VA-UX3402VA"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="shengbin-Zenbook-UX3402VA-UX3402VA"
+	OSRelease="6.2.0-34-generic"
+	OSVersion="#34~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  7 13:12:03 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="186"
+	ProcessorCacheSize="18432"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15603"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2700.01"
+	>
+	<Testing>
+		<StartDateTime>Oct 13 19:52 +08</StartDateTime>
+		<StartTestTime>1697197962</StartTestTime>
+		<TestList>
+			<Test>./cpplint</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./uncrustify</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>cpplint</Name>
+			<Path>.</Path>
+			<FullName>./cpplint</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml" "--package-name" "camera_info_manager" "--output-file" "/home/shengbin/camera_ws/build/camera_info_manager/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.354387</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml" "--package-name" "camera_info_manager" "--output-file" "/home/shengbin/camera_ws/build/camera_info_manager/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_info_manager':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml
+Using '--root=..' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/tests/unit_test.cpp
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/camera_info_manager/include' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/include/camera_info_manager/camera_info_manager.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/include/camera_info_manager/camera_info_manager.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/include/camera_info_manager/visibility_control.h
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/camera_info_manager/src' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/src/camera_info_manager.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/src/split.hpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cpplint</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/lint_cmake.xunit.xml" "--package-name" "camera_info_manager" "--output-file" "/home/shengbin/camera_ws/build/camera_info_manager/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.105965</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/lint_cmake.xunit.xml" "--package-name" "camera_info_manager" "--output-file" "/home/shengbin/camera_ws/build/camera_info_manager/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_info_manager':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>uncrustify</Name>
+			<Path>.</Path>
+			<FullName>./uncrustify</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml" "--package-name" "camera_info_manager" "--output-file" "/home/shengbin/camera_ws/build/camera_info_manager/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.150869</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml" "--package-name" "camera_info_manager" "--output-file" "/home/shengbin/camera_ws/build/camera_info_manager/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_info_manager':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml
+No code style divergence in file 'include/camera_info_manager/camera_info_manager.h'
+
+No code style divergence in file 'include/camera_info_manager/camera_info_manager.hpp'
+
+No code style divergence in file 'include/camera_info_manager/visibility_control.h'
+
+No code style divergence in file 'src/camera_info_manager.cpp'
+
+No code style divergence in file 'src/split.hpp'
+
+No code style divergence in file 'tests/unit_test.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>uncrustify</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Oct 13 19:52 +08</EndDateTime>
+		<EndTestTime>1697197963</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,11 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/pep257_rosidl_generated_py.xunit.xml /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport
+
+checking /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/__init__.py
+checking /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/__init__.py
+checking /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/_packet.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/pep257_rosidl_generated_py.xunit.xml'

@@ -1,0 +1,725 @@
+Start testing: Oct 13 19:52 +08
+----------------------------------------------------------
+1/29 Testing: cppcheck_rosidl_generated_c
+1/29 Test: cppcheck_rosidl_generated_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cppcheck/cppcheck_rosidl_generated_c.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_c.xunit.xml" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cppcheck_rosidl_generated_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_c.xunit.xml /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_c.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_generated_c" end time: Oct 13 19:52 +08
+"cppcheck_rosidl_generated_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/29 Testing: cpplint_rosidl_generated_c
+2/29 Test: cpplint_rosidl_generated_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cpplint/cpplint_rosidl_generated_c.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_c.xunit.xml" "--linelength" "999" "--root" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cpplint_rosidl_generated_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_c.xunit.xml --linelength 999 --root /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport
+Using '--root=/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c' argument
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.c
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.h
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__struct.h
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__type_support.h
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/packet.h
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/rosidl_generator_c__visibility_control.h
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_c.xunit.xml'
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_generated_c" end time: Oct 13 19:52 +08
+"cpplint_rosidl_generated_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/29 Testing: uncrustify_rosidl_generated_c
+3/29 Test: uncrustify_rosidl_generated_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_uncrustify/uncrustify_rosidl_generated_c.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_c.xunit.xml" "--linelength" "0" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"uncrustify_rosidl_generated_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_c.xunit.xml --linelength 0 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.c'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.h'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__struct.h'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__type_support.h'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/packet.h'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/rosidl_generator_c__visibility_control.h'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_c.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_generated_c" end time: Oct 13 19:52 +08
+"uncrustify_rosidl_generated_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/29 Testing: cppcheck_rosidl_typesupport_fastrtps_c
+4/29 Test: cppcheck_rosidl_typesupport_fastrtps_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cppcheck/cppcheck_rosidl_typesupport_fastrtps_c.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cppcheck_rosidl_typesupport_fastrtps_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_fastrtps_c.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_fastrtps_c" end time: Oct 13 19:52 +08
+"cppcheck_rosidl_typesupport_fastrtps_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/29 Testing: cpplint_rosidl_typesupport_fastrtps_c
+5/29 Test: cpplint_rosidl_typesupport_fastrtps_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cpplint/cpplint_rosidl_typesupport_fastrtps_c.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml" "--linelength" "999" "--root" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cpplint_rosidl_typesupport_fastrtps_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml --linelength 999 --root /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp
+Using '--root=/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c' argument
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml'
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_fastrtps_c" end time: Oct 13 19:52 +08
+"cpplint_rosidl_typesupport_fastrtps_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/29 Testing: uncrustify_rosidl_typesupport_fastrtps_c
+6/29 Test: uncrustify_rosidl_typesupport_fastrtps_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_uncrustify/uncrustify_rosidl_typesupport_fastrtps_c.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml" "--linelength" "0" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"uncrustify_rosidl_typesupport_fastrtps_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml --linelength 0 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_fastrtps_c.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_fastrtps_c" end time: Oct 13 19:52 +08
+"uncrustify_rosidl_typesupport_fastrtps_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/29 Testing: cppcheck_rosidl_generated_cpp
+7/29 Test: cppcheck_rosidl_generated_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cppcheck/cppcheck_rosidl_generated_cpp.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_cpp.xunit.xml" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cppcheck_rosidl_generated_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_cpp.xunit.xml /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_cpp.xunit.xml'
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_generated_cpp" end time: Oct 13 19:52 +08
+"cppcheck_rosidl_generated_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/29 Testing: cpplint_rosidl_generated_cpp
+8/29 Test: cpplint_rosidl_generated_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cpplint/cpplint_rosidl_generated_cpp.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_cpp.xunit.xml" "--linelength" "999" "--root" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cpplint_rosidl_generated_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_cpp.xunit.xml --linelength 999 --root /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport
+Using '--root=/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp' argument
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/detail/packet__builder.hpp
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/detail/packet__struct.hpp
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/detail/packet__traits.hpp
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/packet.hpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_cpp.xunit.xml'
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_generated_cpp" end time: Oct 13 19:52 +08
+"cpplint_rosidl_generated_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/29 Testing: uncrustify_rosidl_generated_cpp
+9/29 Test: uncrustify_rosidl_generated_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_uncrustify/uncrustify_rosidl_generated_cpp.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_cpp.xunit.xml" "--linelength" "0" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"uncrustify_rosidl_generated_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_cpp.xunit.xml --linelength 0 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/detail/packet__builder.hpp'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/detail/packet__struct.hpp'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/detail/packet__traits.hpp'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/packet.hpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_cpp.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_generated_cpp" end time: Oct 13 19:52 +08
+"uncrustify_rosidl_generated_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/29 Testing: cppcheck_rosidl_typesupport_fastrtps_cpp
+10/29 Test: cppcheck_rosidl_typesupport_fastrtps_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cppcheck/cppcheck_rosidl_typesupport_fastrtps_cpp.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/dds_fastrtps/packet__type_support.cpp" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cppcheck_rosidl_typesupport_fastrtps_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/dds_fastrtps/packet__type_support.cpp /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_fastrtps_cpp.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_fastrtps_cpp" end time: Oct 13 19:52 +08
+"cppcheck_rosidl_typesupport_fastrtps_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/29 Testing: cpplint_rosidl_typesupport_fastrtps_cpp
+11/29 Test: cpplint_rosidl_typesupport_fastrtps_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cpplint/cpplint_rosidl_typesupport_fastrtps_cpp.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--linelength" "999" "--root" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/dds_fastrtps/packet__type_support.cpp" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cpplint_rosidl_typesupport_fastrtps_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml --linelength 999 --root /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/dds_fastrtps/packet__type_support.cpp /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp
+Using '--root=/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp' argument
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/dds_fastrtps/packet__type_support.cpp
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_fastrtps_cpp.xunit.xml'
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_fastrtps_cpp" end time: Oct 13 19:52 +08
+"cpplint_rosidl_typesupport_fastrtps_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/29 Testing: uncrustify_rosidl_typesupport_fastrtps_cpp
+12/29 Test: uncrustify_rosidl_typesupport_fastrtps_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_uncrustify/uncrustify_rosidl_typesupport_fastrtps_cpp.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml" "--linelength" "0" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/dds_fastrtps/packet__type_support.cpp" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"uncrustify_rosidl_typesupport_fastrtps_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml --linelength 0 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/dds_fastrtps/packet__type_support.cpp /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/dds_fastrtps/packet__type_support.cpp'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_fastrtps_cpp.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_fastrtps_cpp" end time: Oct 13 19:52 +08
+"uncrustify_rosidl_typesupport_fastrtps_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/29 Testing: cppcheck_rosidl_typesupport_introspection_c
+13/29 Test: cppcheck_rosidl_typesupport_introspection_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_introspection_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cppcheck/cppcheck_rosidl_typesupport_introspection_c.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_introspection_c.xunit.xml" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cppcheck_rosidl_typesupport_introspection_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_introspection_c.xunit.xml /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_introspection_c.xunit.xml'
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_introspection_c" end time: Oct 13 19:52 +08
+"cppcheck_rosidl_typesupport_introspection_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/29 Testing: cpplint_rosidl_typesupport_introspection_c
+14/29 Test: cpplint_rosidl_typesupport_introspection_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_introspection_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cpplint/cpplint_rosidl_typesupport_introspection_c.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_introspection_c.xunit.xml" "--linelength" "999" "--root" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cpplint_rosidl_typesupport_introspection_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_introspection_c.xunit.xml --linelength 999 --root /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport
+Using '--root=/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c' argument
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_c.h
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/detail/packet__type_support.c
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/rosidl_typesupport_introspection_c__visibility_control.h
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_introspection_c.xunit.xml'
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_introspection_c" end time: Oct 13 19:52 +08
+"cpplint_rosidl_typesupport_introspection_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/29 Testing: uncrustify_rosidl_typesupport_introspection_c
+15/29 Test: uncrustify_rosidl_typesupport_introspection_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_introspection_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_uncrustify/uncrustify_rosidl_typesupport_introspection_c.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_introspection_c.xunit.xml" "--linelength" "0" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"uncrustify_rosidl_typesupport_introspection_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_introspection_c.xunit.xml --linelength 0 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_c.h'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/detail/packet__type_support.c'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_c/theora_image_transport/msg/rosidl_typesupport_introspection_c__visibility_control.h'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_introspection_c.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_introspection_c" end time: Oct 13 19:52 +08
+"uncrustify_rosidl_typesupport_introspection_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/29 Testing: cppcheck_rosidl_typesupport_c
+16/29 Test: cppcheck_rosidl_typesupport_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cppcheck/cppcheck_rosidl_typesupport_c.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_c.xunit.xml" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_c/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cppcheck_rosidl_typesupport_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_c.xunit.xml /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_c/theora_image_transport
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_c.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_c" end time: Oct 13 19:52 +08
+"cppcheck_rosidl_typesupport_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/29 Testing: cpplint_rosidl_typesupport_c
+17/29 Test: cpplint_rosidl_typesupport_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cpplint/cpplint_rosidl_typesupport_c.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_c.xunit.xml" "--linelength" "999" "--root" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_c" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_c/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cpplint_rosidl_typesupport_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_c.xunit.xml --linelength 999 --root /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_c /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_c/theora_image_transport
+Using '--root=/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_c' argument
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_c/theora_image_transport/msg/packet__type_support.cpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_c.xunit.xml'
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_c" end time: Oct 13 19:52 +08
+"cpplint_rosidl_typesupport_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/29 Testing: uncrustify_rosidl_typesupport_c
+18/29 Test: uncrustify_rosidl_typesupport_c
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_c.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_uncrustify/uncrustify_rosidl_typesupport_c.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_c.xunit.xml" "--linelength" "0" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_c/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"uncrustify_rosidl_typesupport_c" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_c.xunit.xml --linelength 0 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_c/theora_image_transport
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_c/theora_image_transport/msg/packet__type_support.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_c.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_c" end time: Oct 13 19:52 +08
+"uncrustify_rosidl_typesupport_c" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/29 Testing: cppcheck_rosidl_typesupport_introspection_cpp
+19/29 Test: cppcheck_rosidl_typesupport_introspection_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cppcheck/cppcheck_rosidl_typesupport_introspection_cpp.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cppcheck_rosidl_typesupport_introspection_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_introspection_cpp.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_introspection_cpp" end time: Oct 13 19:52 +08
+"cppcheck_rosidl_typesupport_introspection_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/29 Testing: cpplint_rosidl_typesupport_introspection_cpp
+20/29 Test: cpplint_rosidl_typesupport_introspection_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cpplint/cpplint_rosidl_typesupport_introspection_cpp.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml" "--linelength" "999" "--root" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cpplint_rosidl_typesupport_introspection_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml --linelength 999 --root /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport
+Using '--root=/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp' argument
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_cpp.hpp
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/detail/packet__type_support.cpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_introspection_cpp.xunit.xml'
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_introspection_cpp" end time: Oct 13 19:52 +08
+"cpplint_rosidl_typesupport_introspection_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/29 Testing: uncrustify_rosidl_typesupport_introspection_cpp
+21/29 Test: uncrustify_rosidl_typesupport_introspection_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_uncrustify/uncrustify_rosidl_typesupport_introspection_cpp.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml" "--linelength" "0" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"uncrustify_rosidl_typesupport_introspection_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml --linelength 0 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_cpp.hpp'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/detail/packet__type_support.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_introspection_cpp.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_introspection_cpp" end time: Oct 13 19:52 +08
+"uncrustify_rosidl_typesupport_introspection_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/29 Testing: cppcheck_rosidl_typesupport_cpp
+22/29 Test: cppcheck_rosidl_typesupport_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cppcheck/cppcheck_rosidl_typesupport_cpp.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_cpp.xunit.xml" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cppcheck_rosidl_typesupport_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_cpp.xunit.xml /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp/theora_image_transport
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_typesupport_cpp.xunit.xml'
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_typesupport_cpp" end time: Oct 13 19:52 +08
+"cppcheck_rosidl_typesupport_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/29 Testing: cpplint_rosidl_typesupport_cpp
+23/29 Test: cpplint_rosidl_typesupport_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cpplint/cpplint_rosidl_typesupport_cpp.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_cpp.xunit.xml" "--linelength" "999" "--root" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cpplint_rosidl_typesupport_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_cpp.xunit.xml --linelength 999 --root /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp/theora_image_transport
+Using '--root=/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp' argument
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp/theora_image_transport/msg/packet__type_support.cpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_cpp.xunit.xml'
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_typesupport_cpp" end time: Oct 13 19:52 +08
+"cpplint_rosidl_typesupport_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/29 Testing: uncrustify_rosidl_typesupport_cpp
+24/29 Test: uncrustify_rosidl_typesupport_cpp
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_cpp.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_uncrustify/uncrustify_rosidl_typesupport_cpp.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_cpp.xunit.xml" "--linelength" "0" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"uncrustify_rosidl_typesupport_cpp" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_cpp.xunit.xml --linelength 0 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp/theora_image_transport
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp/theora_image_transport/msg/packet__type_support.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_typesupport_cpp.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_typesupport_cpp" end time: Oct 13 19:52 +08
+"uncrustify_rosidl_typesupport_cpp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/29 Testing: cppcheck_rosidl_generated_py
+25/29 Test: cppcheck_rosidl_generated_py
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_py.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cppcheck/cppcheck_rosidl_generated_py.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_py.xunit.xml" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cppcheck_rosidl_generated_py" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_py.xunit.xml /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cppcheck_rosidl_generated_py.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck_rosidl_generated_py" end time: Oct 13 19:52 +08
+"cppcheck_rosidl_generated_py" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/29 Testing: cpplint_rosidl_generated_py
+26/29 Test: cpplint_rosidl_generated_py
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_py.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_cpplint/cpplint_rosidl_generated_py.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_py.xunit.xml" "--filters=-readability/fn_size" "--linelength" "999" "--root" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"cpplint_rosidl_generated_py" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_py.xunit.xml --filters=-readability/fn_size --linelength 999 --root /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport
+Using '--root=/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py' argument
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_c.c
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_fastrtps_c.c
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_introspection_c.c
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/_packet_s.c
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_py.xunit.xml'
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint_rosidl_generated_py" end time: Oct 13 19:52 +08
+"cpplint_rosidl_generated_py" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/29 Testing: flake8_rosidl_generated_py
+27/29 Test: flake8_rosidl_generated_py
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/flake8_rosidl_generated_py.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_flake8/flake8_rosidl_generated_py.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/flake8_rosidl_generated_py.xunit.xml" "--linelength" "999" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"flake8_rosidl_generated_py" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/flake8_rosidl_generated_py.xunit.xml --linelength 999 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport
+
+3 files checked
+No problems found
+
+Checked files:
+
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/__init__.py
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/_packet.py
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/__init__.py
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/flake8_rosidl_generated_py.xunit.xml'
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"flake8_rosidl_generated_py" end time: Oct 13 19:52 +08
+"flake8_rosidl_generated_py" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/29 Testing: pep257_rosidl_generated_py
+28/29 Test: pep257_rosidl_generated_py
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/pep257_rosidl_generated_py.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_pep257/pep257_rosidl_generated_py.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/pep257_rosidl_generated_py.xunit.xml" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"pep257_rosidl_generated_py" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/pep257_rosidl_generated_py.xunit.xml /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport
+checking /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/__init__.py
+checking /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/__init__.py
+checking /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/_packet.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/pep257_rosidl_generated_py.xunit.xml'
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"pep257_rosidl_generated_py" end time: Oct 13 19:52 +08
+"pep257_rosidl_generated_py" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/29 Testing: uncrustify_rosidl_generated_py
+29/29 Test: uncrustify_rosidl_generated_py
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_py.xunit.xml" "--package-name" "theora_image_transport" "--output-file" "/home/shengbin/camera_ws/build/theora_image_transport/ament_uncrustify/uncrustify_rosidl_generated_py.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_py.xunit.xml" "--linelength" "0" "/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport"
+Directory: /home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport
+"uncrustify_rosidl_generated_py" start time: Oct 13 19:52 +08
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_py.xunit.xml --linelength 0 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_c.c'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_fastrtps_c.c'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_introspection_c.c'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/_packet_s.c'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_py.xunit.xml'
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify_rosidl_generated_py" end time: Oct 13 19:52 +08
+"uncrustify_rosidl_generated_py" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 13 19:52 +08
+
+cppcheck =   0.95 sec*proc
+
+cpplint =   1.53 sec*proc
+
+flake8 =   0.21 sec*proc
+
+linter =   3.84 sec*proc
+
+pep257 =   0.14 sec*proc
+
+uncrustify =   1.01 sec*proc
+

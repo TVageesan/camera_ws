@@ -1,0 +1,10 @@
+[0.112s] Invoking command in '/home/shengbin/camera_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/image_geometry -- -j16 -l16
+[0.154s] failed to create symbolic link '/home/shengbin/camera_ws/build/image_geometry/ament_cmake_python/image_geometry/image_geometry' because existing path cannot be removed: Is a directory
+[0.155s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_image_geometry] Error 1
+[0.155s] gmake[1]: *** [CMakeFiles/Makefile2:160: CMakeFiles/ament_cmake_python_symlink_image_geometry.dir/all] Error 2
+[0.155s] gmake[1]: *** Waiting for unfinished jobs....
+[0.159s] [ 55%] Built target image_geometry
+[0.159s] [ 55%] Built target gtest_main
+[0.165s] [ 77%] Built target gtest
+[0.166s] gmake: *** [Makefile:146: all] Error 2
+[0.357s] Invoked command in '/home/shengbin/camera_ws/build/image_geometry' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/image_geometry -- -j16 -l16

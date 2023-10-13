@@ -1,0 +1,17 @@
+[0.273s] Invoking command in '/home/shengbin/camera_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/opt/ros/humble /usr/bin/cmake /home/shengbin/camera_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/shengbin/camera_ws/install/cv_bridge
+[0.284s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.337s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.382s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.771s] -- Found Python3: /usr/include/python3.10 (found version "3.10.12") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[0.783s] -- Found rcpputils: 2.4.1 (/opt/ros/humble/share/rcpputils/cmake)
+[0.800s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.822s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.826s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.835s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.853s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.875s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.215s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.262s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.940s] -- Configuring done
+[1.951s] -- Generating done
+[1.952s] -- Build files have been written to: /home/shengbin/camera_ws/build/cv_bridge

@@ -1,0 +1,112 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/image_transport/test_results/image_transport/uncrustify.xunit.xml
+
+No code style divergence in file 'include/image_transport/camera_common.h'
+
+No code style divergence in file 'include/image_transport/camera_common.hpp'
+
+No code style divergence in file 'include/image_transport/camera_publisher.h'
+
+No code style divergence in file 'include/image_transport/camera_publisher.hpp'
+
+No code style divergence in file 'include/image_transport/camera_subscriber.h'
+
+No code style divergence in file 'include/image_transport/camera_subscriber.hpp'
+
+No code style divergence in file 'include/image_transport/exception.h'
+
+No code style divergence in file 'include/image_transport/exception.hpp'
+
+No code style divergence in file 'include/image_transport/image_transport.h'
+
+No code style divergence in file 'include/image_transport/image_transport.hpp'
+
+No code style divergence in file 'include/image_transport/loader_fwds.h'
+
+No code style divergence in file 'include/image_transport/loader_fwds.hpp'
+
+No code style divergence in file 'include/image_transport/publisher.h'
+
+No code style divergence in file 'include/image_transport/publisher.hpp'
+
+No code style divergence in file 'include/image_transport/publisher_plugin.h'
+
+No code style divergence in file 'include/image_transport/publisher_plugin.hpp'
+
+No code style divergence in file 'include/image_transport/raw_publisher.h'
+
+No code style divergence in file 'include/image_transport/raw_publisher.hpp'
+
+No code style divergence in file 'include/image_transport/raw_subscriber.h'
+
+No code style divergence in file 'include/image_transport/raw_subscriber.hpp'
+
+No code style divergence in file 'include/image_transport/simple_publisher_plugin.h'
+
+No code style divergence in file 'include/image_transport/simple_publisher_plugin.hpp'
+
+No code style divergence in file 'include/image_transport/simple_subscriber_plugin.h'
+
+No code style divergence in file 'include/image_transport/simple_subscriber_plugin.hpp'
+
+No code style divergence in file 'include/image_transport/single_subscriber_publisher.h'
+
+No code style divergence in file 'include/image_transport/single_subscriber_publisher.hpp'
+
+No code style divergence in file 'include/image_transport/subscriber.h'
+
+No code style divergence in file 'include/image_transport/subscriber.hpp'
+
+No code style divergence in file 'include/image_transport/subscriber_filter.h'
+
+No code style divergence in file 'include/image_transport/subscriber_filter.hpp'
+
+No code style divergence in file 'include/image_transport/subscriber_plugin.h'
+
+No code style divergence in file 'include/image_transport/subscriber_plugin.hpp'
+
+No code style divergence in file 'include/image_transport/transport_hints.h'
+
+No code style divergence in file 'include/image_transport/transport_hints.hpp'
+
+No code style divergence in file 'include/image_transport/visibility_control.hpp'
+
+No code style divergence in file 'src/camera_common.cpp'
+
+No code style divergence in file 'src/camera_publisher.cpp'
+
+No code style divergence in file 'src/camera_subscriber.cpp'
+
+No code style divergence in file 'src/image_transport.cpp'
+
+No code style divergence in file 'src/list_transports.cpp'
+
+No code style divergence in file 'src/manifest.cpp'
+
+No code style divergence in file 'src/publisher.cpp'
+
+No code style divergence in file 'src/republish.cpp'
+
+No code style divergence in file 'src/single_subscriber_publisher.cpp'
+
+No code style divergence in file 'src/subscriber.cpp'
+
+No code style divergence in file 'test/test_camera_common.cpp'
+
+No code style divergence in file 'test/test_message_passing.cpp'
+
+No code style divergence in file 'test/test_publisher.cpp'
+
+No code style divergence in file 'test/test_remapping.cpp'
+
+No code style divergence in file 'test/test_single_subscriber_publisher.cpp'
+
+No code style divergence in file 'test/test_subscriber.cpp'
+
+No code style divergence in file 'test/utils.hpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/uncrustify.xunit.xml'

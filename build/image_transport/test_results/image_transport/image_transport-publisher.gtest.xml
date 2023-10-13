@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" time="1.238" timestamp="2023-10-13T19:52:42" name="AllTests">
+  <testsuite name="TestPublisher" tests="4" failures="0" disabled="0" errors="0" time="1.238" timestamp="2023-10-13T19:52:42">
+    <testcase name="Publisher" status="run" result="completed" time="0.411" timestamp="2023-10-13T19:52:42" classname="image_transport.TestPublisher" />
+    <testcase name="ImageTransportPublisher" status="run" result="completed" time="0.308" timestamp="2023-10-13T19:52:42" classname="image_transport.TestPublisher" />
+    <testcase name="CameraPublisher" status="run" result="completed" time="0.207" timestamp="2023-10-13T19:52:43" classname="image_transport.TestPublisher" />
+    <testcase name="ImageTransportCameraPublisher" status="run" result="completed" time="0.312" timestamp="2023-10-13T19:52:43" classname="image_transport.TestPublisher" />
+  </testsuite>
+</testsuites>

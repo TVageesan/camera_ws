@@ -1,0 +1,34 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/camera_calibration_parsers':
+ - /home/shengbin/camera_ws/build/camera_calibration_parsers/camera_calibration_parsers-parse_ini --gtest_output=xml:/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_ini.gtest.xml
+
+Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from ParseIni
+[ RUN      ] ParseIni.parse_valid_ini_calib5
+[       OK ] ParseIni.parse_valid_ini_calib5 (0 ms)
+[ RUN      ] ParseIni.parse_valid_ini_calib8
+[       OK ] ParseIni.parse_valid_ini_calib8 (0 ms)
+[ RUN      ] ParseIni.parse_invalid_ini_calib5
+[ERROR] [1697197962.786012073] [camera_calibration_parsers]: Error parsing 'camera matrix', incorrect size
+[       OK ] ParseIni.parse_invalid_ini_calib5 (1 ms)
+[ RUN      ] ParseIni.parse_invalid_ini_calib5_2
+[ERROR] [1697197962.786038305] [camera_calibration_parsers]: Error parsing 'camera matrix', incorrect size
+[       OK ] ParseIni.parse_invalid_ini_calib5_2 (0 ms)
+[ RUN      ] ParseIni.roundtrip_calib5
+[       OK ] ParseIni.roundtrip_calib5 (0 ms)
+[ RUN      ] ParseIni.cant_write_calib8
+[ERROR] [1697197962.786243218] [camera_calibration_parsers]: Videre INI format can only save calibrations using the plumb bob distortion model. Use the YAML format instead.
+	distortion_model = 'rational_polynomial', expected 'plumb_bob'
+	D.size() = 8, expected 5
+[       OK ] ParseIni.cant_write_calib8 (0 ms)
+[----------] 6 tests from ParseIni (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 6 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_ini.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_ini.gtest.xml'

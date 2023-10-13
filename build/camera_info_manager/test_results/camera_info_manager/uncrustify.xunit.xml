@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="camera_info_manager.uncrustify"
+  tests="6"
+  failures="0"
+  errors="0"
+  time="0.041"
+>
+  <testcase
+    name="include/camera_info_manager/camera_info_manager.h"
+    classname="camera_info_manager.uncrustify"/>
+  <testcase
+    name="include/camera_info_manager/camera_info_manager.hpp"
+    classname="camera_info_manager.uncrustify"/>
+  <testcase
+    name="include/camera_info_manager/visibility_control.h"
+    classname="camera_info_manager.uncrustify"/>
+  <testcase
+    name="src/camera_info_manager.cpp"
+    classname="camera_info_manager.uncrustify"/>
+  <testcase
+    name="src/split.hpp"
+    classname="camera_info_manager.uncrustify"/>
+  <testcase
+    name="tests/unit_test.cpp"
+    classname="camera_info_manager.uncrustify"/>
+  <system-out>Checked files:
+* include/camera_info_manager/camera_info_manager.h
+* include/camera_info_manager/camera_info_manager.hpp
+* include/camera_info_manager/visibility_control.h
+* src/camera_info_manager.cpp
+* src/split.hpp
+* tests/unit_test.cpp</system-out>
+</testsuite>

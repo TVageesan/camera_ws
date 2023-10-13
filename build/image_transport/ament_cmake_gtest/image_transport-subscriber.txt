@@ -1,0 +1,28 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_transport':
+ - /home/shengbin/camera_ws/build/image_transport/image_transport-subscriber --gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-subscriber.gtest.xml
+
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from TestSubscriber
+[ RUN      ] TestSubscriber.construction_and_destruction
+1697197963.709996 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestSubscriber.construction_and_destruction (310 ms)
+[ RUN      ] TestSubscriber.shutdown
+1697197964.019944 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestSubscriber.shutdown (208 ms)
+[ RUN      ] TestSubscriber.camera_sub_shutdown
+1697197964.227263 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestSubscriber.camera_sub_shutdown (208 ms)
+[ RUN      ] TestSubscriber.callback_groups
+1697197964.435243 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestSubscriber.callback_groups (1348 ms)
+[----------] 4 tests from TestSubscriber (2074 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (2074 ms total)
+[  PASSED  ] 4 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-subscriber.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-subscriber.gtest.xml'

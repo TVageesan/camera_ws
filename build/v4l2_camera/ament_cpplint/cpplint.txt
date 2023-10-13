@@ -1,0 +1,38 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cpplint.xunit.xml
+
+Using '--root=/home/shengbin/camera_ws/src/ros2_v4l2_camera/include' argument
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/control.hpp
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/fourcc.hpp
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/image_format.hpp
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/parameters.hpp
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/pixel_format.hpp
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/visibility_control.h
+
+Using '--root=/home/shengbin/camera_ws/src/ros2_v4l2_camera/src' argument
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/parameters.cpp
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_compose_test.cpp
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_device.cpp
+
+Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_node.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cpplint.xunit.xml'

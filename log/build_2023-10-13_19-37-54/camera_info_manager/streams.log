@@ -1,0 +1,31 @@
+[0.264s] Invoking command in '/home/shengbin/camera_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/shengbin/camera_ws/build/camera_info_manager -- -j16 -l16
+[0.318s] [100%] Built target camera_info_manager
+[0.668s] Invoked command in '/home/shengbin/camera_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/shengbin/camera_ws/build/camera_info_manager -- -j16 -l16
+[0.735s] Invoking command in '/home/shengbin/camera_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/shengbin/camera_ws/build/camera_info_manager
+[0.744s] -- Install configuration: ""
+[0.744s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/lib/libcamera_info_manager.so
+[0.744s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/include/camera_info_manager
+[0.744s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager
+[0.744s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp
+[0.745s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/camera_info_manager.h
+[0.745s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/visibility_control.h
+[0.745s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/ament_index/resource_index/package_run_dependencies/camera_info_manager
+[0.745s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/ament_index/resource_index/parent_prefix_path/camera_info_manager
+[0.745s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.sh
+[0.745s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.dsv
+[0.745s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/environment/path.sh
+[0.745s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/environment/path.dsv
+[0.746s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/local_setup.bash
+[0.746s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/local_setup.sh
+[0.746s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/local_setup.zsh
+[0.746s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/local_setup.dsv
+[0.746s] -- Installing: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/package.dsv
+[0.746s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/ament_index/resource_index/packages/camera_info_manager
+[0.746s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport.cmake
+[0.746s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport-noconfig.cmake
+[0.746s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.747s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_targets-extras.cmake
+[0.747s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig.cmake
+[0.747s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig-version.cmake
+[0.748s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_info_manager/share/camera_info_manager/package.xml
+[0.748s] Invoked command in '/home/shengbin/camera_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/camera:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/shengbin/camera_ws/build/camera_info_manager

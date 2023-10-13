@@ -1,0 +1,14 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml --linelength 999 --root /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp
+
+Using '--root=/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c' argument
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_typesupport_fastrtps_c.xunit.xml'

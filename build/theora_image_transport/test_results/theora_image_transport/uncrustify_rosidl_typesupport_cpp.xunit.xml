@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="theora_image_transport.uncrustify_rosidl_typesupport_cpp"
+  tests="1"
+  failures="0"
+  errors="0"
+  time="0.004"
+>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp/theora_image_transport/msg/packet__type_support.cpp"
+    classname="theora_image_transport.uncrustify_rosidl_typesupport_cpp"/>
+  <system-out>Checked files:
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_typesupport_cpp/theora_image_transport/msg/packet__type_support.cpp</system-out>
+</testsuite>

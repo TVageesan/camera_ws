@@ -1,0 +1,24 @@
+[0.224s] Invoking command in '/home/shengbin/camera_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/home/shengbin/hornet/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/image_transport -- -j16 -l16
+[0.256s] [35m[1mConsolidate compiler generated dependencies of target image_transport[0m
+[0.270s] [  6%] Built target gtest
+[0.270s] [ 13%] Built target gtest_main
+[0.280s] [ 40%] Built target image_transport
+[0.292s] [35m[1mConsolidate compiler generated dependencies of target republish[0m
+[0.292s] [35m[1mConsolidate compiler generated dependencies of target image_transport_plugins[0m
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target image_transport-camera_common[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target list_transports[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target image_transport-publisher[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target image_transport-remapping[0m
+[0.295s] [35m[1mConsolidate compiler generated dependencies of target image_transport-subscriber[0m
+[0.296s] [35m[1mConsolidate compiler generated dependencies of target image_transport-message_passing[0m
+[0.298s] [35m[1mConsolidate compiler generated dependencies of target image_transport-single_subscriber_publisher[0m
+[0.307s] [ 46%] Built target image_transport_plugins
+[0.308s] [ 53%] Built target republish
+[0.309s] [ 60%] Built target image_transport-camera_common
+[0.315s] [ 66%] Built target image_transport-subscriber
+[0.316s] [ 80%] Built target image_transport-publisher
+[0.316s] [ 80%] Built target image_transport-single_subscriber_publisher
+[0.317s] [ 86%] Built target image_transport-message_passing
+[0.317s] [100%] Built target list_transports
+[0.317s] [100%] Built target image_transport-remapping
+[0.479s] Invoked command in '/home/shengbin/camera_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/home/shengbin/hornet/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/image_transport -- -j16 -l16

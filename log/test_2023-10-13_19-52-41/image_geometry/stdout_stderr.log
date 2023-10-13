@@ -1,0 +1,65 @@
+UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/image_geometry/CTestConfiguration.ini
+Parse Config file:/home/shengbin/camera_ws/build/image_geometry/CTestConfiguration.ini
+   Site: shengbin-Zenbook-UX3402VA-UX3402VA
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20231013-1152 - Experimental
+UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/image_geometry/CTestConfiguration.ini
+Parse Config file:/home/shengbin/camera_ws/build/image_geometry/CTestConfiguration.ini
+Test project /home/shengbin/camera_ws/build/image_geometry
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: image_geometry-utest
+
+1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/shengbin/camera_ws/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/shengbin/camera_ws/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_geometry':
+1:  - /home/shengbin/camera_ws/build/image_geometry/image_geometry-utest --gtest_output=xml:/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml
+1: [==========] Running 12 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 12 tests from PinholeTest
+1: [ RUN      ] PinholeTest.accessorsCorrect
+1: [       OK ] PinholeTest.accessorsCorrect (0 ms)
+1: [ RUN      ] PinholeTest.projectPoint
+1: [       OK ] PinholeTest.projectPoint (0 ms)
+1: [ RUN      ] PinholeTest.rectifyPoint
+1: [       OK ] PinholeTest.rectifyPoint (31 ms)
+1: [ RUN      ] PinholeTest.getDeltas
+1: [       OK ] PinholeTest.getDeltas (0 ms)
+1: [ RUN      ] PinholeTest.initialization
+1: [       OK ] PinholeTest.initialization (0 ms)
+1: [ RUN      ] PinholeTest.rectifyIfCalibrated
+1: [       OK ] PinholeTest.rectifyIfCalibrated (13 ms)
+1: [ RUN      ] PinholeTest.unrectifyImage
+1: [       OK ] PinholeTest.unrectifyImage (1232 ms)
+1: [ RUN      ] PinholeTest.unrectifyImageWithBinning
+1: [       OK ] PinholeTest.unrectifyImageWithBinning (331 ms)
+1: [ RUN      ] PinholeTest.unrectifyImageWithRoi
+1: [       OK ] PinholeTest.unrectifyImageWithRoi (574 ms)
+1: [ RUN      ] PinholeTest.unrectifyImageWithBinningAndRoi
+1: [       OK ] PinholeTest.unrectifyImageWithBinningAndRoi (142 ms)
+1: [ RUN      ] PinholeTest.rectifiedRoiSize
+1: [       OK ] PinholeTest.rectifiedRoiSize (0 ms)
+1: [ RUN      ] PinholeTest.rectifiedRoiCaching
+1: [       OK ] PinholeTest.rectifiedRoiCaching (0 ms)
+1: [----------] 12 tests from PinholeTest (2323 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 12 tests from 1 test suite ran. (2323 ms total)
+1: [  PASSED  ] 12 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+1: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+1/1 Test #1: image_geometry-utest .............   Passed    2.39 sec
+
+[0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+
+Label Time Summary:
+gtest    =   2.39 sec*proc (1 test)
+
+Total Test time (real) =   2.39 sec

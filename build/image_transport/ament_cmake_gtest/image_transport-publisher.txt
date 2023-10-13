@@ -1,0 +1,32 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_transport':
+ - /home/shengbin/camera_ws/build/image_transport/image_transport-publisher --gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-publisher.gtest.xml
+
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from TestPublisher
+[ RUN      ] TestPublisher.Publisher
+1697197962.408223 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[FATAL] [1697197962.501028825] [image_transport]: Call to publish() on an invalid image_transport::Publisher
+[FATAL] [1697197962.501088021] [image_transport]: Call to publish() on an invalid image_transport::Publisher
+[       OK ] TestPublisher.Publisher (411 ms)
+[ RUN      ] TestPublisher.ImageTransportPublisher
+1697197962.817548 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestPublisher.ImageTransportPublisher (308 ms)
+[ RUN      ] TestPublisher.CameraPublisher
+1697197963.125412 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[FATAL] [1697197963.133115707] [image_transport]: Call to publish() on an invalid image_transport::CameraPublisher
+[FATAL] [1697197963.133146111] [image_transport]: Call to publish() on an invalid image_transport::CameraPublisher
+[       OK ] TestPublisher.CameraPublisher (207 ms)
+[ RUN      ] TestPublisher.ImageTransportCameraPublisher
+1697197963.333140 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestPublisher.ImageTransportCameraPublisher (312 ms)
+[----------] 4 tests from TestPublisher (1238 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (1238 ms total)
+[  PASSED  ] 4 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-publisher.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-publisher.gtest.xml'

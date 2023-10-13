@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="theora_image_transport.pep257_rosidl_generated_py"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.015"
+>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/__init__.py"
+    classname="theora_image_transport.pep257_rosidl_generated_py"/>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/__init__.py"
+    classname="theora_image_transport.pep257_rosidl_generated_py"/>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/_packet.py"
+    classname="theora_image_transport.pep257_rosidl_generated_py"/>
+  <system-out>Checked files:
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/__init__.py
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/__init__.py
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/_packet.py</system-out>
+</testsuite>

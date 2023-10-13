@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="image_transport.xmllint"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.005"
+>
+  <testcase
+    name="default_plugins.xml"
+    classname="image_transport.xmllint"/>
+  <testcase
+    name="package.xml"
+    classname="image_transport.xmllint"/>
+  <system-out>Checked files:
+* default_plugins.xml
+* package.xml</system-out>
+</testsuite>

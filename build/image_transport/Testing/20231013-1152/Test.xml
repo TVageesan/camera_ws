@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231013-1152-Experimental"
+	Name="shengbin-Zenbook-UX3402VA-UX3402VA"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="shengbin-Zenbook-UX3402VA-UX3402VA"
+	OSRelease="6.2.0-34-generic"
+	OSVersion="#34~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  7 13:12:03 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="186"
+	ProcessorCacheSize="18432"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15603"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="502.132"
+	>
+	<Testing>
+		<StartDateTime>Oct 13 19:52 +08</StartDateTime>
+		<StartTestTime>1697197962</StartTestTime>
+		<TestList>
+			<Test>./cppcheck</Test>
+			<Test>./image_transport-camera_common</Test>
+			<Test>./image_transport-publisher</Test>
+			<Test>./image_transport-subscriber</Test>
+			<Test>./image_transport-message_passing</Test>
+			<Test>./image_transport-remapping</Test>
+			<Test>./image_transport-single_subscriber_publisher</Test>
+			<Test>./copyright</Test>
+			<Test>./cpplint</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./uncrustify</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>cppcheck</Name>
+			<Path>.</Path>
+			<FullName>./cppcheck</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cppcheck.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cppcheck.xunit.xml" "--language" "c++"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.17591</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cppcheck.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cppcheck.xunit.xml" "--language" "c++"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/image_transport':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cppcheck.xunit.xml --language c++
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cppcheck.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cppcheck</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>image_transport-camera_common</Name>
+			<Path>.</Path>
+			<FullName>./image_transport-camera_common</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-camera_common.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-camera_common.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-camera_common" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-camera_common.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.109614</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-camera_common.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-camera_common.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-camera_common" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-camera_common.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_transport':
+ - /home/shengbin/camera_ws/build/image_transport/image_transport-camera_common --gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-camera_common.gtest.xml
+Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from CameraCommon
+[ RUN      ] CameraCommon.getCameraInfoTopic_namespaced_topic
+[       OK ] CameraCommon.getCameraInfoTopic_namespaced_topic (0 ms)
+[ RUN      ] CameraCommon.getCameraInfoTopic_topic
+[       OK ] CameraCommon.getCameraInfoTopic_topic (0 ms)
+[ RUN      ] CameraCommon.getCameraInfoTopic2_slash
+[       OK ] CameraCommon.getCameraInfoTopic2_slash (0 ms)
+[ RUN      ] CameraCommon.getCameraInfoTopic2_empty
+[       OK ] CameraCommon.getCameraInfoTopic2_empty (0 ms)
+[ RUN      ] CameraCommon.erase_last_copy
+[       OK ] CameraCommon.erase_last_copy (0 ms)
+[----------] 5 tests from CameraCommon (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-camera_common.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-camera_common.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>image_transport-publisher</Name>
+			<Path>.</Path>
+			<FullName>./image_transport-publisher</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-publisher.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-publisher.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-publisher" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-publisher.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.33734</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-publisher.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-publisher.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-publisher" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-publisher.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_transport':
+ - /home/shengbin/camera_ws/build/image_transport/image_transport-publisher --gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-publisher.gtest.xml
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from TestPublisher
+[ RUN      ] TestPublisher.Publisher
+1697197962.408223 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[FATAL] [1697197962.501028825] [image_transport]: Call to publish() on an invalid image_transport::Publisher
+[FATAL] [1697197962.501088021] [image_transport]: Call to publish() on an invalid image_transport::Publisher
+[       OK ] TestPublisher.Publisher (411 ms)
+[ RUN      ] TestPublisher.ImageTransportPublisher
+1697197962.817548 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestPublisher.ImageTransportPublisher (308 ms)
+[ RUN      ] TestPublisher.CameraPublisher
+1697197963.125412 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[FATAL] [1697197963.133115707] [image_transport]: Call to publish() on an invalid image_transport::CameraPublisher
+[FATAL] [1697197963.133146111] [image_transport]: Call to publish() on an invalid image_transport::CameraPublisher
+[       OK ] TestPublisher.CameraPublisher (207 ms)
+[ RUN      ] TestPublisher.ImageTransportCameraPublisher
+1697197963.333140 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestPublisher.ImageTransportCameraPublisher (312 ms)
+[----------] 4 tests from TestPublisher (1238 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (1238 ms total)
+[  PASSED  ] 4 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-publisher.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-publisher.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>image_transport-subscriber</Name>
+			<Path>.</Path>
+			<FullName>./image_transport-subscriber</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-subscriber.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-subscriber.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-subscriber" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-subscriber.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.13942</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-subscriber.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-subscriber.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-subscriber" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-subscriber.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_transport':
+ - /home/shengbin/camera_ws/build/image_transport/image_transport-subscriber --gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-subscriber.gtest.xml
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from TestSubscriber
+[ RUN      ] TestSubscriber.construction_and_destruction
+1697197963.709996 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestSubscriber.construction_and_destruction (310 ms)
+[ RUN      ] TestSubscriber.shutdown
+1697197964.019944 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestSubscriber.shutdown (208 ms)
+[ RUN      ] TestSubscriber.camera_sub_shutdown
+1697197964.227263 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestSubscriber.camera_sub_shutdown (208 ms)
+[ RUN      ] TestSubscriber.callback_groups
+1697197964.435243 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestSubscriber.callback_groups (1348 ms)
+[----------] 4 tests from TestSubscriber (2074 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (2074 ms total)
+[  PASSED  ] 4 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-subscriber.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-subscriber.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>image_transport-message_passing</Name>
+			<Path>.</Path>
+			<FullName>./image_transport-message_passing</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-message_passing.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-message_passing.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-message_passing" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-message_passing.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.682295</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-message_passing.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-message_passing.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-message_passing" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-message_passing.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_transport':
+ - /home/shengbin/camera_ws/build/image_transport/image_transport-message_passing --gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-message_passing.gtest.xml
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from MessagePassingTesting
+[ RUN      ] MessagePassingTesting.one_message_passing
+1697197965.851649 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+Waited 0 microseconds for the subscriber to connect to topic '/camera/image'
+[       OK ] MessagePassingTesting.one_message_passing (410 ms)
+[ RUN      ] MessagePassingTesting.one_camera_message_passing
+1697197966.260506 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+Waited 0 microseconds for the subscriber to connect to topic '/camera/image'
+[       OK ] MessagePassingTesting.one_camera_message_passing (210 ms)
+[----------] 2 tests from MessagePassingTesting (620 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (620 ms total)
+[  PASSED  ] 2 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-message_passing.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-message_passing.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>image_transport-remapping</Name>
+			<Path>.</Path>
+			<FullName>./image_transport-remapping</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-remapping.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-remapping.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-remapping" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-remapping.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.47141</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-remapping.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-remapping.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-remapping" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-remapping.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_transport':
+ - /home/shengbin/camera_ws/build/image_transport/image_transport-remapping --gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-remapping.gtest.xml
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestPublisher
+[ RUN      ] TestPublisher.RemappedPublisher
+1697197966.532281 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+Waited 0 microseconds for the subscriber to connect to topic '/namespace/new_topic'
+[       OK ] TestPublisher.RemappedPublisher (407 ms)
+[----------] 1 test from TestPublisher (407 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (407 ms total)
+[  PASSED  ] 1 test.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-remapping.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-remapping.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>image_transport-single_subscriber_publisher</Name>
+			<Path>.</Path>
+			<FullName>./image_transport-single_subscriber_publisher</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-single_subscriber_publisher.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-single_subscriber_publisher.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-single_subscriber_publisher" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-single_subscriber_publisher.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.579474</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-single_subscriber_publisher.gtest.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cmake_gtest/image_transport-single_subscriber_publisher.txt" "--command" "/home/shengbin/camera_ws/build/image_transport/image_transport-single_subscriber_publisher" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-single_subscriber_publisher.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_transport':
+ - /home/shengbin/camera_ws/build/image_transport/image_transport-single_subscriber_publisher --gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-single_subscriber_publisher.gtest.xml
+Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from TestPublisher
+[ RUN      ] TestPublisher.construction_and_destruction
+1697197967.002497 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestPublisher.construction_and_destruction (310 ms)
+[ RUN      ] TestPublisher.getNumSubscribers
+1697197967.312173 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+[       OK ] TestPublisher.getNumSubscribers (211 ms)
+[----------] 2 tests from TestPublisher (521 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (521 ms total)
+[  PASSED  ] 2 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-single_subscriber_publisher.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-single_subscriber_publisher.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>copyright</Name>
+			<Path>.</Path>
+			<FullName>./copyright</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/copyright.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/copyright.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.04934</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/copyright.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/copyright.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/image_transport':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/shengbin/camera_ws/build/image_transport/test_results/image_transport/copyright.xunit.xml
+No problems found, checked 52 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/copyright.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>copyright</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>cpplint</Name>
+			<Path>.</Path>
+			<FullName>./cpplint</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cpplint.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cpplint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.708298</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cpplint.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cpplint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cpplint.xunit.xml
+Using '--root=/home/shengbin/camera_ws/src/image_common/image_transport/include' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_common.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_common.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_publisher.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_publisher.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_subscriber.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_subscriber.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/exception.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/exception.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/image_transport.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/image_transport.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/loader_fwds.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/loader_fwds.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/publisher.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/publisher.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/publisher_plugin.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/publisher_plugin.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/raw_publisher.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/raw_publisher.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/raw_subscriber.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/raw_subscriber.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/simple_publisher_plugin.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/simple_publisher_plugin.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/simple_subscriber_plugin.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/simple_subscriber_plugin.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/single_subscriber_publisher.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/single_subscriber_publisher.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber_filter.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber_filter.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber_plugin.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber_plugin.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/transport_hints.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/transport_hints.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/visibility_control.hpp
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/image_transport/src' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/camera_common.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/camera_publisher.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/camera_subscriber.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/image_transport.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/list_transports.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/manifest.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/publisher.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/republish.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/single_subscriber_publisher.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/subscriber.cpp
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/image_transport/test' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_camera_common.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_message_passing.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_publisher.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_remapping.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_single_subscriber_publisher.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_subscriber.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/utils.hpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cpplint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cpplint</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/lint_cmake.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0979008</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/lint_cmake.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/image_transport':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/shengbin/camera_ws/build/image_transport/test_results/image_transport/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>uncrustify</Name>
+			<Path>.</Path>
+			<FullName>./uncrustify</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/uncrustify.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/uncrustify.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.155155</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/uncrustify.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/uncrustify.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/image_transport/test_results/image_transport/uncrustify.xunit.xml
+No code style divergence in file 'include/image_transport/camera_common.h'
+
+No code style divergence in file 'include/image_transport/camera_common.hpp'
+
+No code style divergence in file 'include/image_transport/camera_publisher.h'
+
+No code style divergence in file 'include/image_transport/camera_publisher.hpp'
+
+No code style divergence in file 'include/image_transport/camera_subscriber.h'
+
+No code style divergence in file 'include/image_transport/camera_subscriber.hpp'
+
+No code style divergence in file 'include/image_transport/exception.h'
+
+No code style divergence in file 'include/image_transport/exception.hpp'
+
+No code style divergence in file 'include/image_transport/image_transport.h'
+
+No code style divergence in file 'include/image_transport/image_transport.hpp'
+
+No code style divergence in file 'include/image_transport/loader_fwds.h'
+
+No code style divergence in file 'include/image_transport/loader_fwds.hpp'
+
+No code style divergence in file 'include/image_transport/publisher.h'
+
+No code style divergence in file 'include/image_transport/publisher.hpp'
+
+No code style divergence in file 'include/image_transport/publisher_plugin.h'
+
+No code style divergence in file 'include/image_transport/publisher_plugin.hpp'
+
+No code style divergence in file 'include/image_transport/raw_publisher.h'
+
+No code style divergence in file 'include/image_transport/raw_publisher.hpp'
+
+No code style divergence in file 'include/image_transport/raw_subscriber.h'
+
+No code style divergence in file 'include/image_transport/raw_subscriber.hpp'
+
+No code style divergence in file 'include/image_transport/simple_publisher_plugin.h'
+
+No code style divergence in file 'include/image_transport/simple_publisher_plugin.hpp'
+
+No code style divergence in file 'include/image_transport/simple_subscriber_plugin.h'
+
+No code style divergence in file 'include/image_transport/simple_subscriber_plugin.hpp'
+
+No code style divergence in file 'include/image_transport/single_subscriber_publisher.h'
+
+No code style divergence in file 'include/image_transport/single_subscriber_publisher.hpp'
+
+No code style divergence in file 'include/image_transport/subscriber.h'
+
+No code style divergence in file 'include/image_transport/subscriber.hpp'
+
+No code style divergence in file 'include/image_transport/subscriber_filter.h'
+
+No code style divergence in file 'include/image_transport/subscriber_filter.hpp'
+
+No code style divergence in file 'include/image_transport/subscriber_plugin.h'
+
+No code style divergence in file 'include/image_transport/subscriber_plugin.hpp'
+
+No code style divergence in file 'include/image_transport/transport_hints.h'
+
+No code style divergence in file 'include/image_transport/transport_hints.hpp'
+
+No code style divergence in file 'include/image_transport/visibility_control.hpp'
+
+No code style divergence in file 'src/camera_common.cpp'
+
+No code style divergence in file 'src/camera_publisher.cpp'
+
+No code style divergence in file 'src/camera_subscriber.cpp'
+
+No code style divergence in file 'src/image_transport.cpp'
+
+No code style divergence in file 'src/list_transports.cpp'
+
+No code style divergence in file 'src/manifest.cpp'
+
+No code style divergence in file 'src/publisher.cpp'
+
+No code style divergence in file 'src/republish.cpp'
+
+No code style divergence in file 'src/single_subscriber_publisher.cpp'
+
+No code style divergence in file 'src/subscriber.cpp'
+
+No code style divergence in file 'test/test_camera_common.cpp'
+
+No code style divergence in file 'test/test_message_passing.cpp'
+
+No code style divergence in file 'test/test_publisher.cpp'
+
+No code style divergence in file 'test/test_remapping.cpp'
+
+No code style divergence in file 'test/test_single_subscriber_publisher.cpp'
+
+No code style divergence in file 'test/test_subscriber.cpp'
+
+No code style divergence in file 'test/utils.hpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/uncrustify.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>uncrustify</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/xmllint.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.105896</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/xmllint.xunit.xml" "--package-name" "image_transport" "--output-file" "/home/shengbin/camera_ws/build/image_transport/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/image_transport':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/shengbin/camera_ws/build/image_transport/test_results/image_transport/xmllint.xunit.xml
+File 'default_plugins.xml' is valid
+
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Oct 13 19:52 +08</EndDateTime>
+		<EndTestTime>1697197969</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,20 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_transport':
+ - /home/shengbin/camera_ws/build/image_transport/image_transport-remapping --gtest_output=xml:/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-remapping.gtest.xml
+
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestPublisher
+[ RUN      ] TestPublisher.RemappedPublisher
+1697197966.532281 [232] image_tran: selected interface "lo" is not multicast-capable: disabling multicast
+Waited 0 microseconds for the subscriber to connect to topic '/namespace/new_topic'
+[       OK ] TestPublisher.RemappedPublisher (407 ms)
+[----------] 1 test from TestPublisher (407 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (407 ms total)
+[  PASSED  ] 1 test.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-remapping.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/image_transport-remapping.gtest.xml'

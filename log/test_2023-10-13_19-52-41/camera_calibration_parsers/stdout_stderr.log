@@ -1,0 +1,195 @@
+UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/camera_calibration_parsers/CTestConfiguration.ini
+Parse Config file:/home/shengbin/camera_ws/build/camera_calibration_parsers/CTestConfiguration.ini
+   Site: shengbin-Zenbook-UX3402VA-UX3402VA
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20231013-1152 - Experimental
+UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/camera_calibration_parsers/CTestConfiguration.ini
+Parse Config file:/home/shengbin/camera_ws/build/camera_calibration_parsers/CTestConfiguration.ini
+Test project /home/shengbin/camera_ws/build/camera_calibration_parsers
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: cpplint
+
+1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/cpplint.xunit.xml" "--package-name" "camera_calibration_parsers" "--output-file" "/home/shengbin/camera_ws/build/camera_calibration_parsers/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/cpplint.xunit.xml"
+1: Test timeout computed to be: 120
+1: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers':
+1:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/cpplint.xunit.xml
+1: Using '--root=/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include' argument
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse.h
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse.hpp
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.h
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.hpp
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse_yml.h
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse_yml.hpp
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/visibility_control.hpp
+1: 
+1: Using '--root=/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src' argument
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src/convert.cpp
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src/parse.cpp
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src/parse_ini.cpp
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src/parse_wrapper.cpp
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src/parse_yml.cpp
+1: 
+1: Using '--root=/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/test' argument
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/test/make_calibs.hpp
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/test/test_parse_ini.cpp
+1: 
+1: Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/test/test_parse_yml.cpp
+1: 
+1: No problems found
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/cpplint.xunit.xml'
+1/5 Test #1: cpplint ................................   Passed    0.41 sec
+test 2
+    Start 2: lint_cmake
+
+2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/lint_cmake.xunit.xml" "--package-name" "camera_calibration_parsers" "--output-file" "/home/shengbin/camera_ws/build/camera_calibration_parsers/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/lint_cmake.xunit.xml"
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers':
+2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/lint_cmake.xunit.xml
+2: 
+2: No problems found
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/lint_cmake.xunit.xml'
+2/5 Test #2: lint_cmake .............................   Passed    0.13 sec
+test 3
+    Start 3: uncrustify
+
+3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/uncrustify.xunit.xml" "--package-name" "camera_calibration_parsers" "--output-file" "/home/shengbin/camera_ws/build/camera_calibration_parsers/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/uncrustify.xunit.xml"
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers':
+3:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/uncrustify.xunit.xml
+3: No code style divergence in file 'include/camera_calibration_parsers/parse.h'
+3: 
+3: No code style divergence in file 'include/camera_calibration_parsers/parse.hpp'
+3: 
+3: No code style divergence in file 'include/camera_calibration_parsers/parse_ini.h'
+3: 
+3: No code style divergence in file 'include/camera_calibration_parsers/parse_ini.hpp'
+3: 
+3: No code style divergence in file 'include/camera_calibration_parsers/parse_yml.h'
+3: 
+3: No code style divergence in file 'include/camera_calibration_parsers/parse_yml.hpp'
+3: 
+3: No code style divergence in file 'include/camera_calibration_parsers/visibility_control.hpp'
+3: 
+3: No code style divergence in file 'src/convert.cpp'
+3: 
+3: No code style divergence in file 'src/parse.cpp'
+3: 
+3: No code style divergence in file 'src/parse_ini.cpp'
+3: 
+3: No code style divergence in file 'src/parse_wrapper.cpp'
+3: 
+3: No code style divergence in file 'src/parse_yml.cpp'
+3: 
+3: No code style divergence in file 'test/make_calibs.hpp'
+3: 
+3: No code style divergence in file 'test/test_parse_ini.cpp'
+3: 
+3: No code style divergence in file 'test/test_parse_yml.cpp'
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/uncrustify.xunit.xml'
+3/5 Test #3: uncrustify .............................   Passed    0.15 sec
+test 4
+    Start 4: camera_calibration_parsers-parse_ini
+
+4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_ini.gtest.xml" "--package-name" "camera_calibration_parsers" "--output-file" "/home/shengbin/camera_ws/build/camera_calibration_parsers/ament_cmake_gtest/camera_calibration_parsers-parse_ini.txt" "--command" "/home/shengbin/camera_ws/build/camera_calibration_parsers/camera_calibration_parsers-parse_ini" "--gtest_output=xml:/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_ini.gtest.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/camera_calibration_parsers':
+4:  - /home/shengbin/camera_ws/build/camera_calibration_parsers/camera_calibration_parsers-parse_ini --gtest_output=xml:/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_ini.gtest.xml
+4: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+4: [==========] Running 6 tests from 1 test suite.
+4: [----------] Global test environment set-up.
+4: [----------] 6 tests from ParseIni
+4: [ RUN      ] ParseIni.parse_valid_ini_calib5
+4: [       OK ] ParseIni.parse_valid_ini_calib5 (0 ms)
+4: [ RUN      ] ParseIni.parse_valid_ini_calib8
+4: [       OK ] ParseIni.parse_valid_ini_calib8 (0 ms)
+4: [ RUN      ] ParseIni.parse_invalid_ini_calib5
+4: [ERROR] [1697197962.786012073] [camera_calibration_parsers]: Error parsing 'camera matrix', incorrect size
+4: [       OK ] ParseIni.parse_invalid_ini_calib5 (1 ms)
+4: [ RUN      ] ParseIni.parse_invalid_ini_calib5_2
+4: [ERROR] [1697197962.786038305] [camera_calibration_parsers]: Error parsing 'camera matrix', incorrect size
+4: [       OK ] ParseIni.parse_invalid_ini_calib5_2 (0 ms)
+4: [ RUN      ] ParseIni.roundtrip_calib5
+4: [       OK ] ParseIni.roundtrip_calib5 (0 ms)
+4: [ RUN      ] ParseIni.cant_write_calib8
+4: [ERROR] [1697197962.786243218] [camera_calibration_parsers]: Videre INI format can only save calibrations using the plumb bob distortion model. Use the YAML format instead.
+4: 	distortion_model = 'rational_polynomial', expected 'plumb_bob'
+4: 	D.size() = 8, expected 5
+4: [       OK ] ParseIni.cant_write_calib8 (0 ms)
+4: [----------] 6 tests from ParseIni (1 ms total)
+4: 
+4: [----------] Global test environment tear-down
+4: [==========] 6 tests from 1 test suite ran. (1 ms total)
+4: [  PASSED  ] 6 tests.
+4: -- run_test.py: return code 0
+4: -- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_ini.gtest.xml'
+4: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_ini.gtest.xml'
+4/5 Test #4: camera_calibration_parsers-parse_ini ...   Passed    0.05 sec
+test 5
+    Start 5: camera_calibration_parsers-parse_yml
+
+5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_yml.gtest.xml" "--package-name" "camera_calibration_parsers" "--output-file" "/home/shengbin/camera_ws/build/camera_calibration_parsers/ament_cmake_gtest/camera_calibration_parsers-parse_yml.txt" "--command" "/home/shengbin/camera_ws/build/camera_calibration_parsers/camera_calibration_parsers-parse_yml" "--gtest_output=xml:/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_yml.gtest.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/camera_calibration_parsers':
+5:  - /home/shengbin/camera_ws/build/camera_calibration_parsers/camera_calibration_parsers-parse_yml --gtest_output=xml:/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_yml.gtest.xml
+5: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+5: [==========] Running 5 tests from 1 test suite.
+5: [----------] Global test environment set-up.
+5: [----------] 5 tests from ParseYml
+5: [ RUN      ] ParseYml.parse_valid_yml_calib5
+5: [       OK ] ParseYml.parse_valid_yml_calib5 (0 ms)
+5: [ RUN      ] ParseYml.parse_valid_yml_calib8
+5: [       OK ] ParseYml.parse_valid_yml_calib8 (0 ms)
+5: [ RUN      ] ParseYml.parse_invalid_yml_calib5
+5: [WARN] [1697197962.843157345] [camera_calibration_parsers]: Exception parsing YAML camera calibration:
+5: invalid node; first invalid key: "rows"
+5: [       OK ] ParseYml.parse_invalid_yml_calib5 (1 ms)
+5: [ RUN      ] ParseYml.roundtrip_calib5
+5: [       OK ] ParseYml.roundtrip_calib5 (0 ms)
+5: [ RUN      ] ParseYml.roundtrip_calib8
+5: [       OK ] ParseYml.roundtrip_calib8 (0 ms)
+5: [----------] 5 tests from ParseYml (1 ms total)
+5: 
+5: [----------] Global test environment tear-down
+5: [==========] 5 tests from 1 test suite ran. (1 ms total)
+5: [  PASSED  ] 5 tests.
+5: -- run_test.py: return code 0
+5: -- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_yml.gtest.xml'
+5: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_yml.gtest.xml'
+5/5 Test #5: camera_calibration_parsers-parse_yml ...   Passed    0.06 sec
+
+[0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 5
+
+Label Time Summary:
+cpplint       =   0.41 sec*proc (1 test)
+gtest         =   0.11 sec*proc (2 tests)
+lint_cmake    =   0.13 sec*proc (1 test)
+linter        =   0.70 sec*proc (3 tests)
+uncrustify    =   0.15 sec*proc (1 test)
+
+Total Test time (real) =   0.81 sec

@@ -1,0 +1,44 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/cpplint.xunit.xml
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse_yml.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/parse_yml.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/include/camera_calibration_parsers/visibility_control.hpp
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src/convert.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src/parse.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src/parse_ini.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src/parse_wrapper.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/src/parse_yml.cpp
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/test' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/test/make_calibs.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/test/test_parse_ini.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/camera_calibration_parsers/test/test_parse_yml.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/cpplint.xunit.xml'

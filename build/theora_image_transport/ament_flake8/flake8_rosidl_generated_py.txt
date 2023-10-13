@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/flake8_rosidl_generated_py.xunit.xml --linelength 999 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport
+
+
+3 files checked
+No problems found
+
+Checked files:
+
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/__init__.py
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/_packet.py
+* /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/__init__.py
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/flake8_rosidl_generated_py.xunit.xml'

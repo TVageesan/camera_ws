@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.233" timestamp="2023-10-13T19:52:42.252835" hostname="shengbin-Zenbook-UX3402VA-UX3402VA"><testcase classname="camera.test.test_copyright" name="test_copyright" time="0.000"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/shengbin/camera_ws/src/camera/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="camera.test.test_flake8" name="test_flake8" time="0.103"><failure message="AssertionError: Found 45 code style errors / warnings:&#10;  ./camera/cam_process.py:2:100: E501 line too long (124 &gt; 99 characters)&#10;  ./camera/cam_process.py:6:1: F401 'numpy as np' imported but unused&#10;  ./camera/cam_process.py:7:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused&#10;  ./camera/cam_process.py:11:1: E302 expected 2 blank lines, found 1&#10;  ./camera/cam_process.py:28:66: W291 trailing whitespace&#10;  ./camera/cam_process.py:31:9: E265 block comment should start with '# '&#10;  ./camera/cam_process.py:31:67: W291 trailing whitespace&#10;  ./camera/cam_process.py:35:1: W293 blank line contains whitespace&#10;  ./camera/cam_process.py:36:1: E303 too many blank lines (3)&#10;  ./camera/cam_process.py:44:1: W293 blank line contains whitespace&#10;  ./camera/cam_process.py:45:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./camera/cam_process.py:45:12: E225 missing whitespace around operator&#10;  ./camera/cam_sub.py:3:1: F401 'numpy as np' imported but unused&#10;  ./camera/cam_sub.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused&#10;  ./camera/cam_sub.py:8:1: E302 expected 2 blank lines, found 1&#10;  ./camera/cam_sub.py:23:9: E265 block comment should start with '# '&#10;  ./camera/cam_sub.py:25:68: W291 trailing whitespace&#10;  ./camera/cam_sub.py:28:69: W291 trailing whitespace&#10;  ./camera/cam_sub.py:33:1: W293 blank line contains whitespace&#10;  ./camera/cam_sub.py:34:1: E303 too many blank lines (3)&#10;  ./camera/cam_sub.py:42:1: W293 blank line contains whitespace&#10;  ./camera/cam_sub.py:43:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./camera/cam_sub.py:43:12: E225 missing whitespace around operator&#10;  ./camera/cam_pub.py:3:1: F401 'numpy as np' imported but unused&#10;  ./camera/cam_pub.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused&#10;  ./camera/cam_pub.py:10:1: E302 expected 2 blank lines, found 1&#10;  ./camera/cam_pub.py:16:1: W293 blank line contains whitespace&#10;  ./camera/cam_pub.py:17:52: E231 missing whitespace after ','&#10;  ./camera/cam_pub.py:17:100: E501 line too long (106 &gt; 99 characters)&#10;  ./camera/cam_pub.py:20:5: E303 too many blank lines (2)&#10;  ./camera/cam_pub.py:32:1: W293 blank line contains whitespace&#10;  ./camera/cam_pub.py:34:9: E303 too many blank lines (2)&#10;  ./camera/cam_pub.py:35:1: W293 blank line contains whitespace&#10;  ./camera/cam_pub.py:36:1: E302 expected 2 blank lines, found 1&#10;  ./camera/cam_pub.py:44:1: W293 blank line contains whitespace&#10;  ./camera/cam_pub.py:45:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./camera/cam_pub.py:45:12: E225 missing whitespace around operator&#10;  ./camera/cam_oflow.py:3:1: F401 'numpy as np' imported but unused&#10;  ./camera/cam_oflow.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused&#10;  ./camera/cam_oflow.py:8:1: E302 expected 2 blank lines, found 1&#10;  ./camera/cam_oflow.py:24:66: W291 trailing whitespace&#10;  ./camera/cam_oflow.py:27:1: W293 blank line contains whitespace&#10;  ./camera/cam_oflow.py:36:1: W293 blank line contains whitespace&#10;  ./camera/cam_oflow.py:37:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./camera/cam_oflow.py:37:12: E225 missing whitespace around operator&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 45 code style errors / warnings:
+E     ./camera/cam_process.py:2:100: E501 line too long (124 &gt; 99 characters)
+E     ./camera/cam_process.py:6:1: F401 'numpy as np' imported but unused
+E     ./camera/cam_process.py:7:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused
+E     ./camera/cam_process.py:11:1: E302 expected 2 blank lines, found 1
+E     ./camera/cam_process.py:28:66: W291 trailing whitespace
+E     ./camera/cam_process.py:31:9: E265 block comment should start with '# '
+E     ./camera/cam_process.py:31:67: W291 trailing whitespace
+E     ./camera/cam_process.py:35:1: W293 blank line contains whitespace
+E     ./camera/cam_process.py:36:1: E303 too many blank lines (3)
+E     ./camera/cam_process.py:44:1: W293 blank line contains whitespace
+E     ./camera/cam_process.py:45:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./camera/cam_process.py:45:12: E225 missing whitespace around operator
+E     ./camera/cam_sub.py:3:1: F401 'numpy as np' imported but unused
+E     ./camera/cam_sub.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused
+E     ./camera/cam_sub.py:8:1: E302 expected 2 blank lines, found 1
+E     ./camera/cam_sub.py:23:9: E265 block comment should start with '# '
+E     ./camera/cam_sub.py:25:68: W291 trailing whitespace
+E     ./camera/cam_sub.py:28:69: W291 trailing whitespace
+E     ./camera/cam_sub.py:33:1: W293 blank line contains whitespace
+E     ./camera/cam_sub.py:34:1: E303 too many blank lines (3)
+E     ./camera/cam_sub.py:42:1: W293 blank line contains whitespace
+E     ./camera/cam_sub.py:43:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./camera/cam_sub.py:43:12: E225 missing whitespace around operator
+E     ./camera/cam_pub.py:3:1: F401 'numpy as np' imported but unused
+E     ./camera/cam_pub.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused
+E     ./camera/cam_pub.py:10:1: E302 expected 2 blank lines, found 1
+E     ./camera/cam_pub.py:16:1: W293 blank line contains whitespace
+E     ./camera/cam_pub.py:17:52: E231 missing whitespace after ','
+E     ./camera/cam_pub.py:17:100: E501 line too long (106 &gt; 99 characters)
+E     ./camera/cam_pub.py:20:5: E303 too many blank lines (2)
+E     ./camera/cam_pub.py:32:1: W293 blank line contains whitespace
+E     ./camera/cam_pub.py:34:9: E303 too many blank lines (2)
+E     ./camera/cam_pub.py:35:1: W293 blank line contains whitespace
+E     ./camera/cam_pub.py:36:1: E302 expected 2 blank lines, found 1
+E     ./camera/cam_pub.py:44:1: W293 blank line contains whitespace
+E     ./camera/cam_pub.py:45:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./camera/cam_pub.py:45:12: E225 missing whitespace around operator
+E     ./camera/cam_oflow.py:3:1: F401 'numpy as np' imported but unused
+E     ./camera/cam_oflow.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused
+E     ./camera/cam_oflow.py:8:1: E302 expected 2 blank lines, found 1
+E     ./camera/cam_oflow.py:24:66: W291 trailing whitespace
+E     ./camera/cam_oflow.py:27:1: W293 blank line contains whitespace
+E     ./camera/cam_oflow.py:36:1: W293 blank line contains whitespace
+E     ./camera/cam_oflow.py:37:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./camera/cam_oflow.py:37:12: E225 missing whitespace around operator
+E   assert 1 == 0</failure></testcase><testcase classname="camera.test.test_pep257" name="test_pep257" time="0.019" /></testsuite></testsuites>

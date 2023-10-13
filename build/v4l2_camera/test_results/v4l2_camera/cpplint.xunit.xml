@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="v4l2_camera.cpplint"
+  tests="13"
+  failures="0"
+  errors="0"
+  time="0.226"
+>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/control.hpp"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/fourcc.hpp"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/image_format.hpp"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/parameters.hpp"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/pixel_format.hpp"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera.hpp"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/visibility_control.h"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/src/parameters.cpp"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_compose_test.cpp"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_device.cpp"
+    classname="v4l2_camera.cpplint"/>
+  <testcase
+    name="/home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_node.cpp"
+    classname="v4l2_camera.cpplint"/>
+  <system-out>Checked files:
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/control.hpp
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/fourcc.hpp
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/image_format.hpp
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/parameters.hpp
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/pixel_format.hpp
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/visibility_control.h
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/parameters.cpp
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_compose_test.cpp
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_device.cpp
+* /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_node.cpp</system-out>
+</testsuite>

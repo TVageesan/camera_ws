@@ -1,0 +1,76 @@
+[0.120s] Invoking command in '/home/shengbin/camera_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/home/shengbin/hornet/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/image_transport -- -j16 -l16
+[0.136s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.239s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.245s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[0.267s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.268s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.272s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.280s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.340s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.342s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.380s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.584s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.599s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.687s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.738s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.752s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.753s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.753s] -- Configured cpplint exclude dirs and/or files: 
+[0.753s] -- Added test 'lint_cmake' to check CMake code style
+[0.754s] -- Added test 'uncrustify' to check C / C++ code style
+[0.754s] -- Configured uncrustify additional arguments: 
+[0.755s] -- Added test 'xmllint' to check XML markup files
+[0.755s] -- Configuring done
+[0.787s] -- Generating done
+[0.790s] -- Build files have been written to: /home/shengbin/camera_ws/build/image_transport
+[0.828s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.828s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.832s] [35m[1mConsolidate compiler generated dependencies of target image_transport[0m
+[0.847s] [ 13%] Built target gtest
+[0.847s] [ 13%] Built target gtest_main
+[0.867s] [ 16%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_common.cpp.o[0m
+[0.870s] [ 20%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/single_subscriber_publisher.cpp.o[0m
+[0.871s] [ 26%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/publisher.cpp.o[0m
+[0.871s] [ 26%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/subscriber.cpp.o[0m
+[0.872s] [ 30%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_publisher.cpp.o[0m
+[0.873s] [ 33%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_subscriber.cpp.o[0m
+[0.874s] [ 36%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/image_transport.cpp.o[0m
+[8.668s] [ 40%] [32m[1mLinking CXX shared library libimage_transport.so[0m
+[9.138s] [ 40%] Built target image_transport
+[9.147s] [35m[1mConsolidate compiler generated dependencies of target image_transport_plugins[0m
+[9.147s] [35m[1mConsolidate compiler generated dependencies of target list_transports[0m
+[9.148s] [35m[1mConsolidate compiler generated dependencies of target image_transport-remapping[0m
+[9.152s] [35m[1mConsolidate compiler generated dependencies of target image_transport-camera_common[0m
+[9.152s] [35m[1mConsolidate compiler generated dependencies of target republish[0m
+[9.152s] [35m[1mConsolidate compiler generated dependencies of target image_transport-publisher[0m
+[9.152s] [35m[1mConsolidate compiler generated dependencies of target image_transport-subscriber[0m
+[9.152s] [35m[1mConsolidate compiler generated dependencies of target image_transport-message_passing[0m
+[9.153s] [35m[1mConsolidate compiler generated dependencies of target image_transport-single_subscriber_publisher[0m
+[9.160s] [ 46%] [32mBuilding CXX object CMakeFiles/image_transport_plugins.dir/src/manifest.cpp.o[0m
+[9.160s] [ 46%] [32mBuilding CXX object CMakeFiles/list_transports.dir/src/list_transports.cpp.o[0m
+[9.161s] [ 50%] [32mBuilding CXX object CMakeFiles/image_transport-remapping.dir/test/test_remapping.cpp.o[0m
+[9.169s] [ 53%] [32mBuilding CXX object CMakeFiles/image_transport-camera_common.dir/test/test_camera_common.cpp.o[0m
+[9.171s] [ 56%] [32mBuilding CXX object CMakeFiles/image_transport-single_subscriber_publisher.dir/test/test_single_subscriber_publisher.cpp.o[0m
+[9.176s] [ 70%] [32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o[0m
+[9.176s] [ 70%] [32mBuilding CXX object CMakeFiles/image_transport-subscriber.dir/test/test_subscriber.cpp.o[0m
+[9.176s] [ 70%] [32mBuilding CXX object CMakeFiles/image_transport-message_passing.dir/test/test_message_passing.cpp.o[0m
+[9.176s] [ 70%] [32mBuilding CXX object CMakeFiles/image_transport-publisher.dir/test/test_publisher.cpp.o[0m
+[10.368s] [ 73%] [32m[1mLinking CXX executable image_transport-camera_common[0m
+[10.951s] [ 73%] Built target image_transport-camera_common
+[12.816s] [ 76%] [32m[1mLinking CXX executable list_transports[0m
+[13.076s] [ 76%] Built target list_transports
+[13.407s] [ 80%] [32m[1mLinking CXX executable image_transport-remapping[0m
+[13.859s] [ 83%] [32m[1mLinking CXX executable image_transport-message_passing[0m
+[13.895s] [ 83%] Built target image_transport-remapping
+[14.125s] [ 83%] Built target image_transport-message_passing
+[14.133s] [ 86%] [32m[1mLinking CXX executable image_transport-publisher[0m
+[14.351s] [ 90%] [32m[1mLinking CXX executable image_transport-single_subscriber_publisher[0m
+[14.384s] [ 90%] Built target image_transport-publisher
+[14.511s] [ 93%] [32m[1mLinking CXX executable republish[0m
+[14.618s] [ 93%] Built target image_transport-single_subscriber_publisher
+[14.743s] [ 96%] [32m[1mLinking CXX executable image_transport-subscriber[0m
+[14.800s] [ 96%] Built target republish
+[14.976s] [ 96%] Built target image_transport-subscriber
+[15.121s] [100%] [32m[1mLinking CXX shared library libimage_transport_plugins.so[0m
+[15.408s] [100%] Built target image_transport_plugins

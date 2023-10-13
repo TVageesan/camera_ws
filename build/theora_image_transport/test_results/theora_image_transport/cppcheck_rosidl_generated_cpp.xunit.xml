@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="theora_image_transport.cppcheck_rosidl_generated_cpp"
+  tests="4"
+  errors="0"
+  failures="0"
+  time="0.000"
+  skipped="4"
+>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/detail/packet__builder.hpp"
+    classname="theora_image_transport.cppcheck_rosidl_generated_cpp"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/detail/packet__struct.hpp"
+    classname="theora_image_transport.cppcheck_rosidl_generated_cpp"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/detail/packet__traits.hpp"
+    classname="theora_image_transport.cppcheck_rosidl_generated_cpp"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_cpp/theora_image_transport/msg/packet.hpp"
+    classname="theora_image_transport.cppcheck_rosidl_generated_cpp"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

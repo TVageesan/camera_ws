@@ -1,0 +1,118 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cpplint.xunit.xml
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/image_transport/include' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_common.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_common.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_publisher.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_publisher.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_subscriber.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/camera_subscriber.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/exception.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/exception.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/image_transport.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/image_transport.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/loader_fwds.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/loader_fwds.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/publisher.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/publisher.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/publisher_plugin.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/publisher_plugin.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/raw_publisher.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/raw_publisher.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/raw_subscriber.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/raw_subscriber.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/simple_publisher_plugin.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/simple_publisher_plugin.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/simple_subscriber_plugin.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/simple_subscriber_plugin.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/single_subscriber_publisher.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/single_subscriber_publisher.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber_filter.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber_filter.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber_plugin.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/subscriber_plugin.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/transport_hints.h
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/transport_hints.hpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/include/image_transport/visibility_control.hpp
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/image_transport/src' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/camera_common.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/camera_publisher.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/camera_subscriber.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/image_transport.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/list_transports.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/manifest.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/publisher.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/republish.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/single_subscriber_publisher.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/src/subscriber.cpp
+
+Using '--root=/home/shengbin/camera_ws/src/image_common/image_transport/test' argument
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_camera_common.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_message_passing.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_publisher.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_remapping.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_single_subscriber_publisher.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/test_subscriber.cpp
+
+Done processing /home/shengbin/camera_ws/src/image_common/image_transport/test/utils.hpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_transport/test_results/image_transport/cpplint.xunit.xml'

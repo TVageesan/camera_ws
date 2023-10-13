@@ -1,0 +1,138 @@
+[0.459s] Invoking command in '/home/shengbin/camera_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.471s] UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/cv_bridge/CTestConfiguration.ini
+[0.472s] Parse Config file:/home/shengbin/camera_ws/build/cv_bridge/CTestConfiguration.ini
+[0.472s]    Site: shengbin-Zenbook-UX3402VA-UX3402VA
+[0.472s]    Build name: (empty)
+[0.472s]  Add coverage exclude regular expressions.
+[0.473s] Create new tag: 20231013-1152 - Experimental
+[0.473s] UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/cv_bridge/CTestConfiguration.ini
+[0.473s] Parse Config file:/home/shengbin/camera_ws/build/cv_bridge/CTestConfiguration.ini
+[0.473s] Test project /home/shengbin/camera_ws/build/cv_bridge
+[0.473s] Constructing a list of tests
+[0.475s] Done constructing a list of tests
+[0.475s] Updating test list for fixtures
+[0.475s] Added 0 tests to meet fixture requirements
+[0.475s] Checking test dependency graph...
+[0.475s] Checking test dependency graph end
+[0.475s] test 1
+[0.475s]     Start 1: cv_bridge-utest
+[0.476s] 
+[0.476s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml" "--package-name" "cv_bridge" "--output-file" "/home/shengbin/camera_ws/build/cv_bridge/ament_cmake_gtest/cv_bridge-utest.txt" "--append-env" "LD_LIBRARY_PATH=/home/shengbin/camera_ws/build/cv_bridge/src" "--command" "/home/shengbin/camera_ws/build/cv_bridge/test/cv_bridge-utest" "--gtest_output=xml:/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml"
+[0.476s] 1: Test timeout computed to be: 60
+[0.529s] 1: -- run_test.py: extra environment variables to append:
+[0.529s] 1:  - LD_LIBRARY_PATH+=/home/shengbin/camera_ws/build/cv_bridge/src
+[0.529s] 1: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/cv_bridge/test':
+[0.529s] 1:  - /home/shengbin/camera_ws/build/cv_bridge/test/cv_bridge-utest --gtest_output=xml:/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml
+[0.562s] 1: [==========] Running 9 tests from 3 test suites.
+[0.563s] 1: [----------] Global test environment set-up.
+[0.563s] 1: [----------] 7 tests from CvBridgeTest
+[0.563s] 1: [ RUN      ] CvBridgeTest.endianness
+[0.563s] 1: [       OK ] CvBridgeTest.endianness (1 ms)
+[0.563s] 1: [ RUN      ] CvBridgeTest.compression
+[0.567s] 1: [       OK ] CvBridgeTest.compression (2 ms)
+[0.567s] 1: [ RUN      ] CvBridgeTest.NonContinuous
+[0.567s] 1: [       OK ] CvBridgeTest.NonContinuous (0 ms)
+[0.567s] 1: [ RUN      ] CvBridgeTest.ChannelOrder
+[0.567s] 1: [       OK ] CvBridgeTest.ChannelOrder (1 ms)
+[0.567s] 1: [ RUN      ] CvBridgeTest.initialization
+[0.567s] 1: [       OK ] CvBridgeTest.initialization (3 ms)
+[0.567s] 1: [ RUN      ] CvBridgeTest.imageMessageStep
+[0.567s] 1: [       OK ] CvBridgeTest.imageMessageStep (0 ms)
+[0.568s] 1: [ RUN      ] CvBridgeTest.imageMessageConversion
+[0.568s] 1: [       OK ] CvBridgeTest.imageMessageConversion (2 ms)
+[0.568s] 1: [----------] 7 tests from CvBridgeTest (9 ms total)
+[0.569s] 1: 
+[0.569s] 1: [----------] 1 test from OpencvTests
+[0.569s] 1: [ RUN      ] OpencvTests.testCase_encode_decode
+[0.904s] 1: [       OK ] OpencvTests.testCase_encode_decode (335 ms)
+[0.904s] 1: [----------] 1 test from OpencvTests (335 ms total)
+[0.904s] 1: 
+[0.904s] 1: [----------] 1 test from RGBColors
+[0.904s] 1: [ RUN      ] RGBColors.testGetRGBColor
+[0.904s] 1: [       OK ] RGBColors.testGetRGBColor (0 ms)
+[0.904s] 1: [----------] 1 test from RGBColors (0 ms total)
+[0.904s] 1: 
+[0.904s] 1: [----------] Global test environment tear-down
+[0.904s] 1: [==========] 9 tests from 3 test suites ran. (344 ms total)
+[0.905s] 1: [  PASSED  ] 9 tests.
+[0.912s] 1: -- run_test.py: return code 0
+[0.912s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml'
+[0.912s] 1: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/cv_bridge-utest.gtest.xml'
+[0.923s] 1/4 Test #1: cv_bridge-utest ..................   Passed    0.45 sec
+[0.924s] test 2
+[0.924s]     Start 2: enumerants.py
+[0.924s] 
+[0.924s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/shengbin/camera_ws/build/cv_bridge/ament_cmake_pytest/enumerants.py.txt" "--command" "/usr/bin/python3.10" "-u" "-m" "pytest" "/home/shengbin/camera_ws/src/vision_opencv/cv_bridge/test/enumerants.py" "-o" "cache_dir=/home/shengbin/camera_ws/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache" "--junit-xml=/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml" "--junit-prefix=cv_bridge"
+[0.924s] 2: Test timeout computed to be: 60
+[0.993s] 2: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/cv_bridge/test':
+[0.993s] 2:  - /usr/bin/python3.10 -u -m pytest /home/shengbin/camera_ws/src/vision_opencv/cv_bridge/test/enumerants.py -o cache_dir=/home/shengbin/camera_ws/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache --junit-xml=/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml --junit-prefix=cv_bridge
+[1.191s] 2: ============================= test session starts ==============================
+[1.192s] 2: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.194s] 2: cachedir: /home/shengbin/camera_ws/build/cv_bridge/test/ament_cmake_pytest/enumerants.py/.cache
+[1.194s] 2: rootdir: /home/shengbin/camera_ws/src/vision_opencv, configfile: pytest.ini
+[1.194s] 2: plugins: ament-flake8-0.12.8, ament-pep257-0.12.8, ament-copyright-0.12.8, ament-xmllint-0.12.8, ament-lint-0.12.8, launch-testing-1.0.4, launch-testing-ros-0.19.6, cov-3.0.0, colcon-core-0.15.0
+[1.497s] 2: collected 2 items
+[1.497s] 2: 
+[1.612s] 2: ../../../src/vision_opencv/cv_bridge/test/enumerants.py ..               [100%]
+[1.613s] 2: 
+[1.613s] 2: - generated xml file: /home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml -
+[1.613s] 2: ============================== 2 passed in 0.42s ===============================
+[1.672s] 2: -- run_test.py: return code 0
+[1.672s] 2: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/enumerants.py.xunit.xml'
+[1.682s] 2/4 Test #2: enumerants.py ....................   Passed    0.76 sec
+[1.682s] test 3
+[1.682s]     Start 3: conversions.py
+[1.683s] 
+[1.683s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/shengbin/camera_ws/build/cv_bridge/ament_cmake_pytest/conversions.py.txt" "--command" "/usr/bin/python3.10" "-u" "-m" "pytest" "/home/shengbin/camera_ws/src/vision_opencv/cv_bridge/test/conversions.py" "-o" "cache_dir=/home/shengbin/camera_ws/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache" "--junit-xml=/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml" "--junit-prefix=cv_bridge"
+[1.683s] 3: Test timeout computed to be: 600
+[1.724s] 3: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/cv_bridge/test':
+[1.724s] 3:  - /usr/bin/python3.10 -u -m pytest /home/shengbin/camera_ws/src/vision_opencv/cv_bridge/test/conversions.py -o cache_dir=/home/shengbin/camera_ws/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache --junit-xml=/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml --junit-prefix=cv_bridge
+[1.918s] 3: ============================= test session starts ==============================
+[1.918s] 3: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.921s] 3: cachedir: /home/shengbin/camera_ws/build/cv_bridge/test/ament_cmake_pytest/conversions.py/.cache
+[1.921s] 3: rootdir: /home/shengbin/camera_ws/src/vision_opencv, configfile: pytest.ini
+[1.921s] 3: plugins: ament-flake8-0.12.8, ament-pep257-0.12.8, ament-copyright-0.12.8, ament-xmllint-0.12.8, ament-lint-0.12.8, launch-testing-1.0.4, launch-testing-ros-0.19.6, cov-3.0.0, colcon-core-0.15.0
+[2.181s] 3: collected 4 items
+[2.181s] 3: 
+[8.916s] 3: ../../../src/vision_opencv/cv_bridge/test/conversions.py ....            [100%]
+[8.917s] 3: 
+[8.917s] 3: =============================== warnings summary ===============================
+[8.919s] 3: cv_bridge/test/conversions.py: 7056 warnings
+[8.919s] 3:   Warning: tostring() is deprecated. Use tobytes() instead.
+[8.919s] 3: 
+[8.919s] 3: -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[8.919s] 3: - generated xml file: /home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml -
+[8.919s] 3: ======================= 4 passed, 7056 warnings in 7.00s =======================
+[9.015s] 3: -- run_test.py: return code 0
+[9.016s] 3: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/conversions.py.xunit.xml'
+[9.022s] 3/4 Test #3: conversions.py ...................   Passed    7.34 sec
+[9.022s] test 4
+[9.022s]     Start 4: python_bindings.py
+[9.022s] 
+[9.023s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml" "--package-name" "cv_bridge" "--output-file" "/home/shengbin/camera_ws/build/cv_bridge/ament_cmake_pytest/python_bindings.py.txt" "--command" "/usr/bin/python3.10" "-u" "-m" "pytest" "/home/shengbin/camera_ws/src/vision_opencv/cv_bridge/test/python_bindings.py" "-o" "cache_dir=/home/shengbin/camera_ws/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache" "--junit-xml=/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml" "--junit-prefix=cv_bridge"
+[9.023s] 4: Test timeout computed to be: 60
+[9.066s] 4: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/cv_bridge/test':
+[9.066s] 4:  - /usr/bin/python3.10 -u -m pytest /home/shengbin/camera_ws/src/vision_opencv/cv_bridge/test/python_bindings.py -o cache_dir=/home/shengbin/camera_ws/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache --junit-xml=/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml --junit-prefix=cv_bridge
+[9.251s] 4: ============================= test session starts ==============================
+[9.252s] 4: platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[9.254s] 4: cachedir: /home/shengbin/camera_ws/build/cv_bridge/test/ament_cmake_pytest/python_bindings.py/.cache
+[9.254s] 4: rootdir: /home/shengbin/camera_ws/src/vision_opencv, configfile: pytest.ini
+[9.255s] 4: plugins: ament-flake8-0.12.8, ament-pep257-0.12.8, ament-copyright-0.12.8, ament-xmllint-0.12.8, ament-lint-0.12.8, launch-testing-1.0.4, launch-testing-ros-0.19.6, cov-3.0.0, colcon-core-0.15.0
+[9.491s] 4: collected 1 item
+[9.491s] 4: 
+[9.531s] 4: ../../../src/vision_opencv/cv_bridge/test/python_bindings.py .           [100%]
+[9.531s] 4: 
+[9.531s] 4: - generated xml file: /home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml -
+[9.531s] 4: ============================== 1 passed in 0.28s ===============================
+[9.590s] 4: -- run_test.py: return code 0
+[9.590s] 4: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/cv_bridge/test_results/cv_bridge/python_bindings.py.xunit.xml'
+[9.597s] 4/4 Test #4: python_bindings.py ...............   Passed    0.57 sec
+[9.597s] 
+[9.597s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 4
+[9.597s] 
+[9.597s] Label Time Summary:
+[9.597s] gtest     =   0.45 sec*proc (1 test)
+[9.597s] pytest    =   8.67 sec*proc (3 tests)
+[9.597s] 
+[9.598s] Total Test time (real) =   9.13 sec
+[9.601s] Invoked command in '/home/shengbin/camera_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

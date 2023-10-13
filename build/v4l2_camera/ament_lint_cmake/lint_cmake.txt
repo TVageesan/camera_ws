@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/lint_cmake.xunit.xml'

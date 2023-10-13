@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20231013-1152-Experimental"
+	Name="shengbin-Zenbook-UX3402VA-UX3402VA"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="shengbin-Zenbook-UX3402VA-UX3402VA"
+	OSRelease="6.2.0-34-generic"
+	OSVersion="#34~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  7 13:12:03 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="186"
+	ProcessorCacheSize="18432"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15603"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2329.81"
+	>
+	<Testing>
+		<StartDateTime>Oct 13 19:52 +08</StartDateTime>
+		<StartTestTime>1697197962</StartTestTime>
+		<TestList>
+			<Test>./image_geometry-utest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>image_geometry-utest</Name>
+			<Path>.</Path>
+			<FullName>./image_geometry-utest</FullName>
+			<FullCommandLine>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/shengbin/camera_ws/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/shengbin/camera_ws/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>2.39096</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml" "--package-name" "image_geometry" "--output-file" "/home/shengbin/camera_ws/build/image_geometry/ament_cmake_gtest/image_geometry-utest.txt" "--command" "/home/shengbin/camera_ws/build/image_geometry/image_geometry-utest" "--gtest_output=xml:/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/image_geometry':
+ - /home/shengbin/camera_ws/build/image_geometry/image_geometry-utest --gtest_output=xml:/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml
+[==========] Running 12 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 12 tests from PinholeTest
+[ RUN      ] PinholeTest.accessorsCorrect
+[       OK ] PinholeTest.accessorsCorrect (0 ms)
+[ RUN      ] PinholeTest.projectPoint
+[       OK ] PinholeTest.projectPoint (0 ms)
+[ RUN      ] PinholeTest.rectifyPoint
+[       OK ] PinholeTest.rectifyPoint (31 ms)
+[ RUN      ] PinholeTest.getDeltas
+[       OK ] PinholeTest.getDeltas (0 ms)
+[ RUN      ] PinholeTest.initialization
+[       OK ] PinholeTest.initialization (0 ms)
+[ RUN      ] PinholeTest.rectifyIfCalibrated
+[       OK ] PinholeTest.rectifyIfCalibrated (13 ms)
+[ RUN      ] PinholeTest.unrectifyImage
+[       OK ] PinholeTest.unrectifyImage (1232 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithBinning
+[       OK ] PinholeTest.unrectifyImageWithBinning (331 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithRoi
+[       OK ] PinholeTest.unrectifyImageWithRoi (574 ms)
+[ RUN      ] PinholeTest.unrectifyImageWithBinningAndRoi
+[       OK ] PinholeTest.unrectifyImageWithBinningAndRoi (142 ms)
+[ RUN      ] PinholeTest.rectifiedRoiSize
+[       OK ] PinholeTest.rectifiedRoiSize (0 ms)
+[ RUN      ] PinholeTest.rectifiedRoiCaching
+[       OK ] PinholeTest.rectifiedRoiCaching (0 ms)
+[----------] 12 tests from PinholeTest (2323 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 1 test suite ran. (2323 ms total)
+[  PASSED  ] 12 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/image_geometry/test_results/image_geometry/image_geometry-utest.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Oct 13 19:52 +08</EndDateTime>
+		<EndTestTime>1697197964</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

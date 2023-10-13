@@ -1,0 +1,677 @@
+[0.824s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test']
+[0.824s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test', build_base='build', install_base='install', merge_install=False, test_result_base=None, retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f0f099cc0a0>, verb_extension=<colcon_core.verb.test.TestVerb object at 0x7f0f09dcf940>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x7f0f09dcf940>>, mixin_verb=('test',))
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.854s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shengbin/camera_ws'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.854s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ignore', 'ignore_ament_install']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore_ament_install'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_pkg']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_pkg'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_meta']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_meta'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ros']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ros'
+[0.865s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera' with type 'ros.ament_python' and name 'camera'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ignore', 'ignore_ament_install']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore_ament_install'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_pkg']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_pkg'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_meta']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_meta'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ros']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ros'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['cmake', 'python']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'cmake'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['python_setup_py']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python_setup_py'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ignore', 'ignore_ament_install']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore_ament_install'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_pkg']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_pkg'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_meta']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_meta'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ros']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ros'
+[0.866s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_calibration_parsers' with type 'ros.ament_cmake' and name 'camera_calibration_parsers'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore_ament_install'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_pkg']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_pkg'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_meta']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_meta'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ros']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ros'
+[0.867s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_info_manager' with type 'ros.ament_cmake' and name 'camera_info_manager'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ignore', 'ignore_ament_install']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore_ament_install'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_pkg']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_pkg'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_meta']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ros']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ros'
+[0.867s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_common' with type 'ros.ament_cmake' and name 'image_common'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore_ament_install'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_pkg']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_pkg'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_meta']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_meta'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ros']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ros'
+[0.868s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_transport' with type 'ros.ament_cmake' and name 'image_transport'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extension 'ignore'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) ignored
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ignore'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ignore_ament_install'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['colcon_pkg']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'colcon_pkg'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['colcon_meta']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'colcon_meta'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['ros']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ros'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['cmake', 'python']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'cmake'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'python'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['python_setup_py']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'python_setup_py'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ignore'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ignore_ament_install'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['colcon_pkg']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'colcon_pkg'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['colcon_meta']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'colcon_meta'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['ros']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ros'
+[0.870s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/camera_calibration' with type 'ros.ament_python' and name 'camera_calibration'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ignore'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ignore_ament_install'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['colcon_pkg']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'colcon_pkg'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['colcon_meta']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'colcon_meta'
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['ros']
+[0.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ros'
+[0.871s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/depth_image_proc' with type 'ros.ament_cmake' and name 'depth_image_proc'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ignore'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ignore_ament_install'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['colcon_pkg']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'colcon_pkg'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['colcon_meta']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'colcon_meta'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['ros']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ros'
+[0.871s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_pipeline' with type 'ros.ament_cmake' and name 'image_pipeline'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ignore_ament_install'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['colcon_pkg']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'colcon_pkg'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['colcon_meta']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'colcon_meta'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['ros']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ros'
+[0.872s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_proc' with type 'ros.ament_cmake' and name 'image_proc'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ignore'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ignore_ament_install'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['colcon_pkg']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'colcon_pkg'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['colcon_meta']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'colcon_meta'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['ros']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ros'
+[0.873s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_publisher' with type 'ros.ament_cmake' and name 'image_publisher'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['ignore', 'ignore_ament_install']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ignore'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ignore_ament_install'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['colcon_pkg']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'colcon_pkg'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['colcon_meta']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'colcon_meta'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['ros']
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ros'
+[0.874s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_rotate' with type 'ros.ament_cmake' and name 'image_rotate'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ignore_ament_install'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['colcon_pkg']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'colcon_pkg'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['colcon_meta']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'colcon_meta'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['ros']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ros'
+[0.875s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_view' with type 'ros.ament_cmake' and name 'image_view'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ignore'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ignore_ament_install'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['colcon_pkg']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'colcon_pkg'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['colcon_meta']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'colcon_meta'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['ros']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ros'
+[0.876s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/stereo_image_proc' with type 'ros.ament_cmake' and name 'stereo_image_proc'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'colcon_pkg'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['colcon_meta']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'colcon_meta'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['ros']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ros'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['cmake', 'python']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'cmake'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'python'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['python_setup_py']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'python_setup_py'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'colcon_pkg'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['colcon_meta']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'colcon_meta'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['ros']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ros'
+[0.877s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/tracetools_image_pipeline' with type 'ros.ament_cmake' and name 'tracetools_image_pipeline'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'colcon_pkg'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['colcon_meta']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'colcon_meta'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['ros']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ros'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['cmake', 'python']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'cmake'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'python'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['python_setup_py']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'python_setup_py'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ignore_ament_install'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['colcon_pkg']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'colcon_pkg'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['colcon_meta']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'colcon_meta'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['ros']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ros'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['cmake', 'python']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'cmake'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'python'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['python_setup_py']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'python_setup_py'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ignore_ament_install'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['colcon_pkg']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'colcon_pkg'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['colcon_meta']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'colcon_meta'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['ros']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ros'
+[0.879s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/compressed_depth_image_transport' with type 'ros.ament_cmake' and name 'compressed_depth_image_transport'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ignore'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ignore_ament_install'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['colcon_pkg']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'colcon_pkg'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['colcon_meta']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'colcon_meta'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['ros']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ros'
+[0.879s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/compressed_image_transport' with type 'ros.ament_cmake' and name 'compressed_image_transport'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ignore_ament_install'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['colcon_pkg']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'colcon_pkg'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['colcon_meta']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['ros']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ros'
+[0.880s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/image_transport_plugins' with type 'ros.ament_cmake' and name 'image_transport_plugins'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ignore'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ignore_ament_install'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['colcon_pkg']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'colcon_pkg'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['colcon_meta']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'colcon_meta'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['ros']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ros'
+[0.881s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/theora_image_transport' with type 'ros.ament_cmake' and name 'theora_image_transport'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore_ament_install'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_pkg']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_pkg'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_meta']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_meta'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ros']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ros'
+[0.882s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[0.883s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[0.884s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[0.885s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[0.885s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.885s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'camera' test argument 'ctest_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'camera' test argument 'python_testing' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'camera' test argument 'pytest_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'camera' test argument 'pytest_with_coverage' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'camera' test argument 'unittest_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'camera' test argument 'retest_until_pass' from command line to '0'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'camera' test argument 'retest_until_fail' from command line to '0'
+[0.926s] DEBUG:colcon.colcon_core.verb.test:Testing package 'camera' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/camera', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/camera', 'path': '/home/shengbin/camera_ws/src/camera', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' test argument 'ctest_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' test argument 'python_testing' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' test argument 'pytest_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' test argument 'pytest_with_coverage' from command line to 'False'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' test argument 'unittest_args' from command line to 'None'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' test argument 'retest_until_pass' from command line to '0'
+[0.937s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' test argument 'retest_until_fail' from command line to '0'
+[0.937s] DEBUG:colcon.colcon_core.verb.test:Testing package 'camera_calibration_parsers' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/camera_calibration_parsers', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/camera_calibration_parsers', 'path': '/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'ctest_args' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'python_testing' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'pytest_args' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'pytest_with_coverage' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'unittest_args' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'retest_until_pass' from command line to '0'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' test argument 'retest_until_fail' from command line to '0'
+[0.947s] DEBUG:colcon.colcon_core.verb.test:Testing package 'cv_bridge' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/cv_bridge', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/cv_bridge', 'path': '/home/shengbin/camera_ws/src/vision_opencv/cv_bridge', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'ctest_args' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'python_testing' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'pytest_args' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'pytest_with_coverage' from command line to 'False'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'unittest_args' from command line to 'None'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'retest_until_pass' from command line to '0'
+[0.955s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' test argument 'retest_until_fail' from command line to '0'
+[0.955s] DEBUG:colcon.colcon_core.verb.test:Testing package 'image_geometry' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/image_geometry', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/image_geometry', 'path': '/home/shengbin/camera_ws/src/vision_opencv/image_geometry', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'image_transport' test argument 'ctest_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'image_transport' test argument 'python_testing' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'image_transport' test argument 'pytest_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'image_transport' test argument 'pytest_with_coverage' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'image_transport' test argument 'unittest_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'image_transport' test argument 'retest_until_pass' from command line to '0'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'image_transport' test argument 'retest_until_fail' from command line to '0'
+[0.964s] DEBUG:colcon.colcon_core.verb.test:Testing package 'image_transport' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/image_transport', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/image_transport', 'path': '/home/shengbin/camera_ws/src/image_common/image_transport', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' test argument 'ctest_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' test argument 'python_testing' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' test argument 'pytest_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' test argument 'pytest_with_coverage' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' test argument 'unittest_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' test argument 'retest_until_pass' from command line to '0'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' test argument 'retest_until_fail' from command line to '0'
+[0.973s] DEBUG:colcon.colcon_core.verb.test:Testing package 'tracetools_image_pipeline' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/tracetools_image_pipeline', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/tracetools_image_pipeline', 'path': '/home/shengbin/camera_ws/src/image_pipeline/tracetools_image_pipeline', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' test argument 'ctest_args' from command line to 'None'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' test argument 'python_testing' from command line to 'None'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' test argument 'pytest_args' from command line to 'None'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' test argument 'pytest_with_coverage' from command line to 'False'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' test argument 'unittest_args' from command line to 'None'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' test argument 'retest_until_pass' from command line to '0'
+[0.982s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' test argument 'retest_until_fail' from command line to '0'
+[0.982s] DEBUG:colcon.colcon_core.verb.test:Testing package 'camera_calibration' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/camera_calibration', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/camera_calibration', 'path': '/home/shengbin/camera_ws/src/image_pipeline/camera_calibration', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' test argument 'ctest_args' from command line to 'None'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' test argument 'python_testing' from command line to 'None'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' test argument 'pytest_args' from command line to 'None'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' test argument 'pytest_with_coverage' from command line to 'False'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' test argument 'unittest_args' from command line to 'None'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' test argument 'retest_until_pass' from command line to '0'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' test argument 'retest_until_fail' from command line to '0'
+[0.991s] DEBUG:colcon.colcon_core.verb.test:Testing package 'camera_info_manager' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/camera_info_manager', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/camera_info_manager', 'path': '/home/shengbin/camera_ws/src/image_common/camera_info_manager', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' test argument 'ctest_args' from command line to 'None'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' test argument 'python_testing' from command line to 'None'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' test argument 'pytest_args' from command line to 'None'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' test argument 'pytest_with_coverage' from command line to 'False'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' test argument 'unittest_args' from command line to 'None'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' test argument 'retest_until_pass' from command line to '0'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' test argument 'retest_until_fail' from command line to '0'
+[1.000s] DEBUG:colcon.colcon_core.verb.test:Testing package 'compressed_depth_image_transport' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/compressed_depth_image_transport', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/compressed_depth_image_transport', 'path': '/home/shengbin/camera_ws/src/image_transport_plugins/compressed_depth_image_transport', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.008s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' test argument 'ctest_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' test argument 'python_testing' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' test argument 'pytest_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' test argument 'pytest_with_coverage' from command line to 'False'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' test argument 'unittest_args' from command line to 'None'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' test argument 'retest_until_pass' from command line to '0'
+[1.009s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' test argument 'retest_until_fail' from command line to '0'
+[1.009s] DEBUG:colcon.colcon_core.verb.test:Testing package 'compressed_image_transport' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/compressed_image_transport', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/compressed_image_transport', 'path': '/home/shengbin/camera_ws/src/image_transport_plugins/compressed_image_transport', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' test argument 'ctest_args' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' test argument 'python_testing' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' test argument 'pytest_args' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' test argument 'pytest_with_coverage' from command line to 'False'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' test argument 'unittest_args' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' test argument 'retest_until_pass' from command line to '0'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' test argument 'retest_until_fail' from command line to '0'
+[1.017s] DEBUG:colcon.colcon_core.verb.test:Testing package 'depth_image_proc' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/depth_image_proc', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/depth_image_proc', 'path': '/home/shengbin/camera_ws/src/image_pipeline/depth_image_proc', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'image_proc' test argument 'ctest_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'image_proc' test argument 'python_testing' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'image_proc' test argument 'pytest_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'image_proc' test argument 'pytest_with_coverage' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'image_proc' test argument 'unittest_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'image_proc' test argument 'retest_until_pass' from command line to '0'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'image_proc' test argument 'retest_until_fail' from command line to '0'
+[1.026s] DEBUG:colcon.colcon_core.verb.test:Testing package 'image_proc' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/image_proc', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/image_proc', 'path': '/home/shengbin/camera_ws/src/image_pipeline/image_proc', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' test argument 'ctest_args' from command line to 'None'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' test argument 'python_testing' from command line to 'None'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' test argument 'pytest_args' from command line to 'None'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' test argument 'pytest_with_coverage' from command line to 'False'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' test argument 'unittest_args' from command line to 'None'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' test argument 'retest_until_pass' from command line to '0'
+[1.035s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' test argument 'retest_until_fail' from command line to '0'
+[1.035s] DEBUG:colcon.colcon_core.verb.test:Testing package 'image_rotate' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/image_rotate', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/image_rotate', 'path': '/home/shengbin/camera_ws/src/image_pipeline/image_rotate', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'image_view' test argument 'ctest_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'image_view' test argument 'python_testing' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'image_view' test argument 'pytest_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'image_view' test argument 'pytest_with_coverage' from command line to 'False'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'image_view' test argument 'unittest_args' from command line to 'None'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'image_view' test argument 'retest_until_pass' from command line to '0'
+[1.044s] Level 5:colcon.colcon_core.verb:set package 'image_view' test argument 'retest_until_fail' from command line to '0'
+[1.044s] DEBUG:colcon.colcon_core.verb.test:Testing package 'image_view' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/image_view', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/image_view', 'path': '/home/shengbin/camera_ws/src/image_pipeline/image_view', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'ctest_args' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'python_testing' from command line to 'None'
+[1.052s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'pytest_args' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'pytest_with_coverage' from command line to 'False'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'unittest_args' from command line to 'None'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'retest_until_pass' from command line to '0'
+[1.053s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' test argument 'retest_until_fail' from command line to '0'
+[1.053s] DEBUG:colcon.colcon_core.verb.test:Testing package 'opencv_tests' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/opencv_tests', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/opencv_tests', 'path': '/home/shengbin/camera_ws/src/vision_opencv/opencv_tests', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' test argument 'ctest_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' test argument 'python_testing' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' test argument 'pytest_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' test argument 'pytest_with_coverage' from command line to 'False'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' test argument 'unittest_args' from command line to 'None'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' test argument 'retest_until_pass' from command line to '0'
+[1.061s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' test argument 'retest_until_fail' from command line to '0'
+[1.061s] DEBUG:colcon.colcon_core.verb.test:Testing package 'theora_image_transport' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/theora_image_transport', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/theora_image_transport', 'path': '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.070s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'ctest_args' from command line to 'None'
+[1.070s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'python_testing' from command line to 'None'
+[1.070s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'pytest_args' from command line to 'None'
+[1.070s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'pytest_with_coverage' from command line to 'False'
+[1.070s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'unittest_args' from command line to 'None'
+[1.070s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'retest_until_pass' from command line to '0'
+[1.070s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' test argument 'retest_until_fail' from command line to '0'
+[1.070s] DEBUG:colcon.colcon_core.verb.test:Testing package 'vision_opencv' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/vision_opencv', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/vision_opencv', 'path': '/home/shengbin/camera_ws/src/vision_opencv/vision_opencv', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'image_common' test argument 'ctest_args' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'image_common' test argument 'python_testing' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'image_common' test argument 'pytest_args' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'image_common' test argument 'pytest_with_coverage' from command line to 'False'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'image_common' test argument 'unittest_args' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'image_common' test argument 'retest_until_pass' from command line to '0'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'image_common' test argument 'retest_until_fail' from command line to '0'
+[1.079s] DEBUG:colcon.colcon_core.verb.test:Testing package 'image_common' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/image_common', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/image_common', 'path': '/home/shengbin/camera_ws/src/image_common/image_common', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' test argument 'ctest_args' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' test argument 'python_testing' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' test argument 'pytest_args' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' test argument 'pytest_with_coverage' from command line to 'False'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' test argument 'unittest_args' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' test argument 'retest_until_pass' from command line to '0'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' test argument 'retest_until_fail' from command line to '0'
+[1.088s] DEBUG:colcon.colcon_core.verb.test:Testing package 'image_publisher' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/image_publisher', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/image_publisher', 'path': '/home/shengbin/camera_ws/src/image_pipeline/image_publisher', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' test argument 'ctest_args' from command line to 'None'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' test argument 'python_testing' from command line to 'None'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' test argument 'pytest_args' from command line to 'None'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' test argument 'pytest_with_coverage' from command line to 'False'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' test argument 'unittest_args' from command line to 'None'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' test argument 'retest_until_pass' from command line to '0'
+[1.097s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' test argument 'retest_until_fail' from command line to '0'
+[1.097s] DEBUG:colcon.colcon_core.verb.test:Testing package 'image_transport_plugins' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/image_transport_plugins', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/image_transport_plugins', 'path': '/home/shengbin/camera_ws/src/image_transport_plugins/image_transport_plugins', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.106s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' test argument 'ctest_args' from command line to 'None'
+[1.106s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' test argument 'python_testing' from command line to 'None'
+[1.106s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' test argument 'pytest_args' from command line to 'None'
+[1.106s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' test argument 'pytest_with_coverage' from command line to 'False'
+[1.106s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' test argument 'unittest_args' from command line to 'None'
+[1.106s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' test argument 'retest_until_pass' from command line to '0'
+[1.106s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' test argument 'retest_until_fail' from command line to '0'
+[1.106s] DEBUG:colcon.colcon_core.verb.test:Testing package 'stereo_image_proc' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/stereo_image_proc', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/stereo_image_proc', 'path': '/home/shengbin/camera_ws/src/image_pipeline/stereo_image_proc', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.114s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' test argument 'ctest_args' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' test argument 'python_testing' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' test argument 'pytest_args' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' test argument 'pytest_with_coverage' from command line to 'False'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' test argument 'unittest_args' from command line to 'None'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' test argument 'retest_until_pass' from command line to '0'
+[1.115s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' test argument 'retest_until_fail' from command line to '0'
+[1.115s] DEBUG:colcon.colcon_core.verb.test:Testing package 'v4l2_camera' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/v4l2_camera', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/v4l2_camera', 'path': '/home/shengbin/camera_ws/src/ros2_v4l2_camera', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' test argument 'ctest_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' test argument 'python_testing' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' test argument 'pytest_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' test argument 'pytest_with_coverage' from command line to 'False'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' test argument 'unittest_args' from command line to 'None'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' test argument 'retest_until_pass' from command line to '0'
+[1.123s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' test argument 'retest_until_fail' from command line to '0'
+[1.123s] DEBUG:colcon.colcon_core.verb.test:Testing package 'image_pipeline' with the following arguments: {'build_base': '/home/shengbin/camera_ws/build/image_pipeline', 'ctest_args': None, 'install_base': '/home/shengbin/camera_ws/install/image_pipeline', 'path': '/home/shengbin/camera_ws/src/image_pipeline/image_pipeline', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[1.132s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.141s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.142s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[1.142s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/vision_opencv/cv_bridge'
+[1.152s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.152s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.182s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_common/image_transport' with build type 'ament_cmake'
+[1.182s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_common/image_transport'
+[1.191s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.191s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.223s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers' with build type 'ament_cmake'
+[1.223s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers'
+[1.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.261s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/vision_opencv/image_geometry' with build type 'ament_cmake'
+[1.262s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/vision_opencv/image_geometry'
+[1.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.314s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_pipeline/tracetools_image_pipeline' with build type 'ament_cmake'
+[1.315s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_pipeline/tracetools_image_pipeline'
+[1.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.353s] ERROR:colcon.colcon_cmake.task.cmake.test:Failed to find the following files:
+- /home/shengbin/camera_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.sh
+Check that the following packages have been built:
+- tracetools_image_pipeline
+[1.353s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/shengbin/camera_ws/src/camera' with build type'ament_python'
+[1.353s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/shengbin/camera_ws/src/camera'
+[1.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.592s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'pytest'
+[1.592s] Level 1:colcon.colcon_core.task.python.test:test.step() by extension 'pytest'
+[1.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shengbin/camera_ws/src/camera': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shengbin/camera_ws/build/camera/pytest.xml --junit-prefix=camera -o cache_dir=/home/shengbin/camera_ws/build/camera/.pytest_cache PYTHONPATH=/home/shengbin/camera_ws/install/camera/lib/python3.10/site-packages:/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/opencv_tests/lib/python3.10/site-packages:/home/shengbin/camera_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest
+[1.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shengbin/camera_ws/build/image_geometry': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shengbin/camera_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shengbin/camera_ws/build/image_transport': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[1.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shengbin/camera_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[2.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shengbin/camera_ws/src/camera' returned '1': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shengbin/camera_ws/build/camera/pytest.xml --junit-prefix=camera -o cache_dir=/home/shengbin/camera_ws/build/camera/.pytest_cache PYTHONPATH=/home/shengbin/camera_ws/install/camera/lib/python3.10/site-packages:/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/opencv_tests/lib/python3.10/site-packages:/home/shengbin/camera_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest
+[2.432s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_common/camera_info_manager' with build type 'ament_cmake'
+[2.432s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_common/camera_info_manager'
+[2.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shengbin/camera_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[2.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shengbin/camera_ws/build/camera_info_manager': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[3.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shengbin/camera_ws/build/camera_info_manager' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[4.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shengbin/camera_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[9.234s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_common/image_common' with build type 'ament_cmake'
+[9.234s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_common/image_common'
+[9.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shengbin/camera_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[9.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shengbin/camera_ws/build/image_common': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[10.742s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_pipeline/image_proc' with build type 'ament_cmake'
+[10.742s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_pipeline/image_proc'
+[10.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shengbin/camera_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[10.744s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_pipeline/camera_calibration' with build type'ament_python'
+[10.745s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/shengbin/camera_ws/src/image_pipeline/camera_calibration'
+[10.772s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.772s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.821s] ERROR:colcon.colcon_core.task.python.test:Failed to find the following files:
+- /home/shengbin/camera_ws/install/camera_calibration/share/camera_calibration/package.sh
+Check that the following packages have been built:
+- camera_calibration
+[10.821s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_transport_plugins/compressed_depth_image_transport' with build type 'ament_cmake'
+[10.821s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_transport_plugins/compressed_depth_image_transport'
+[10.831s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.831s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.862s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_transport_plugins/compressed_image_transport' with build type 'ament_cmake'
+[10.862s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_transport_plugins/compressed_image_transport'
+[10.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.902s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_pipeline/depth_image_proc' with build type 'ament_cmake'
+[10.902s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_pipeline/depth_image_proc'
+[10.902s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_pipeline/image_rotate' with build type 'ament_cmake'
+[10.903s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_pipeline/image_rotate'
+[10.903s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_pipeline/image_view' with build type 'ament_cmake'
+[10.903s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_pipeline/image_view'
+[10.903s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport' with build type 'ament_cmake'
+[10.903s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport'
+[10.914s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.914s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.944s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_pipeline/image_publisher' with build type 'ament_cmake'
+[10.944s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_pipeline/image_publisher'
+[10.944s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/shengbin/camera_ws/src/vision_opencv/opencv_tests' with build type'ament_python'
+[10.944s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/shengbin/camera_ws/src/vision_opencv/opencv_tests'
+[10.958s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.958s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.987s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/vision_opencv/vision_opencv' with build type 'ament_cmake'
+[10.987s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/vision_opencv/vision_opencv'
+[10.997s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.997s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.026s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/ros2_v4l2_camera' with build type 'ament_cmake'
+[11.026s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/ros2_v4l2_camera'
+[11.036s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.036s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.066s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_pipeline/stereo_image_proc' with build type 'ament_cmake'
+[11.066s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_pipeline/stereo_image_proc'
+[11.067s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_pipeline/image_pipeline' with build type 'ament_cmake'
+[11.067s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_pipeline/image_pipeline'
+[11.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shengbin/camera_ws/build/image_common' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[11.250s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'pytest'
+[11.250s] Level 1:colcon.colcon_core.task.python.test:test.step() by extension 'pytest'
+[11.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shengbin/camera_ws/src/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/camera:/opt/ros/humble CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shengbin/camera_ws/build/opencv_tests/pytest.xml --junit-prefix=opencv_tests -o cache_dir=/home/shengbin/camera_ws/build/opencv_tests/.pytest_cache PYTHONPATH=/home/shengbin/camera_ws/install/opencv_tests/lib/python3.10/site-packages:/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest
+[11.255s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/shengbin/camera_ws/src/image_transport_plugins/compressed_depth_image_transport'
+[11.255s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/shengbin/camera_ws/src/image_transport_plugins/compressed_image_transport'
+[11.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shengbin/camera_ws/build/theora_image_transport': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[11.259s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/shengbin/camera_ws/src/vision_opencv/vision_opencv'
+[11.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shengbin/camera_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_geometry LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[11.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shengbin/camera_ws/src/vision_opencv/opencv_tests' returned '5': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/camera:/opt/ros/humble CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shengbin/camera_ws/build/opencv_tests/pytest.xml --junit-prefix=opencv_tests -o cache_dir=/home/shengbin/camera_ws/build/opencv_tests/.pytest_cache PYTHONPATH=/home/shengbin/camera_ws/install/opencv_tests/lib/python3.10/site-packages:/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest
+[12.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shengbin/camera_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_geometry LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[15.120s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/shengbin/camera_ws/src/image_transport_plugins/image_transport_plugins' with build type 'ament_cmake'
+[15.120s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/shengbin/camera_ws/src/image_transport_plugins/image_transport_plugins'
+[15.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shengbin/camera_ws/build/theora_image_transport' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[15.137s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.137s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.179s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/shengbin/camera_ws/src/image_transport_plugins/image_transport_plugins'
+[15.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.189s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[15.190s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.212s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.213s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.213s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.225s] DEBUG:colcon.colcon_core.event_reactor:joined thread

@@ -1,0 +1,38 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_calibration_parsers':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/uncrustify.xunit.xml
+
+No code style divergence in file 'include/camera_calibration_parsers/parse.h'
+
+No code style divergence in file 'include/camera_calibration_parsers/parse.hpp'
+
+No code style divergence in file 'include/camera_calibration_parsers/parse_ini.h'
+
+No code style divergence in file 'include/camera_calibration_parsers/parse_ini.hpp'
+
+No code style divergence in file 'include/camera_calibration_parsers/parse_yml.h'
+
+No code style divergence in file 'include/camera_calibration_parsers/parse_yml.hpp'
+
+No code style divergence in file 'include/camera_calibration_parsers/visibility_control.hpp'
+
+No code style divergence in file 'src/convert.cpp'
+
+No code style divergence in file 'src/parse.cpp'
+
+No code style divergence in file 'src/parse_ini.cpp'
+
+No code style divergence in file 'src/parse_wrapper.cpp'
+
+No code style divergence in file 'src/parse_yml.cpp'
+
+No code style divergence in file 'test/make_calibs.hpp'
+
+No code style divergence in file 'test/test_parse_ini.cpp'
+
+No code style divergence in file 'test/test_parse_yml.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/uncrustify.xunit.xml'

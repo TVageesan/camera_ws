@@ -1,0 +1,18 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_py.xunit.xml --filters=-readability/fn_size --linelength 999 --root /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport
+
+Using '--root=/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py' argument
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_c.c
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_fastrtps_c.c
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_introspection_c.c
+
+Done processing /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_py/theora_image_transport/msg/_packet_s.c
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/cpplint_rosidl_generated_py.xunit.xml'

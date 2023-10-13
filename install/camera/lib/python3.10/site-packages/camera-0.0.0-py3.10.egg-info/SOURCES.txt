@@ -10,6 +10,7 @@ setup.py
 ../../build/camera/camera.egg-info/zip-safe
 camera/__init__.py
 camera/cam_oflow.py
+camera/cam_process.py
 camera/cam_pub.py
 camera/cam_sub.py
 resource/camera

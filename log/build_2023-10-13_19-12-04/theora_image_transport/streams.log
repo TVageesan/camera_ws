@@ -1,0 +1,216 @@
+[0.066s] Invoking command in '/home/shengbin/camera_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shengbin/camera_ws/build/theora_image_transport -- -j16 -l16
+[0.080s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.176s] -- Found image_transport: 3.1.7 (/home/shengbin/camera_ws/install/image_transport/share/image_transport/cmake)
+[0.198s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.199s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.203s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.259s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.260s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.279s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.514s] -- Found cv_bridge: 3.2.1 (/home/shengbin/camera_ws/install/cv_bridge/share/cv_bridge/cmake)
+[0.524s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.838s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.839s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.840s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.841s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.665s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.700s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.700s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.701s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.743s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.744s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.754s] -- Configuring done
+[1.814s] -- Generating done
+[1.819s] -- Build files have been written to: /home/shengbin/camera_ws/build/theora_image_transport
+[1.871s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_generator_c[0m
+[1.882s] [  2%] Built target theora_image_transport__cpp
+[1.888s] [ 10%] Built target theora_image_transport__rosidl_generator_c
+[1.896s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_cpp[0m
+[1.897s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_introspection_cpp[0m
+[1.897s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_cpp[0m
+[1.897s] [ 10%] Built target ament_cmake_python_copy_theora_image_transport
+[1.910s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_c[0m
+[1.910s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_introspection_c[0m
+[1.910s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_c[0m
+[1.919s] [ 18%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[1.920s] [ 27%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[1.920s] [ 35%] Built target theora_image_transport__rosidl_typesupport_cpp
+[1.927s] [ 43%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[1.930s] [ 51%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[1.931s] [ 59%] Built target theora_image_transport__rosidl_typesupport_c
+[1.937s] [35m[1mConsolidate compiler generated dependencies of target ogg_saver[0m
+[1.946s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport_component[0m
+[1.961s] [ 59%] Built target theora_image_transport
+[1.962s] [ 62%] [32mBuilding CXX object CMakeFiles/ogg_saver.dir/src/ogg_saver.cpp.o[0m
+[1.978s] [ 64%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o[0m
+[1.989s] [ 70%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_subscriber.cpp.o[0m
+[1.989s] [ 70%] Built target theora_image_transport__py
+[1.990s] [ 72%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/manifest.cpp.o[0m
+[2.005s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_generator_py[0m
+[2.024s] [ 78%] Built target theora_image_transport__rosidl_generator_py
+[2.058s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.075s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_introspection_c__pyext[0m
+[2.091s] [35m[1mConsolidate compiler generated dependencies of target theora_image_transport__rosidl_typesupport_c__pyext[0m
+[2.121s] [ 83%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext
+[2.129s] [ 89%] Built target theora_image_transport__rosidl_typesupport_introspection_c__pyext
+[2.135s] [ 94%] Built target theora_image_transport__rosidl_typesupport_c__pyext
+[2.371s] running egg_info
+[2.373s] writing theora_image_transport.egg-info/PKG-INFO
+[2.373s] writing dependency_links to theora_image_transport.egg-info/dependency_links.txt
+[2.374s] writing top-level names to theora_image_transport.egg-info/top_level.txt
+[2.378s] reading manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+[2.379s] writing manifest file 'theora_image_transport.egg-info/SOURCES.txt'
+[2.441s] [ 94%] Built target ament_cmake_python_build_theora_image_transport_egg
+[10.906s] [ 97%] [32m[1mLinking CXX shared library libtheora_image_transport_component.so[0m
+[11.363s] [ 97%] Built target theora_image_transport_component
+[11.522s] [100%] [32m[1mLinking CXX executable ogg_saver[0m
+[11.807s] [100%] Built target ogg_saver
+[11.816s] Invoked command in '/home/shengbin/camera_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/shengbin/camera_ws/build/theora_image_transport -- -j16 -l16
+[11.911s] Invoking command in '/home/shengbin/camera_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shengbin/camera_ws/build/theora_image_transport
+[11.917s] -- Install configuration: ""
+[11.918s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/ament_index/resource_index/rosidl_interfaces/theora_image_transport
+[11.918s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[11.918s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[11.918s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[11.918s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__functions.c
+[11.918s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__struct.h
+[11.918s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__functions.h
+[11.918s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__type_support.h
+[11.919s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/rosidl_generator_c__visibility_control.h
+[11.919s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/packet.h
+[11.919s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/environment/library_path.sh
+[11.919s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/environment/library_path.dsv
+[11.919s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_c.so
+[11.919s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_c.so" to ""
+[11.919s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[11.919s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[11.920s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[11.920s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h
+[11.920s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.920s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_c.so
+[11.920s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_c.so" to ""
+[11.920s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[11.920s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[11.921s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/packet.hpp
+[11.921s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[11.921s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__struct.hpp
+[11.921s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__traits.hpp
+[11.921s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__builder.hpp
+[11.921s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[11.922s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[11.922s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.922s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[11.922s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/dds_fastrtps
+[11.922s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp
+[11.922s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so
+[11.922s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.923s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[11.923s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[11.923s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[11.923s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__type_support.c
+[11.923s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_c.h
+[11.923s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.923s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_c.so
+[11.923s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_c.so" to ""
+[11.923s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_c.so
+[11.924s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_c.so" to ""
+[11.924s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[11.924s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg
+[11.924s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail
+[11.924s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__type_support.cpp
+[11.924s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_cpp.hpp
+[11.924s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_cpp.so
+[11.924s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_cpp.so" to ""
+[11.924s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_cpp.so
+[11.924s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_cpp.so" to ""
+[11.924s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/environment/pythonpath.sh
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/environment/pythonpath.dsv
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport-2.5.0-py3.10.egg-info
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport-2.5.0-py3.10.egg-info/dependency_links.txt
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport-2.5.0-py3.10.egg-info/SOURCES.txt
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport-2.5.0-py3.10.egg-info/PKG-INFO
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport-2.5.0-py3.10.egg-info/top_level.txt
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_c.c
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg
+[11.925s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg/_packet.py
+[11.926s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg/_packet_s.c
+[11.926s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg/__init__.py
+[11.926s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/libtheora_image_transport__rosidl_generator_py.so
+[11.926s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.926s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.926s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_introspection_c.c
+[11.926s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/__init__.py
+[11.956s] Listing '/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport'...
+[11.956s] Compiling '/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/__init__.py'...
+[11.956s] Listing '/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg'...
+[11.956s] Compiling '/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg/__init__.py'...
+[11.956s] Compiling '/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/msg/_packet.py'...
+[11.961s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.962s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.962s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.962s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.962s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.963s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.963s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_py.so
+[11.963s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_py.so" to ""
+[11.963s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.idl
+[11.963s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.msg
+[11.964s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport_component.so
+[11.970s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/lib/libtheora_image_transport_component.so" to ""
+[11.971s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/lib/theora_image_transport/ogg_saver
+[11.976s] -- Set runtime path of "/home/shengbin/camera_ws/install/theora_image_transport/lib/theora_image_transport/ogg_saver" to ""
+[11.976s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport
+[11.976s] -- Up-to-date: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport
+[11.976s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/theora_publisher.h
+[11.976s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/include/theora_image_transport/theora_image_transport/theora_subscriber.h
+[11.976s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/theora_plugins.xml
+[11.977s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/ament_index/resource_index/package_run_dependencies/theora_image_transport
+[11.977s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/ament_index/resource_index/parent_prefix_path/theora_image_transport
+[11.977s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/environment/ament_prefix_path.sh
+[11.977s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/environment/ament_prefix_path.dsv
+[11.977s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/environment/path.sh
+[11.977s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/environment/path.dsv
+[11.977s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/local_setup.bash
+[11.978s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/local_setup.sh
+[11.978s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/local_setup.zsh
+[11.978s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/local_setup.dsv
+[11.978s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/package.dsv
+[11.978s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/ament_index/resource_index/packages/theora_image_transport
+[11.978s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/theora_image_transport
+[11.979s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_generator_cExport.cmake
+[11.979s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_generator_cExport-noconfig.cmake
+[11.979s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_typesupport_fastrtps_cExport.cmake
+[11.979s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.979s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_generator_cppExport.cmake
+[11.979s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.979s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.980s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cExport.cmake
+[11.980s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.980s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cExport.cmake
+[11.980s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cExport-noconfig.cmake
+[11.980s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cppExport.cmake
+[11.981s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.981s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cppExport.cmake
+[11.981s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cppExport-noconfig.cmake
+[11.981s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_generator_pyExport.cmake
+[11.981s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport__rosidl_generator_pyExport-noconfig.cmake
+[11.981s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport_componentExport.cmake
+[11.981s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/export_theora_image_transport_componentExport-noconfig.cmake
+[11.982s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake-extras.cmake
+[11.982s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.982s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.982s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_libraries-extras.cmake
+[11.982s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_targets-extras.cmake
+[11.982s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.983s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.983s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig.cmake
+[11.983s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig-version.cmake
+[11.983s] -- Installing: /home/shengbin/camera_ws/install/theora_image_transport/share/theora_image_transport/package.xml
+[11.986s] Invoked command in '/home/shengbin/camera_ws/build/theora_image_transport' returned '0': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/cv_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/shengbin/camera_ws/build/theora_image_transport

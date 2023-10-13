@@ -9,10 +9,10 @@ class CameraOpticalNode(Node):
 
     def __init__(self):
         super().__init__("cam_oflow")
-        self.hsv_img = self.create_publisher(Image, "cam/oflow", 10)
+        self.hsv_img = self.create_publisher(Image, "image_oflow", 10)
         self.sub_image_feed = self.create_subscription(
             Image,
-            "cam/processed",
+            "image_processed",
             self.image_feed_callback,
             10)
         self.bridge = CvBridge()

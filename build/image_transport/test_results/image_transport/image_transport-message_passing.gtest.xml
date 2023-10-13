@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="0.62" timestamp="2023-10-13T19:52:45" name="AllTests">
+  <testsuite name="MessagePassingTesting" tests="2" failures="0" disabled="0" errors="0" time="0.62" timestamp="2023-10-13T19:52:45">
+    <testcase name="one_message_passing" status="run" result="completed" time="0.41" timestamp="2023-10-13T19:52:45" classname="image_transport.MessagePassingTesting" />
+    <testcase name="one_camera_message_passing" status="run" result="completed" time="0.21" timestamp="2023-10-13T19:52:46" classname="image_transport.MessagePassingTesting" />
+  </testsuite>
+</testsuites>

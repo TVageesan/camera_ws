@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="0" disabled="0" errors="0" time="0" timestamp="2023-10-13T19:52:42" name="AllTests">
+  <testsuite name="CameraCommon" tests="5" failures="0" disabled="0" errors="0" time="0" timestamp="2023-10-13T19:52:42">
+    <testcase name="getCameraInfoTopic_namespaced_topic" status="run" result="completed" time="0" timestamp="2023-10-13T19:52:42" classname="image_transport.CameraCommon" />
+    <testcase name="getCameraInfoTopic_topic" status="run" result="completed" time="0" timestamp="2023-10-13T19:52:42" classname="image_transport.CameraCommon" />
+    <testcase name="getCameraInfoTopic2_slash" status="run" result="completed" time="0" timestamp="2023-10-13T19:52:42" classname="image_transport.CameraCommon" />
+    <testcase name="getCameraInfoTopic2_empty" status="run" result="completed" time="0" timestamp="2023-10-13T19:52:42" classname="image_transport.CameraCommon" />
+    <testcase name="erase_last_copy" status="run" result="completed" time="0" timestamp="2023-10-13T19:52:42" classname="image_transport.CameraCommon" />
+  </testsuite>
+</testsuites>

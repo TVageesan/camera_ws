@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" time="2.074" timestamp="2023-10-13T19:52:43" name="AllTests">
+  <testsuite name="TestSubscriber" tests="4" failures="0" disabled="0" errors="0" time="2.074" timestamp="2023-10-13T19:52:43">
+    <testcase name="construction_and_destruction" status="run" result="completed" time="0.31" timestamp="2023-10-13T19:52:43" classname="image_transport.TestSubscriber" />
+    <testcase name="shutdown" status="run" result="completed" time="0.208" timestamp="2023-10-13T19:52:44" classname="image_transport.TestSubscriber" />
+    <testcase name="camera_sub_shutdown" status="run" result="completed" time="0.208" timestamp="2023-10-13T19:52:44" classname="image_transport.TestSubscriber" />
+    <testcase name="callback_groups" status="run" result="completed" time="1.348" timestamp="2023-10-13T19:52:44" classname="image_transport.TestSubscriber" />
+  </testsuite>
+</testsuites>

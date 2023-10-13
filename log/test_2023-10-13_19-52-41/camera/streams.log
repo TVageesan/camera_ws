@@ -1,0 +1,288 @@
+[0.240s] Invoking command in '/home/shengbin/camera_ws/src/camera': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shengbin/camera_ws/build/camera/pytest.xml --junit-prefix=camera -o cache_dir=/home/shengbin/camera_ws/build/camera/.pytest_cache PYTHONPATH=/home/shengbin/camera_ws/install/camera/lib/python3.10/site-packages:/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/opencv_tests/lib/python3.10/site-packages:/home/shengbin/camera_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest
+[0.479s] [1m============================= test session starts ==============================[0m
+[0.479s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.483s] cachedir: /home/shengbin/camera_ws/build/camera/.pytest_cache
+[0.483s] rootdir: /home/shengbin/camera_ws/src/camera
+[0.483s] plugins: ament-flake8-0.12.8, ament-pep257-0.12.8, ament-copyright-0.12.8, ament-xmllint-0.12.8, ament-lint-0.12.8, launch-testing-1.0.4, launch-testing-ros-0.19.6, cov-3.0.0, colcon-core-0.15.0
+[0.561s] [1mcollecting ... [0m[1m
+[0.561s] collected 3 items                                                              [0m
+[0.562s] 
+[0.566s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[0.690s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[0.710s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[0.710s] 
+[0.710s] =================================== FAILURES ===================================
+[0.710s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[0.710s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[0.760s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[0.761s] [1m[31mE   AssertionError: Found 45 code style errors / warnings:[0m
+[0.761s] [1m[31mE     ./camera/cam_process.py:2:100: E501 line too long (124 > 99 characters)[0m
+[0.761s] [1m[31mE     ./camera/cam_process.py:6:1: F401 'numpy as np' imported but unused[0m
+[0.761s] [1m[31mE     ./camera/cam_process.py:7:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused[0m
+[0.762s] [1m[31mE     ./camera/cam_process.py:11:1: E302 expected 2 blank lines, found 1[0m
+[0.762s] [1m[31mE     ./camera/cam_process.py:28:66: W291 trailing whitespace[0m
+[0.762s] [1m[31mE     ./camera/cam_process.py:31:9: E265 block comment should start with '# '[0m
+[0.762s] [1m[31mE     ./camera/cam_process.py:31:67: W291 trailing whitespace[0m
+[0.762s] [1m[31mE     ./camera/cam_process.py:35:1: W293 blank line contains whitespace[0m
+[0.762s] [1m[31mE     ./camera/cam_process.py:36:1: E303 too many blank lines (3)[0m
+[0.762s] [1m[31mE     ./camera/cam_process.py:44:1: W293 blank line contains whitespace[0m
+[0.762s] [1m[31mE     ./camera/cam_process.py:45:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[0.762s] [1m[31mE     ./camera/cam_process.py:45:12: E225 missing whitespace around operator[0m
+[0.762s] [1m[31mE     ./camera/cam_sub.py:3:1: F401 'numpy as np' imported but unused[0m
+[0.762s] [1m[31mE     ./camera/cam_sub.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused[0m
+[0.762s] [1m[31mE     ./camera/cam_sub.py:8:1: E302 expected 2 blank lines, found 1[0m
+[0.763s] [1m[31mE     ./camera/cam_sub.py:23:9: E265 block comment should start with '# '[0m
+[0.763s] [1m[31mE     ./camera/cam_sub.py:25:68: W291 trailing whitespace[0m
+[0.763s] [1m[31mE     ./camera/cam_sub.py:28:69: W291 trailing whitespace[0m
+[0.763s] [1m[31mE     ./camera/cam_sub.py:33:1: W293 blank line contains whitespace[0m
+[0.763s] [1m[31mE     ./camera/cam_sub.py:34:1: E303 too many blank lines (3)[0m
+[0.763s] [1m[31mE     ./camera/cam_sub.py:42:1: W293 blank line contains whitespace[0m
+[0.763s] [1m[31mE     ./camera/cam_sub.py:43:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[0.763s] [1m[31mE     ./camera/cam_sub.py:43:12: E225 missing whitespace around operator[0m
+[0.763s] [1m[31mE     ./camera/cam_pub.py:3:1: F401 'numpy as np' imported but unused[0m
+[0.763s] [1m[31mE     ./camera/cam_pub.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused[0m
+[0.763s] [1m[31mE     ./camera/cam_pub.py:10:1: E302 expected 2 blank lines, found 1[0m
+[0.763s] [1m[31mE     ./camera/cam_pub.py:16:1: W293 blank line contains whitespace[0m
+[0.764s] [1m[31mE     ./camera/cam_pub.py:17:52: E231 missing whitespace after ','[0m
+[0.764s] [1m[31mE     ./camera/cam_pub.py:17:100: E501 line too long (106 > 99 characters)[0m
+[0.764s] [1m[31mE     ./camera/cam_pub.py:20:5: E303 too many blank lines (2)[0m
+[0.764s] [1m[31mE     ./camera/cam_pub.py:32:1: W293 blank line contains whitespace[0m
+[0.764s] [1m[31mE     ./camera/cam_pub.py:34:9: E303 too many blank lines (2)[0m
+[0.764s] [1m[31mE     ./camera/cam_pub.py:35:1: W293 blank line contains whitespace[0m
+[0.764s] [1m[31mE     ./camera/cam_pub.py:36:1: E302 expected 2 blank lines, found 1[0m
+[0.764s] [1m[31mE     ./camera/cam_pub.py:44:1: W293 blank line contains whitespace[0m
+[0.764s] [1m[31mE     ./camera/cam_pub.py:45:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[0.764s] [1m[31mE     ./camera/cam_pub.py:45:12: E225 missing whitespace around operator[0m
+[0.764s] [1m[31mE     ./camera/cam_oflow.py:3:1: F401 'numpy as np' imported but unused[0m
+[0.764s] [1m[31mE     ./camera/cam_oflow.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused[0m
+[0.765s] [1m[31mE     ./camera/cam_oflow.py:8:1: E302 expected 2 blank lines, found 1[0m
+[0.765s] [1m[31mE     ./camera/cam_oflow.py:24:66: W291 trailing whitespace[0m
+[0.765s] [1m[31mE     ./camera/cam_oflow.py:27:1: W293 blank line contains whitespace[0m
+[0.765s] [1m[31mE     ./camera/cam_oflow.py:36:1: W293 blank line contains whitespace[0m
+[0.765s] [1m[31mE     ./camera/cam_oflow.py:37:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[0.765s] [1m[31mE     ./camera/cam_oflow.py:37:12: E225 missing whitespace around operator[0m
+[0.765s] [1m[31mE   assert 1 == 0[0m
+[0.765s] ----------------------------- Captured stdout call -----------------------------
+[0.765s] 
+[0.765s] ./camera/cam_process.py:2:100: E501 line too long (124 > 99 characters)
+[0.765s] # This node does image processing and enhancement before sending it to nodes to perform object detection and depth detection
+[0.765s]                                                                                                    ^
+[0.766s] 
+[0.766s] ./camera/cam_process.py:6:1: F401 'numpy as np' imported but unused
+[0.766s] import numpy as np
+[0.766s] ^
+[0.766s] 
+[0.766s] ./camera/cam_process.py:7:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused
+[0.766s] from sensor_msgs.msg import Image, CompressedImage
+[0.766s] ^
+[0.766s] 
+[0.766s] ./camera/cam_process.py:11:1: E302 expected 2 blank lines, found 1
+[0.766s] class CameraSubscriberNode(Node):
+[0.766s] ^
+[0.766s] 
+[0.767s] ./camera/cam_process.py:28:66: W291 trailing whitespace
+[0.767s]         hsv_msg = self.bridge.cv2_to_imgmsg(hsv, encoding="bgr8") 
+[0.767s]                                                                  ^
+[0.767s] 
+[0.767s] ./camera/cam_process.py:31:9: E265 block comment should start with '# '
+[0.767s]         #final_msg = self.bridge.cv2_to_compressed_imgmsg(hsv_msg) 
+[0.767s]         ^
+[0.767s] 
+[0.767s] ./camera/cam_process.py:31:67: W291 trailing whitespace
+[0.767s]         #final_msg = self.bridge.cv2_to_compressed_imgmsg(hsv_msg) 
+[0.767s]                                                                   ^
+[0.767s] 
+[0.768s] ./camera/cam_process.py:35:1: W293 blank line contains whitespace
+[0.768s]         
+[0.768s] ^
+[0.768s] 
+[0.768s] ./camera/cam_process.py:36:1: E303 too many blank lines (3)
+[0.768s] def main(args=None):
+[0.768s] ^
+[0.768s] 
+[0.768s] ./camera/cam_process.py:44:1: W293 blank line contains whitespace
+[0.768s]         
+[0.768s] ^
+[0.768s] 
+[0.769s] ./camera/cam_process.py:45:1: E305 expected 2 blank lines after class or function definition, found 1
+[0.769s] if __name__=='__main__':
+[0.769s] ^
+[0.769s] 
+[0.769s] ./camera/cam_process.py:45:12: E225 missing whitespace around operator
+[0.769s] if __name__=='__main__':
+[0.769s]            ^
+[0.769s] 
+[0.769s] ./camera/cam_sub.py:3:1: F401 'numpy as np' imported but unused
+[0.769s] import numpy as np
+[0.769s] ^
+[0.769s] 
+[0.770s] ./camera/cam_sub.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused
+[0.770s] from sensor_msgs.msg import Image, CompressedImage
+[0.770s] ^
+[0.770s] 
+[0.770s] ./camera/cam_sub.py:8:1: E302 expected 2 blank lines, found 1
+[0.770s] class CameraSubscriberNode(Node):
+[0.770s] ^
+[0.770s] 
+[0.770s] ./camera/cam_sub.py:23:9: E265 block comment should start with '# '
+[0.770s]         #image = self.bridge.compressed_imgmsg_to_cv2(msg)
+[0.770s]         ^
+[0.770s] 
+[0.770s] ./camera/cam_sub.py:25:68: W291 trailing whitespace
+[0.771s]         # hsv_msg = self.bridge.cv2_to_imgmsg(hsv, encoding="bgr8") 
+[0.771s]                                                                    ^
+[0.771s] 
+[0.771s] ./camera/cam_sub.py:28:69: W291 trailing whitespace
+[0.771s]         final_msg = self.bridge.cv2_to_imgmsg(gray, encoding="bgr8") 
+[0.771s]                                                                     ^
+[0.771s] 
+[0.771s] ./camera/cam_sub.py:33:1: W293 blank line contains whitespace
+[0.771s]         
+[0.771s] ^
+[0.771s] 
+[0.771s] ./camera/cam_sub.py:34:1: E303 too many blank lines (3)
+[0.771s] def main(args=None):
+[0.772s] ^
+[0.772s] 
+[0.772s] ./camera/cam_sub.py:42:1: W293 blank line contains whitespace
+[0.772s]         
+[0.772s] ^
+[0.772s] 
+[0.772s] ./camera/cam_sub.py:43:1: E305 expected 2 blank lines after class or function definition, found 1
+[0.772s] if __name__=='__main__':
+[0.772s] ^
+[0.772s] 
+[0.772s] ./camera/cam_sub.py:43:12: E225 missing whitespace around operator
+[0.772s] if __name__=='__main__':
+[0.773s]            ^
+[0.773s] 
+[0.773s] ./camera/cam_pub.py:3:1: F401 'numpy as np' imported but unused
+[0.773s] import numpy as np
+[0.773s] ^
+[0.773s] 
+[0.773s] ./camera/cam_pub.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused
+[0.773s] from sensor_msgs.msg import Image, CompressedImage
+[0.773s] ^
+[0.773s] 
+[0.773s] ./camera/cam_pub.py:10:1: E302 expected 2 blank lines, found 1
+[0.773s] class CameraPublisherNode(Node):
+[0.773s] ^
+[0.774s] 
+[0.774s] ./camera/cam_pub.py:16:1: W293 blank line contains whitespace
+[0.774s]         
+[0.774s] ^
+[0.774s] 
+[0.774s] ./camera/cam_pub.py:17:52: E231 missing whitespace after ','
+[0.774s]         self.timer = self.create_timer(timer_period,self.publish_frame)  # Adjust the frame rate as needed
+[0.774s]                                                    ^
+[0.774s] 
+[0.774s] ./camera/cam_pub.py:17:100: E501 line too long (106 > 99 characters)
+[0.774s]         self.timer = self.create_timer(timer_period,self.publish_frame)  # Adjust the frame rate as needed
+[0.774s]                                                                                                    ^
+[0.774s] 
+[0.775s] ./camera/cam_pub.py:20:5: E303 too many blank lines (2)
+[0.775s]     def publish_frame(self):
+[0.775s]     ^
+[0.775s] 
+[0.775s] ./camera/cam_pub.py:32:1: W293 blank line contains whitespace
+[0.775s]                 
+[0.775s] ^
+[0.775s] 
+[0.775s] ./camera/cam_pub.py:34:9: E303 too many blank lines (2)
+[0.775s]         cap.release()
+[0.775s]         ^
+[0.775s] 
+[0.775s] ./camera/cam_pub.py:35:1: W293 blank line contains whitespace
+[0.776s]         
+[0.776s] ^
+[0.776s] 
+[0.776s] ./camera/cam_pub.py:36:1: E302 expected 2 blank lines, found 1
+[0.776s] def main(args=None):
+[0.776s] ^
+[0.776s] 
+[0.776s] ./camera/cam_pub.py:44:1: W293 blank line contains whitespace
+[0.776s]         
+[0.776s] ^
+[0.776s] 
+[0.776s] ./camera/cam_pub.py:45:1: E305 expected 2 blank lines after class or function definition, found 1
+[0.776s] if __name__=='__main__':
+[0.777s] ^
+[0.777s] 
+[0.777s] ./camera/cam_pub.py:45:12: E225 missing whitespace around operator
+[0.777s] if __name__=='__main__':
+[0.777s]            ^
+[0.777s] 
+[0.777s] ./camera/cam_oflow.py:3:1: F401 'numpy as np' imported but unused
+[0.777s] import numpy as np
+[0.777s] ^
+[0.777s] 
+[0.777s] ./camera/cam_oflow.py:4:1: F401 'sensor_msgs.msg.CompressedImage' imported but unused
+[0.777s] from sensor_msgs.msg import Image, CompressedImage
+[0.778s] ^
+[0.778s] 
+[0.778s] ./camera/cam_oflow.py:8:1: E302 expected 2 blank lines, found 1
+[0.778s] class CameraOpticalNode(Node):
+[0.778s] ^
+[0.778s] 
+[0.778s] ./camera/cam_oflow.py:24:66: W291 trailing whitespace
+[0.778s]         hsv_msg = self.bridge.cv2_to_imgmsg(hsv, encoding="bgr8") 
+[0.778s]                                                                  ^
+[0.778s] 
+[0.778s] ./camera/cam_oflow.py:27:1: W293 blank line contains whitespace
+[0.778s]         
+[0.778s] ^
+[0.779s] 
+[0.779s] ./camera/cam_oflow.py:36:1: W293 blank line contains whitespace
+[0.779s]         
+[0.779s] ^
+[0.779s] 
+[0.779s] ./camera/cam_oflow.py:37:1: E305 expected 2 blank lines after class or function definition, found 1
+[0.779s] if __name__=='__main__':
+[0.779s] ^
+[0.779s] 
+[0.779s] ./camera/cam_oflow.py:37:12: E225 missing whitespace around operator
+[0.779s] if __name__=='__main__':
+[0.779s]            ^
+[0.779s] 
+[0.780s] 4     E225 missing whitespace around operator
+[0.780s] 1     E231 missing whitespace after ','
+[0.780s] 2     E265 block comment should start with '# '
+[0.780s] 5     E302 expected 2 blank lines, found 1
+[0.780s] 4     E303 too many blank lines (3)
+[0.780s] 4     E305 expected 2 blank lines after class or function definition, found 1
+[0.780s] 2     E501 line too long (124 > 99 characters)
+[0.780s] 8     F401 'numpy as np' imported but unused
+[0.780s] 5     W291 trailing whitespace
+[0.780s] 10    W293 blank line contains whitespace
+[0.780s] 
+[0.780s] 9 files checked
+[0.780s] 45 errors
+[0.780s] 
+[0.780s] 'E'-type errors: 22
+[0.780s] 'F'-type errors: 8
+[0.780s] 'W'-type errors: 15
+[0.780s] 
+[0.781s] Checked files:
+[0.781s] 
+[0.781s] * ./setup.py
+[0.781s] * ./test/test_pep257.py
+[0.781s] * ./test/test_copyright.py
+[0.781s] * ./test/test_flake8.py
+[0.781s] * ./camera/cam_process.py
+[0.781s] * ./camera/cam_sub.py
+[0.781s] * ./camera/cam_pub.py
+[0.781s] * ./camera/cam_oflow.py
+[0.781s] * ./camera/__init__.py
+[0.781s] ----------------------------- Captured stderr call -----------------------------
+[0.781s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.781s] ----- generated xml file: /home/shengbin/camera_ws/build/camera/pytest.xml -----
+[0.781s] =========================== short test summary info ============================
+[0.781s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 45 code style...
+[0.781s] [33m=============================== warnings summary ===============================[0m
+[0.781s] test/test_flake8.py::test_flake8
+[0.781s] test/test_flake8.py::test_flake8
+[0.781s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[0.781s] 
+[0.781s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.781s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.28s[0m[31m ==============[0m
+[0.850s] Invoked command in '/home/shengbin/camera_ws/src/camera' returned '1': AMENT_PREFIX_PATH=/home/shengbin/camera_ws/install/camera:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge:/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/shengbin/camera_ws/build/camera/pytest.xml --junit-prefix=camera -o cache_dir=/home/shengbin/camera_ws/build/camera/.pytest_cache PYTHONPATH=/home/shengbin/camera_ws/install/camera/lib/python3.10/site-packages:/home/shengbin/camera_ws/install/theora_image_transport/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/opencv_tests/lib/python3.10/site-packages:/home/shengbin/camera_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/shengbin/camera_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -m pytest

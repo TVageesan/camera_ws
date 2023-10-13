@@ -1,0 +1,20 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_info_manager':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml
+
+No code style divergence in file 'include/camera_info_manager/camera_info_manager.h'
+
+No code style divergence in file 'include/camera_info_manager/camera_info_manager.hpp'
+
+No code style divergence in file 'include/camera_info_manager/visibility_control.h'
+
+No code style divergence in file 'src/camera_info_manager.cpp'
+
+No code style divergence in file 'src/split.hpp'
+
+No code style divergence in file 'tests/unit_test.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml'

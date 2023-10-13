@@ -1,0 +1,3 @@
+/home/shengbin/camera_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so
+/home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport.cmake
+/home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport-noconfig.cmake

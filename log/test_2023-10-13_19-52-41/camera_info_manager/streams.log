@@ -1,0 +1,91 @@
+[0.063s] Invoking command in '/home/shengbin/camera_ws/build/camera_info_manager': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.082s] UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/camera_info_manager/CTestConfiguration.ini
+[0.082s] Parse Config file:/home/shengbin/camera_ws/build/camera_info_manager/CTestConfiguration.ini
+[0.082s]    Site: shengbin-Zenbook-UX3402VA-UX3402VA
+[0.083s]    Build name: (empty)
+[0.083s]  Add coverage exclude regular expressions.
+[0.083s] Create new tag: 20231013-1152 - Experimental
+[0.083s] UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/camera_info_manager/CTestConfiguration.ini
+[0.083s] Parse Config file:/home/shengbin/camera_ws/build/camera_info_manager/CTestConfiguration.ini
+[0.083s] Test project /home/shengbin/camera_ws/build/camera_info_manager
+[0.083s] Constructing a list of tests
+[0.083s] Done constructing a list of tests
+[0.083s] Updating test list for fixtures
+[0.083s] Added 0 tests to meet fixture requirements
+[0.083s] Checking test dependency graph...
+[0.083s] Checking test dependency graph end
+[0.083s] test 1
+[0.083s]     Start 1: cpplint
+[0.084s] 
+[0.084s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml" "--package-name" "camera_info_manager" "--output-file" "/home/shengbin/camera_ws/build/camera_info_manager/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml"
+[0.084s] 1: Test timeout computed to be: 120
+[0.188s] 1: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_info_manager':
+[0.188s] 1:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml
+[0.420s] 1: Using '--root=..' argument
+[0.420s] 1: 
+[0.420s] 1: Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/tests/unit_test.cpp
+[0.420s] 1: 
+[0.420s] 1: Using '--root=/home/shengbin/camera_ws/src/image_common/camera_info_manager/include' argument
+[0.420s] 1: 
+[0.420s] 1: Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/include/camera_info_manager/camera_info_manager.h
+[0.420s] 1: 
+[0.420s] 1: Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/include/camera_info_manager/camera_info_manager.hpp
+[0.420s] 1: 
+[0.420s] 1: Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/include/camera_info_manager/visibility_control.h
+[0.420s] 1: 
+[0.420s] 1: Using '--root=/home/shengbin/camera_ws/src/image_common/camera_info_manager/src' argument
+[0.420s] 1: 
+[0.420s] 1: Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/src/camera_info_manager.cpp
+[0.420s] 1: 
+[0.420s] 1: Done processing /home/shengbin/camera_ws/src/image_common/camera_info_manager/src/split.hpp
+[0.421s] 1: 
+[0.421s] 1: No problems found
+[0.427s] 1: -- run_test.py: return code 0
+[0.427s] 1: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/cpplint.xunit.xml'
+[0.438s] 1/3 Test #1: cpplint ..........................   Passed    0.35 sec
+[0.438s] test 2
+[0.438s]     Start 2: lint_cmake
+[0.438s] 
+[0.438s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/lint_cmake.xunit.xml" "--package-name" "camera_info_manager" "--output-file" "/home/shengbin/camera_ws/build/camera_info_manager/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/lint_cmake.xunit.xml"
+[0.438s] 2: Test timeout computed to be: 60
+[0.480s] 2: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_info_manager':
+[0.480s] 2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/lint_cmake.xunit.xml
+[0.526s] 2: 
+[0.526s] 2: No problems found
+[0.532s] 2: -- run_test.py: return code 0
+[0.532s] 2: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/lint_cmake.xunit.xml'
+[0.544s] 2/3 Test #2: lint_cmake .......................   Passed    0.11 sec
+[0.544s] test 3
+[0.544s]     Start 3: uncrustify
+[0.544s] 
+[0.544s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml" "--package-name" "camera_info_manager" "--output-file" "/home/shengbin/camera_ws/build/camera_info_manager/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml"
+[0.544s] 3: Test timeout computed to be: 60
+[0.585s] 3: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_common/camera_info_manager':
+[0.585s] 3:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml
+[0.673s] 3: No code style divergence in file 'include/camera_info_manager/camera_info_manager.h'
+[0.674s] 3: 
+[0.674s] 3: No code style divergence in file 'include/camera_info_manager/camera_info_manager.hpp'
+[0.674s] 3: 
+[0.674s] 3: No code style divergence in file 'include/camera_info_manager/visibility_control.h'
+[0.674s] 3: 
+[0.674s] 3: No code style divergence in file 'src/camera_info_manager.cpp'
+[0.674s] 3: 
+[0.674s] 3: No code style divergence in file 'src/split.hpp'
+[0.674s] 3: 
+[0.674s] 3: No code style divergence in file 'tests/unit_test.cpp'
+[0.674s] 3: 
+[0.675s] 3: No problems found
+[0.684s] 3: -- run_test.py: return code 0
+[0.684s] 3: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_info_manager/test_results/camera_info_manager/uncrustify.xunit.xml'
+[0.695s] 3/3 Test #3: uncrustify .......................   Passed    0.15 sec
+[0.696s] 
+[0.696s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 3
+[0.696s] 
+[0.696s] Label Time Summary:
+[0.696s] cpplint       =   0.35 sec*proc (1 test)
+[0.696s] lint_cmake    =   0.11 sec*proc (1 test)
+[0.696s] linter        =   0.61 sec*proc (3 tests)
+[0.696s] uncrustify    =   0.15 sec*proc (1 test)
+[0.696s] 
+[0.696s] Total Test time (real) =   0.61 sec
+[0.707s] Invoked command in '/home/shengbin/camera_ws/build/camera_info_manager' returned '0': CMAKE_PREFIX_PATH=/home/shengbin/camera_ws/install/camera_info_manager:/home/shengbin/camera_ws/install/camera_calibration_parsers:/home/shengbin/camera_ws/install/vision_opencv:/home/shengbin/camera_ws/install/v4l2_camera:/home/shengbin/camera_ws/install/image_transport_plugins:/home/shengbin/camera_ws/install/theora_image_transport:/home/shengbin/camera_ws/install/image_common:/home/shengbin/camera_ws/install/compressed_image_transport:/home/shengbin/camera_ws/install/compressed_depth_image_transport:/home/shengbin/camera_ws/install/image_transport:/home/shengbin/camera_ws/install/image_geometry:/home/shengbin/camera_ws/install/cv_bridge LD_LIBRARY_PATH=/home/shengbin/camera_ws/install/camera_info_manager/lib:/home/shengbin/camera_ws/install/camera_calibration_parsers/lib:/home/shengbin/camera_ws/install/v4l2_camera/lib:/home/shengbin/camera_ws/install/theora_image_transport/lib:/home/shengbin/camera_ws/install/compressed_image_transport/lib:/home/shengbin/camera_ws/install/compressed_depth_image_transport/lib:/home/shengbin/camera_ws/install/image_transport/lib:/home/shengbin/camera_ws/install/image_geometry/lib:/home/shengbin/camera_ws/install/cv_bridge/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

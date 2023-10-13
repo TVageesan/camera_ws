@@ -1,0 +1,29 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/build/camera_calibration_parsers':
+ - /home/shengbin/camera_ws/build/camera_calibration_parsers/camera_calibration_parsers-parse_yml --gtest_output=xml:/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_yml.gtest.xml
+
+Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from ParseYml
+[ RUN      ] ParseYml.parse_valid_yml_calib5
+[       OK ] ParseYml.parse_valid_yml_calib5 (0 ms)
+[ RUN      ] ParseYml.parse_valid_yml_calib8
+[       OK ] ParseYml.parse_valid_yml_calib8 (0 ms)
+[ RUN      ] ParseYml.parse_invalid_yml_calib5
+[WARN] [1697197962.843157345] [camera_calibration_parsers]: Exception parsing YAML camera calibration:
+invalid node; first invalid key: "rows"
+[       OK ] ParseYml.parse_invalid_yml_calib5 (1 ms)
+[ RUN      ] ParseYml.roundtrip_calib5
+[       OK ] ParseYml.roundtrip_calib5 (0 ms)
+[ RUN      ] ParseYml.roundtrip_calib8
+[       OK ] ParseYml.roundtrip_calib8 (0 ms)
+[----------] 5 tests from ParseYml (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 5 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_yml.gtest.xml'
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/camera_calibration_parsers/test_results/camera_calibration_parsers/camera_calibration_parsers-parse_yml.gtest.xml'

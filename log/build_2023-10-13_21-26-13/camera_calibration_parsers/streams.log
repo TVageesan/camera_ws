@@ -1,0 +1,78 @@
+[0.072s] Invoking command in '/home/shengbin/camera_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/home/shengbin/hornet/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/camera_calibration_parsers -- -j16 -l16
+[0.088s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.197s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.203s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.223s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.225s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.229s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.301s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.303s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.341s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.516s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.609s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[0.611s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.611s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.611s] -- Found ament_cmake_lint_cmake: 0.12.8 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[0.612s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.612s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.663s] -- Configuring done
+[0.678s] -- Generating done
+[0.681s] -- Build files have been written to: /home/shengbin/camera_ws/build/camera_calibration_parsers
+[0.703s] [35m[1mConsolidate compiler generated dependencies of target camera_calibration_parsers[0m
+[0.707s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.707s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.718s] [  7%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o[0m
+[0.721s] [ 21%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o[0m
+[0.721s] [ 21%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_ini.cpp.o[0m
+[0.723s] [ 50%] Built target gtest_main
+[0.723s] [ 50%] Built target gtest
+[3.192s] [ 57%] [32m[1mLinking CXX shared library libcamera_calibration_parsers.so[0m
+[3.334s] [ 57%] Built target camera_calibration_parsers
+[3.346s] [35m[1mConsolidate compiler generated dependencies of target convert[0m
+[3.351s] [35m[1mConsolidate compiler generated dependencies of target camera_calibration_parsers-parse_yml[0m
+[3.351s] [35m[1mConsolidate compiler generated dependencies of target camera_calibration_parsers-parse_ini[0m
+[3.360s] [ 64%] [32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o[0m
+[3.368s] [ 71%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_ini.dir/test/test_parse_ini.cpp.o[0m
+[3.372s] [ 78%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_yml.dir/test/test_parse_yml.cpp.o[0m
+[4.388s] [ 85%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_ini[0m
+[4.456s] [ 92%] [32m[1mLinking CXX executable convert[0m
+[4.552s] [ 92%] Built target camera_calibration_parsers-parse_ini
+[4.645s] [ 92%] Built target convert
+[4.673s] [100%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_yml[0m
+[4.818s] [100%] Built target camera_calibration_parsers-parse_yml
+[4.827s] Invoked command in '/home/shengbin/camera_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/home/shengbin/hornet/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/shengbin/camera_ws/build/camera_calibration_parsers -- -j16 -l16
+[4.900s] Invoking command in '/home/shengbin/camera_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/home/shengbin/hornet/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/shengbin/camera_ws/build/camera_calibration_parsers
+[4.911s] -- Install configuration: ""
+[4.912s] -- Execute custom install script
+[4.912s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert
+[4.925s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.h
+[4.938s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.hpp
+[4.952s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.h
+[4.964s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.hpp
+[4.977s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.h
+[4.989s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.hpp
+[5.001s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/visibility_control.hpp
+[5.015s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/ament_index/resource_index/package_run_dependencies/camera_calibration_parsers
+[5.023s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/ament_index/resource_index/parent_prefix_path/camera_calibration_parsers
+[5.031s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.sh
+[5.038s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.dsv
+[5.046s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.sh
+[5.054s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.dsv
+[5.062s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.bash
+[5.070s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.sh
+[5.078s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.zsh
+[5.086s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.dsv
+[5.094s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv
+[5.101s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/ament_index/resource_index/packages/camera_calibration_parsers
+[5.109s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_targets-extras.cmake
+[5.118s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.125s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake
+[5.133s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake
+[5.141s] -- Symlinking: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.xml
+[5.149s] -- Installing: /home/shengbin/camera_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so
+[5.151s] -- Set runtime path of "/home/shengbin/camera_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so" to ""
+[5.151s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport.cmake
+[5.151s] -- Up-to-date: /home/shengbin/camera_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport-noconfig.cmake
+[5.154s] Invoked command in '/home/shengbin/camera_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shengbin/camera_ws/install/opencv_tests:/home/shengbin/camera_ws/install/camera:/home/shengbin/hornet/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/shengbin/camera_ws/build/camera_calibration_parsers

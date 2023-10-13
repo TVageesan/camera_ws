@@ -1,0 +1,20 @@
+-- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/image_transport_plugins/theora_image_transport':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_c.xunit.xml --linelength 0 /home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.c'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.h'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__struct.h'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/detail/packet__type_support.h'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/packet.h'
+
+No code style divergence in file '/home/shengbin/camera_ws/build/theora_image_transport/rosidl_generator_c/theora_image_transport/msg/rosidl_generator_c__visibility_control.h'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/shengbin/camera_ws/build/theora_image_transport/test_results/theora_image_transport/uncrustify_rosidl_generated_c.xunit.xml'

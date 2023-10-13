@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target camera_calibration_parsers[0m
+[ 28%] Built target camera_calibration_parsers
+[ 42%] Built target gtest_main
+[ 57%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target convert[0m
+[35m[1mConsolidate compiler generated dependencies of target camera_calibration_parsers-parse_ini[0m
+[35m[1mConsolidate compiler generated dependencies of target camera_calibration_parsers-parse_yml[0m
+[ 71%] Built target camera_calibration_parsers-parse_ini
+[ 85%] Built target convert
+[100%] Built target camera_calibration_parsers-parse_yml

@@ -1,0 +1,141 @@
+UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/v4l2_camera/CTestConfiguration.ini
+Parse Config file:/home/shengbin/camera_ws/build/v4l2_camera/CTestConfiguration.ini
+   Site: shengbin-Zenbook-UX3402VA-UX3402VA
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20231013-1152 - Experimental
+UpdateCTestConfiguration  from :/home/shengbin/camera_ws/build/v4l2_camera/CTestConfiguration.ini
+Parse Config file:/home/shengbin/camera_ws/build/v4l2_camera/CTestConfiguration.ini
+Test project /home/shengbin/camera_ws/build/v4l2_camera
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: cppcheck
+
+1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cppcheck.xunit.xml" "--package-name" "v4l2_camera" "--output-file" "/home/shengbin/camera_ws/build/v4l2_camera/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cppcheck.xunit.xml" "--include_dirs" "/home/shengbin/camera_ws/src/ros2_v4l2_camera/include"
+1: Test timeout computed to be: 300
+1: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+1:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cppcheck.xunit.xml --include_dirs /home/shengbin/camera_ws/src/ros2_v4l2_camera/include
+1: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cppcheck.xunit.xml'
+1/5 Test #1: cppcheck .........................   Passed    0.11 sec
+test 2
+    Start 2: cpplint
+
+2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cpplint.xunit.xml" "--package-name" "v4l2_camera" "--output-file" "/home/shengbin/camera_ws/build/v4l2_camera/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cpplint.xunit.xml"
+2: Test timeout computed to be: 120
+2: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+2:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cpplint.xunit.xml
+2: Using '--root=/home/shengbin/camera_ws/src/ros2_v4l2_camera/include' argument
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/control.hpp
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/fourcc.hpp
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/image_format.hpp
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/parameters.hpp
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/pixel_format.hpp
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/include/v4l2_camera/visibility_control.h
+2: 
+2: Using '--root=/home/shengbin/camera_ws/src/ros2_v4l2_camera/src' argument
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/parameters.cpp
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_compose_test.cpp
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_device.cpp
+2: 
+2: Done processing /home/shengbin/camera_ws/src/ros2_v4l2_camera/src/v4l2_camera_node.cpp
+2: 
+2: No problems found
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/cpplint.xunit.xml'
+2/5 Test #2: cpplint ..........................   Passed    0.33 sec
+test 3
+    Start 3: lint_cmake
+
+3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/lint_cmake.xunit.xml" "--package-name" "v4l2_camera" "--output-file" "/home/shengbin/camera_ws/build/v4l2_camera/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/lint_cmake.xunit.xml"
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+3:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/lint_cmake.xunit.xml
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/lint_cmake.xunit.xml'
+3/5 Test #3: lint_cmake .......................   Passed    0.10 sec
+test 4
+    Start 4: uncrustify
+
+4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/uncrustify.xunit.xml" "--package-name" "v4l2_camera" "--output-file" "/home/shengbin/camera_ws/build/v4l2_camera/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/uncrustify.xunit.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+4:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/uncrustify.xunit.xml
+4: No code style divergence in file 'include/v4l2_camera/control.hpp'
+4: 
+4: No code style divergence in file 'include/v4l2_camera/fourcc.hpp'
+4: 
+4: No code style divergence in file 'include/v4l2_camera/image_format.hpp'
+4: 
+4: No code style divergence in file 'include/v4l2_camera/parameters.hpp'
+4: 
+4: No code style divergence in file 'include/v4l2_camera/pixel_format.hpp'
+4: 
+4: No code style divergence in file 'include/v4l2_camera/v4l2_camera.hpp'
+4: 
+4: No code style divergence in file 'include/v4l2_camera/v4l2_camera_device.hpp'
+4: 
+4: No code style divergence in file 'include/v4l2_camera/visibility_control.h'
+4: 
+4: No code style divergence in file 'src/parameters.cpp'
+4: 
+4: No code style divergence in file 'src/v4l2_camera.cpp'
+4: 
+4: No code style divergence in file 'src/v4l2_camera_compose_test.cpp'
+4: 
+4: No code style divergence in file 'src/v4l2_camera_device.cpp'
+4: 
+4: No code style divergence in file 'src/v4l2_camera_node.cpp'
+4: 
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/uncrustify.xunit.xml'
+4/5 Test #4: uncrustify .......................   Passed    0.13 sec
+test 5
+    Start 5: xmllint
+
+5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/xmllint.xunit.xml" "--package-name" "v4l2_camera" "--output-file" "/home/shengbin/camera_ws/build/v4l2_camera/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/xmllint.xunit.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/shengbin/camera_ws/src/ros2_v4l2_camera':
+5:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/xmllint.xunit.xml
+5: File 'package.xml' is valid
+5: 
+5: No problems found
+5: -- run_test.py: return code 0
+5: -- run_test.py: verify result file '/home/shengbin/camera_ws/build/v4l2_camera/test_results/v4l2_camera/xmllint.xunit.xml'
+5/5 Test #5: xmllint ..........................   Passed    0.51 sec
+
+[0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 5
+
+Label Time Summary:
+cppcheck      =   0.11 sec*proc (1 test)
+cpplint       =   0.33 sec*proc (1 test)
+lint_cmake    =   0.10 sec*proc (1 test)
+linter        =   1.18 sec*proc (5 tests)
+uncrustify    =   0.13 sec*proc (1 test)
+xmllint       =   0.51 sec*proc (1 test)
+
+Total Test time (real) =   1.18 sec
