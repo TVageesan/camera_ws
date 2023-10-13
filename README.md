@@ -19,6 +19,11 @@ Inside workspace run:
         colcon build --packages-up-to v4l2_camera image_transport_plugins
         source install/local_setup.bash
 
+### Building: Ubuntu
+The following packages are required to be able to build the plugins:
+
+        sudo apt install libtheora-dev libogg-dev libboost-python-dev
+
 ### Usage
 Publish camera images, using the default parameters:
 
@@ -34,7 +39,21 @@ Next, navigate into the package and change the code in v4l2_camera_node.
 
         Change /dev/video0 to /dev/video2 (USB Camera)
 
-### Building: Ubuntu
-The following packages are required to be able to build the plugins:
+## Running of Nodes
 
-        sudo apt install libtheora-dev libogg-dev libboost-python-dev
+        cd ~/camera_ws/
+        colcon build
+        source install/setup.bash
+        ros2 run v4l2_camera v4l2_camera_node
+
+Open new terminal to run video processor node.
+        
+        ros2 run camera cam_process
+
+Open new terminal to run rqt to view images.
+
+        rqt
+
+Open new terminal to run rqt_graph to view nodes and topics.
+
+        rqt_graph
