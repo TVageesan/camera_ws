@@ -36,11 +36,15 @@ Preview the image (open another terminal):
 
         ros2 run rqt_image_view rqt_image_view
 
-Next, navigate into the package and change the code in v4l2_camera_node. 
+Next, navigate into ~/camera_ws/src/ros2_v4l2_camera package and change the code in parameters.cpp 
+
+Find
 
         video_device - string, default: "/dev/video0" (default is 0, which is your laptop webcam)
 
-        Change /dev/video0 to /dev/video2 (USB Camera)
+And make the following change
+
+        /dev/video0 to /dev/video2 (USB Camera)
 
 ## Running of Nodes
 
