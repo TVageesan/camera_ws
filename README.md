@@ -5,7 +5,8 @@ Trial and Error repo for reading image from camera & publishing.
 ## v4l2_camera
 A ROS2 Camera driver package. [Look here for repo](https://github.com/tier4/ros2_v4l2_camera/tree/galactic)
 
-[This article](https://medium.com/swlh/raspberry-pi-ros-2-camera-eef8f8b94304) details how to build and run this package. It focuses on Raspberry Pi OS with the Raspberry Pi Camera Module V2 but should generalise for most systems.
+[This article](https://medium.com/swlh/raspberry-pi-ros-2-camera-eef8f8b94304) details how to build and run this package. It focuses on Raspberry Pi OS with the Raspberry Pi Camera Module V2 but should generalise for most systems. 
+I have already compiled the command lines to run in the following sections so you don't have to view the article unless you are curious.
 
 ### Install & Run Camera Driver
 Inside workspace run:
